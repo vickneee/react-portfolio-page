@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://AdibaAbid.github.io/react-portfolio",
+  "homepage": "https://vickneee.github.io/react-portfolio-page",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.15",
@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.3",
     "darkmode-js": "^1.5.7",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "particles-bg": "^2.5.5",
     "react": "^16.14.0",
     "react-bootstrap": "^1.3.0",
@@ -28,12 +28,12 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r vickneee/react-portfolio-page",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
