@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Monoton";
+    src: local("Monoton"),
+    url('../../containers/Monoton/Monoton-Regular.ttf') format("truetype");
+}
+
+.my-name {
+    font-family: Monoton, sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width: 786px) {
+    .my-name {
+        font-size: 0.8em !important;
+    }
+}

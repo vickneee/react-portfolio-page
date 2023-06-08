@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about {
+    background: #d2eafb;
+}
+
+.skills {
+    background: #a4d6f8;
+}
+
+.App {
+    background: #a4d6f8;
+}
+

@@ -1,0 +1,10 @@
+.footer-style {
+    background-color: #004aad;
+    color: #fff;
+    font-size: 1.1em;
+    box-shadow: 1px 1px 1px 2px #167abe;
+    border-top-left-radius: 3px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

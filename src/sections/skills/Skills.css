@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  .image-style {
+    width: 6em;
+  }
+
+  .font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #082e47;
+  }
+
+  .font-details-b {
+    padding-top: 20px;
+    font-size: 3em;
+    font-weight: 500;
+    color: #082e47;
+  }
+
+@media only screen and (max-width: 786px) {
+  .col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-style {
+    width: 4em;
+  }
+}

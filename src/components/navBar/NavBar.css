@@ -1,0 +1,44 @@
+.logo {
+    margin-left: 25px;
+    width: 55px;
+    height: 55px;
+}
+
+.nav-theme {
+    background-color: #1c98ed;
+    font-size: 20px;
+    height: 85px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.animate-navbar {
+    box-shadow: 1px 1px 1px 1px #49adf1;
+    animation: moveDown 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 786px) {
+    .nav-theme {
+        height: auto !important;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 25px;
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(-5rem);
+    }
+    to {
+        transform: translateY(0rem);
+    }
+}
