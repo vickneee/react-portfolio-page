@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-page/static/css/main.d4f76187.css",
+    "main.js": "/react-portfolio-page/static/js/main.1d1d701f.js",
+    "static/media/RoboFriends.png": "/react-portfolio-page/static/media/RoboFriends.6a37ba9550ae3bf11003.png",
+    "static/media/SuperMarioMemoryGame.png": "/react-portfolio-page/static/media/SuperMarioMemoryGame.bec8760f26355b646e33.png",
+    "static/media/TicTacToe.png": "/react-portfolio-page/static/media/TicTacToe.a9a6891bb783dbfc29fc.png",
+    "static/media/study-desk.png": "/react-portfolio-page/static/media/study-desk.05f1b51d4196576a92ab.png",
+    "static/media/PortfolioPage.png": "/react-portfolio-page/static/media/PortfolioPage.297b9f218d8794c6c5d1.png",
+    "static/media/HTML5.png": "/react-portfolio-page/static/media/HTML5.35c4413f51ba8c4c8477.png",
+    "static/media/CSS3.png": "/react-portfolio-page/static/media/CSS3.e8b4b780fd2ae5886816.png",
+    "static/media/Monoton-Regular.ttf": "/react-portfolio-page/static/media/Monoton-Regular.1f3bd420f1198c5c85e8.ttf",
+    "static/media/MySQL_Logo.png": "/react-portfolio-page/static/media/MySQL_Logo.6e42b2a035b28f240021.png",
+    "static/media/react-400.png": "/react-portfolio-page/static/media/react-400.2fad5f467c7c76cdfa4f.png",
+    "static/media/JS.jpeg": "/react-portfolio-page/static/media/JS.97cb79108d91fcc037fa.jpeg",
+    "static/media/nodejs.png": "/react-portfolio-page/static/media/nodejs.6860b55faeda878739be.png",
+    "static/media/netlify-icon.svg": "/react-portfolio-page/static/media/netlify-icon.e6ca38742e24439dea82634b53789a9e.svg",
+    "static/media/react-bootstrap.svg": "/react-portfolio-page/static/media/react-bootstrap.534ba5749ea53d6d943b273291be8174.svg",
+    "index.html": "/react-portfolio-page/index.html",
+    "static/media/python.svg": "/react-portfolio-page/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/github.svg": "/react-portfolio-page/static/media/github.c66b3c5adf421e87b1c707ba58321163.svg",
+    "static/media/VictoriaTrans.svg": "/react-portfolio-page/static/media/VictoriaTrans.08bf6f2306ca30179b4441f82a412443.svg",
+    "static/media/git-icon.svg": "/react-portfolio-page/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/tailwindcss-icon.svg": "/react-portfolio-page/static/media/tailwindcss-icon.017e1e304e12384d156d384f40a4b5f8.svg",
+    "main.d4f76187.css.map": "/react-portfolio-page/static/css/main.d4f76187.css.map",
+    "main.1d1d701f.js.map": "/react-portfolio-page/static/js/main.1d1d701f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4f76187.css",
+    "static/js/main.1d1d701f.js"
+  ]
+}
