@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r vickneee/react-portfolio-page",
+    "deploy": "gh-pages -d build -r https://github.com/vickneee/react-portfolio-page.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -3,7 +3,7 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_HTML5 from "../../assets/img/skills/HTML5.png";
 import L_CSS3 from "../../assets/img/skills/CSS3.png";
 import L_JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
-import L_NODEJS from "../../assets/img/skills/nodejs.png"
+import L_NODEJS from "../../assets/img/skills/node_logo.png"
 import L_REACT from "../../assets/img/skills/react-400.png";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import L_MATERIALUI from "../../assets/img/skills/material-ui.svg";
