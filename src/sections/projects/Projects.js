@@ -74,9 +74,10 @@ const ProjectTimeline = () => {
                                                 <hr/>
                                                 <br/>
                                                 <strong>Tech used:</strong>
+                                                <br/><br/>
                                                 <ul className="d-flex content-center flex-wrap">
                                                     <li>
-                            <span className="p-2">
+                            <span className="p-0">
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
@@ -85,7 +86,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
@@ -95,7 +96,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={REACT}
                                   alt="React"
@@ -104,7 +105,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span >
                               <Image
                                   src={REACTBOOTSTRAP}
                                   alt="React Bootstrap"
@@ -113,7 +114,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span >
                               <Image
                                   src={TAILWINDCSS}
                                   alt="Tailwind CSS"
@@ -122,11 +123,11 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                             {/*                        <li>*/}
-                            {/*<span className="p-2">*/}
+                            {/*<span >*/}
                             {/*  <Image*/}
-                            {/*      src={NETLIFY}*/}
+                            {/*      src={TAILWINDCSS}*/}
                             {/*      alt="Netlify"*/}
-                            {/*      className="image-style m-1"*/}
+                            {/*      className="image-style m-1 img-style"*/}
                             {/*  ></Image>{" "}*/}
                             {/*</span>*/}
                             {/*                        </li>*/}
@@ -181,9 +182,10 @@ const ProjectTimeline = () => {
                                                 <hr/>
                                                 <br/>
                                                 <strong>Tech used:</strong>
+                                                <br/><br/>
                                                 <ul className="d-flex content-center ">
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
@@ -192,7 +194,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
@@ -201,7 +203,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={REACT}
                                   alt="React"
@@ -261,9 +263,10 @@ const ProjectTimeline = () => {
                                                 <hr/>
                                                 <br/>
                                                 <strong>Tech used:</strong>
+                                                <br/><br/>
                                                 <ul className="d-flex content-center">
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={HTML5}
                                   alt="HTML 5"
@@ -272,7 +275,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span >
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
@@ -281,7 +284,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span >
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
@@ -342,9 +345,10 @@ const ProjectTimeline = () => {
                                                 <hr/>
                                                 <br/>
                                                 <strong>Tech used:</strong>
+                                                <br/><br/>
                                                 <ul className="d-flex content-center">
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={HTML5}
                                   alt="HTML 5"
@@ -353,7 +357,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={CSS3}
                                   alt="CSS 3"
@@ -362,7 +366,7 @@ const ProjectTimeline = () => {
                             </span>
                                                     </li>
                                                     <li>
-                            <span className="p-2">
+                            <span>
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
