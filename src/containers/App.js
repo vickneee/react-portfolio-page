@@ -30,8 +30,8 @@ function App() {
                     </Fade>
                 </Container>
             </div>
-            <div className="skills">
-                <div>
+
+            <div className="skills" id="skills">
                     <Container className="container-box">
                         <Fade right duration={2000}>
                             <Skills/>
@@ -39,22 +39,21 @@ function App() {
                     </Container>
                 </div>
 
-                <div className="projects">
+                <div className="projects" id="projects">
                     <Container className="container-box">
-                        <Slide left duration={3000}>
+                        <Slide left duration={2000}>
                             <hr/>
                             <Projects/>
                         </Slide>
                     </Container>
                 </div>
-            </div>
 
-            <div className="contact">
+            <div className="contact" id="contact">
                 <Container className="container-box">
-                    <Fade right duration={3000}>
+                    {/*<Fade bottom duration={2000}>*/}
                         <hr/>
                         <Contact/>
-                    </Fade>
+                    {/*</Fade>*/}
                 </Container>
                 <hr/>
             </div>
