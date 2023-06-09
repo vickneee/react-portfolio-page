@@ -7,9 +7,9 @@ import "./Contact.css";
 
 const Contact = () => {
     return (
-        <div id="contact">
+        <div id="contact d-flex justify-content-center">
             <h1 className="pt-3 text-center font-details-b pb-3">Contact Me</h1>
-            <Jumbotron className="contact-jumbotron shadow-md">
+            <Jumbotron className="contact-jumbotron shadow-md ">
                 <Row>
                     <Col className="d-flex justify-content-center flex-wrap">
                         <div className="m-2">
