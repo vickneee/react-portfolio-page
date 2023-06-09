@@ -33,7 +33,7 @@ const MyTitleMessage = styled.h1`
 
 const TitleMessage = () => (
     <MyTitleMessage>
-        <div className="titleMessage">
+        <div className="titleMessage shadow-md">
             <div className="heading">
                 <div className="main text-center">
                     Hi, I am

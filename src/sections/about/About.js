@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./About.css";
-import StudyDesk from "../../assets/img/about-me/study-desk.png";
+import StudyDesk from "../../assets/img/about-me/iStock-1165699436.jpg";
 import Image from "react-bootstrap/Image";
 // import Button from "react-bootstrap/Button";
 import "tachyons";
@@ -18,12 +18,12 @@ const About = () => {
                     <Row className=" pb-3 align-items-center ma3">
                         <Col xs={12} md={6}>
                             <Row className="justify-content-center">
-                                <Image className="study justify-content-end img-filter-grayscale"
+                                <Image className="study justify-content-end img-filter-grayscale shadow-md"
                                        alt="Image with filter" src={StudyDesk}/>
                             </Row>
                         </Col>
                         <Col xs={12} md={6}>
-                            <Row className="personal-info p3 br4 ma2">
+                            <Row className="my-details p3 br4 ma2">
                                 <br/> Greetings from my website! I am an enthusiastic web development student who places
                                 a lot of emphasis on developing websites and applications that are user-friendly. I'm
                                 excited to start this path of creating digital experiences.

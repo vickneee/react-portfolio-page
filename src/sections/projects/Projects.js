@@ -21,9 +21,10 @@ import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
 import REACTBOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+// import NETLIFY from "../../assets/img/skills/netlify.svg";
 
 
-// Custom timeline theme
+// Custom Timeline Theme
 const customTheme = createTheme(themes.default, {
     card: {
         backgroundColor: '#efefef',
@@ -120,6 +121,15 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                     </li>
+                            {/*                        <li>*/}
+                            {/*<span className="p-2">*/}
+                            {/*  <Image*/}
+                            {/*      src={NETLIFY}*/}
+                            {/*      alt="Netlify"*/}
+                            {/*      className="image-style m-1"*/}
+                            {/*  ></Image>{" "}*/}
+                            {/*</span>*/}
+                            {/*                        </li>*/}
                                                 </ul>
                                             </Card.Body>
                                         </Accordion.Collapse>
