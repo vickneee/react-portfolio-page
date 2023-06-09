@@ -15,7 +15,7 @@ const NavBar = () => {
                 <Navbar.Brand href="#home">
                     <img className="logo grow" src={Logo} alt='Logo'/>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Navbar.Toggle className="navbar-toggle" aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">Home</Nav.Link>

@@ -24,13 +24,17 @@
 @media only screen and (max-width: 786px) {
     .nav-theme {
         height: auto !important;
-        width: 100%;
+        width: 100vw;
     }
 
     .logo {
         margin-left: 25px;
         width: 55px;
         height: 55px;
+    }
+
+    .navbar-toggle {
+        margin-right: 20px;
     }
 }
 
