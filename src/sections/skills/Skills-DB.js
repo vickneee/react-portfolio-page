@@ -3,14 +3,13 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_HTML5 from "../../assets/img/skills/HTML5.png";
 import L_CSS3 from "../../assets/img/skills/CSS3.png";
 import L_JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
-import L_NODEJS from "../../assets/img/skills/node_logo.png"
-import L_REACT from "../../assets/img/skills/react-400.png";
+import L_NODEJS from "../../assets/img/skills/nodejs-png.png"
+import L_REACT from "../../assets/img/skills/react.png";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import L_MATERIALUI from "../../assets/img/skills/material-ui.svg";
-import L_TAILWINDCSS from "../../assets/img/skills/tailwindcss-icon.svg"
-// import L_EXPRESSJS from "../../assets/img/skills/express.svg"
+import L_TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import L_PYTHON from "../../assets/img/skills/python.svg"
-import L_MYSQL from "../../assets/img/skills/MySQL_Logo.png"
+import L_MYSQL from "../../assets/img/skills/mysql-logo.png"
 // import L_MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import L_NETLIFY from "../../assets/img/skills/netlify-icon.svg"
@@ -91,12 +90,6 @@ export const skills = {
       //   imgAltText: "Bootstrap",
       //   imgSrc: L_BOOTSTRAP,
       //   skillName: "Bootstrap",
-      // },
-      // {
-      //   link: "https://expressjs.com/",
-      //   imgAltText: "Express.js",
-      //   imgSrc: L_EXPRESSJS,
-      //   skillName: "Express.js",
       // },
       {
         link: "https://expressjs.com/",

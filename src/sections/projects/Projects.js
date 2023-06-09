@@ -19,7 +19,7 @@ import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 import REACTBOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
-import REACT from "../../assets/img/skills/react-400.png"
+import REACT from "../../assets/img/skills/react.png"
 
 
 // Custom timeline theme

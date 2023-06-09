@@ -3,7 +3,8 @@
 @tailwind utilities;
   
   .image-style {
-    width: 6em;
+    height: 6em;
+    width: auto;
   }
 
   .font-details {
@@ -28,6 +29,6 @@
     align-items: center;
   }
   .image-style {
-    width: 4em;
+    height: 4em;
   }
 }
