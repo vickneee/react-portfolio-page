@@ -74,13 +74,13 @@ const ProjectTimeline = () => {
                                                 <hr/>
                                                 <br/>
                                                 <strong>Tech used:</strong>
-                                                <ul className="d-flex content-center">
+                                                <ul className="d-flex content-center flex-wrap">
                                                     <li>
                             <span className="p-2">
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -90,7 +90,7 @@ const ProjectTimeline = () => {
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
                                   rounded
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -99,7 +99,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={REACT}
                                   alt="React"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -108,7 +108,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={REACTBOOTSTRAP}
                                   alt="React Bootstrap"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -117,7 +117,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={TAILWINDCSS}
                                   alt="Tailwind CSS"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -187,7 +187,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -196,7 +196,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -205,7 +205,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={REACT}
                                   alt="React"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -267,7 +267,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={HTML5}
                                   alt="HTML 5"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -276,7 +276,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -285,7 +285,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -348,7 +348,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={HTML5}
                                   alt="HTML 5"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -357,7 +357,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={CSS3}
                                   alt="CSS 3"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
@@ -366,7 +366,7 @@ const ProjectTimeline = () => {
                               <Image
                                   src={JAVASCRIPT}
                                   alt="JavaScript"
-                                  className="image-style m-1"
+                                  className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
                                                     </li>
