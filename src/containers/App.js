@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "../components/navBar/NavBar";
 import Home from "../sections/home/Home";
 import About from "../sections/about/About";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Skills from "../sections/skills/Skills";
@@ -17,25 +17,25 @@ function App() {
             <NavBar/>
             <div className="section">
                 <Container className="container-box">
-                    <Fade top duration={2000}>
+                    <Slide top duration={2000}>
                         <Home/>
-                    </Fade>
+                    </Slide>
                 </Container>
             </div>
 
             <div className="about">
                 <Container className="container-box">
-                    <Fade left duration={2000}>
+                    <Slide left duration={2000}>
                         <About/>
-                    </Fade>
+                    </Slide>
                 </Container>
             </div>
 
             <div className="skills" id="skills">
                     <Container className="container-box">
-                        <Fade right duration={2000}>
+                        <Slide right duration={2000}>
                             <Skills/>
-                        </Fade>
+                        </Slide>
                     </Container>
                 </div>
 
@@ -50,10 +50,10 @@ function App() {
 
             <div className="contact" id="contact">
                 <Container className="container-box">
-                    {/*<Fade bottom duration={2000}>*/}
+                    <Slide bottom duration={2000}>
                         <hr/>
                         <Contact/>
-                    {/*</Fade>*/}
+                    </Slide>
                 </Container>
                 <hr/>
             </div>
