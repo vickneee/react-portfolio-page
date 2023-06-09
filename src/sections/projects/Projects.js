@@ -19,7 +19,7 @@ import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
-import REACTBOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import NETLIFY from "../../assets/img/skills/netlify.svg";
 
@@ -67,14 +67,13 @@ const ProjectTimeline = () => {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong> A personal portfolio is an online platform
+                                                <strong>Description:</strong>
+                                                <br/>A personal portfolio is an online platform
                                                 that showcases an individual's skills, achievements, and experiences.
                                                 Made for myself.
-                                                <br/>
-                                                <hr/>
-                                                <br/>
-                                                <strong>Tech used:</strong>
                                                 <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
                                                 <ul className="d-flex content-center flex-wrap">
                                                     <li>
                             <span className="p-0">
@@ -107,7 +106,7 @@ const ProjectTimeline = () => {
                                                     <li>
                             <span >
                               <Image
-                                  src={REACTBOOTSTRAP}
+                                  src={REACT_BOOTSTRAP}
                                   alt="React Bootstrap"
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
@@ -176,13 +175,12 @@ const ProjectTimeline = () => {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong> Robots of all shapes and sizes can be
+                                                <strong>Description:</strong>
+                                                <br/>Robots of all shapes and sizes can be
                                                 sorted and found using the RoboFriends app's name-search function.
-                                                <br/>
-                                                <hr/>
-                                                <br/>
-                                                <strong>Tech used:</strong>
                                                 <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
                                                 <ul className="d-flex content-center ">
                                                     <li>
                             <span>
@@ -256,14 +254,13 @@ const ProjectTimeline = () => {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong>The Super Mario Memory Game is a digital
+                                                <strong>Description:</strong>
+                                                <br/>The Super Mario Memory Game is a digital
                                                 adaptation of the classic card-matching game that revolves around the
                                                 popular video game character Mario and his friend Luigi.
-                                                <br/>
-                                                <hr/>
-                                                <br/>
-                                                <strong>Tech used:</strong>
                                                 <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
                                                 <ul className="d-flex content-center">
                                                     <li>
                             <span>
@@ -338,14 +335,14 @@ const ProjectTimeline = () => {
 
                                         <Accordion.Collapse eventKey="0" className="text-left">
                                             <Card.Body>
-                                                <strong>Description:</strong>Tic Tac Toe is a classic strategy game that
+                                                <strong>Description:</strong>
+                                                <br/>Tic Tac Toe is a classic strategy game that
                                                 has gained immense popularity in recent years. The game involves two
                                                 players who take turns marking a 3x3 grid with Xs and Os until one of
                                                 the players succeeds in placing three marks.
-                                                <hr/>
-                                                <br/>
-                                                <strong>Tech used:</strong>
                                                 <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
                                                 <ul className="d-flex content-center">
                                                     <li>
                             <span>
