@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 
 //Projects
-import PortfolioWebsite from "../../assets/img/projects/PortfolioPage.png";
+import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import RoboFriends from "../../assets/img/projects/RoboFriends.png"
 import SuperMarioMemoryGame from "../../assets/img/projects/SuperMarioMemoryGame.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
@@ -17,9 +17,10 @@ import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 //Skills
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
-import REACTBOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
+import REACTBOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 
 
 // Custom timeline theme
@@ -48,8 +49,8 @@ const ProjectTimeline = () => {
                     <ImageEvent
                         date="Jun 2023"
                         className="text-center"
-                        text="Portfolio Website"
-                        src={PortfolioWebsite}
+                        text="Portfolio Page"
+                        src={PortfolioPage}
                         alt="PortfolioWebsite"
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
@@ -110,6 +111,15 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                     </li>
+                                                    <li>
+                            <span className="p-2">
+                              <Image
+                                  src={TAILWINDCSS}
+                                  alt="Tailwind CSS"
+                                  className="image-style m-1"
+                              ></Image>{" "}
+                            </span>
+                                                    </li>
                                                 </ul>
                                             </Card.Body>
                                         </Accordion.Collapse>
@@ -118,13 +128,13 @@ const ProjectTimeline = () => {
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton className="url-button"
-                                           href="https://vickneee.github.io/portfolio-website/"
+                                           href="https://vickneee.github.io/react-portfolio-page/"
                                            target="_blank"
                                 >
                                     SEE LIVE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://github.com/vickneee/portfolio-website"
+                                    href="https://github.com/vickneee/react-portfolio-page"
                                     target="_blank"
                                 >
                                     SOURCE CODE
