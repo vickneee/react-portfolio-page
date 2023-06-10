@@ -13,7 +13,7 @@ import MYSQL from "../../assets/img/skills/mysql-logo.png"
 // import MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
-// import HEROKU from "../../assets/img/skills/heroku.svg";
+// import HEROKU from "../../assets/img/skills/heroku.webp";
 
 
 export const skills = {
