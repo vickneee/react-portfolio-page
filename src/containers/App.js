@@ -33,7 +33,7 @@ function App() {
 
             <div className="skills" id="skills">
                     <Container className="container-box">
-                        <Slide right duration={2000}>
+                        <Slide left duration={2000}>
                             <Skills/>
                         </Slide>
                     </Container>
@@ -50,10 +50,10 @@ function App() {
 
             <div className="contact" id="contact">
                 <Container className="container-box">
-                    <Slide bottom duration={2000}>
+                    {/*<Slide bottom duration={2000}>*/}
                         <hr/>
                         <Contact/>
-                    </Slide>
+                    {/*</Slide>*/}
                 </Container>
                 <hr/>
             </div>
