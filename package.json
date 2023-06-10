@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://vickneee.github.io/react-portfolio-page",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.15",
