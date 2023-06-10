@@ -21,7 +21,7 @@ import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
-// import NETLIFY from "../../assets/img/skills/netlify.svg";
+import NETLIFY from "../../assets/img/skills/netlify.svg";
 
 
 // Custom Timeline Theme
@@ -121,15 +121,15 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                     </li>
-                            {/*                        <li>*/}
-                            {/*<span >*/}
-                            {/*  <Image*/}
-                            {/*      src={TAILWINDCSS}*/}
-                            {/*      alt="Netlify"*/}
-                            {/*      className="image-style m-1 img-style"*/}
-                            {/*  ></Image>{" "}*/}
-                            {/*</span>*/}
-                            {/*                        </li>*/}
+                                                    <li>
+                            <span >
+                              <Image
+                                  src={NETLIFY}
+                                  alt="Netlify"
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                    </li>
                                                 </ul>
                                             </Card.Body>
                                         </Accordion.Collapse>
