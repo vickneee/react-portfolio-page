@@ -26,7 +26,7 @@ export const skills = {
         skillName: "GIT",
       },
       {
-        link: "https://pages.github.com/",
+        link: "https://github.com/",
         imgAltText: "GitHub Pages",
         imgSrc: GITHUB_PAGES,
         skillName: "GitHub Pages",
