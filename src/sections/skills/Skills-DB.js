@@ -10,10 +10,11 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import PYTHON from "../../assets/img/skills/python.svg"
 import CPLUSPLUS from "../../assets/img/skills/cpusplus.png"
-
-import MYSQL from "../../assets/img/skills/mysql-logo.png"
+import MYSQL from "../../assets/img/skills/my-sql.png"
 // import MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
+import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
+import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
 // import HEROKU from "../../assets/img/skills/heroku.webp";
 
@@ -123,6 +124,18 @@ export const skills = {
       //   imgSrc: FIREBASE,
       //   skillName: "Firebase Database",
       // },
+      {
+        link: "https://code.visualstudio.com/",
+        imgAltText: "Visual Studio Code",
+        imgSrc: VISUALSTUDIOCODE,
+        skillName: "Visual Studio Code",
+      },
+      {
+        link: "https://www.jetbrains.com/webstorm/",
+        imgAltText: "Webstorm",
+        imgSrc: WEBSTORM,
+        skillName: "Webstorm",
+      },
       {
         link: "https://www.netlify.com/",
         imgAltText: "Netlify",
