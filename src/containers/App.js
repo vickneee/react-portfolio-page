@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import NavBar from "../components/navBar/NavBar";
+import NavBar from "../components/nav-bar/NavBar";
 import Home from "../sections/home/Home";
 import About from "../sections/about/About";
 // import Fade from "react-reveal/Fade";
