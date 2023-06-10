@@ -16,7 +16,7 @@ const MyTitleMessage = styled.h1`
   }
 
   div {
-    color: ${props => props.theme.titleColor};
+    color: ${props => props.theme};
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
 
