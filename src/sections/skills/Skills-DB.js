@@ -1,3 +1,7 @@
+import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
+import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
+import WEBSTORM from "../../assets/img/skills/webstorm.png"
+import PYCHARM from "../../assets/img/skills/pycharm.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import HTML5 from "../../assets/img/skills/HTML5.png";
@@ -6,22 +10,44 @@ import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import NODEJS from "../../assets/img/skills/nodejs-png.png"
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-// import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+// import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
-import CPLUSPLUS from "../../assets/img/skills/cpusplus.png"
+import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
-import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
-import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
-// import HEROKU from "../../assets/img/skills/heroku.webp";
+// import HEROKU from "../../assets/img/skills/heroku.png";
 
 
 export const skills = {
 
     skillsList: [
+      {
+        link: "https://www.sublimetext.com/",
+        imgAltText: "Sublime Text",
+        imgSrc: SUBLIMETEXT,
+        skillName: "Sublime Text",
+      },
+      {
+        link: "https://code.visualstudio.com/",
+        imgAltText: "Visual Studio Code",
+        imgSrc: VISUALSTUDIOCODE,
+        skillName: "Visual Studio Code",
+      },
+      {
+        link: "https://www.jetbrains.com/webstorm/",
+        imgAltText: "WebStorm",
+        imgSrc: WEBSTORM,
+        skillName: "WebStorm",
+      },
+      {
+        link: "https://www.jetbrains.com/pycharm/",
+        imgAltText: "PyCharm",
+        imgSrc: PYCHARM,
+        skillName: "PyCharm",
+      },
       {
         link: "https://git-scm.com/",
         imgAltText: "GIT",
@@ -76,18 +102,18 @@ export const skills = {
         imgSrc: REACT_BOOTSTRAP,
         skillName: "React Bootstrap",
       },
-      // {
-      //   link: "https://material-ui.com/",
-      //   imgAltText: "Material-UI",
-      //   imgSrc: MATERIALUI,
-      //   skillName: "Material-UI",
-      // },
       {
         link: "https://tailwindcss.com/",
         imgAltText: "Tailwind CSS",
         imgSrc: TAILWINDCSS,
         skillName: "Tailwind CSS",
       },
+      // {
+      //   link: "https://material-ui.com/",
+      //   imgAltText: "Material-UI",
+      //   imgSrc: MATERIALUI,
+      //   skillName: "Material-UI",
+      // },
       // {
       //   link: "https://getbootstrap.com/",
       //   imgAltText: "Bootstrap",
@@ -124,18 +150,6 @@ export const skills = {
       //   imgSrc: FIREBASE,
       //   skillName: "Firebase Database",
       // },
-      {
-        link: "https://code.visualstudio.com/",
-        imgAltText: "Visual Studio Code",
-        imgSrc: VISUALSTUDIOCODE,
-        skillName: "Visual Studio Code",
-      },
-      {
-        link: "https://www.jetbrains.com/webstorm/",
-        imgAltText: "Webstorm",
-        imgSrc: WEBSTORM,
-        skillName: "Webstorm",
-      },
       {
         link: "https://www.netlify.com/",
         imgAltText: "Netlify",
