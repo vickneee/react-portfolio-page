@@ -138,7 +138,7 @@ const ProjectTimeline = () => {
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton className="url-button"
-                                           href="https://vickneee.github.io/react-portfolio-page/"
+                                           href="https://victoriavavulina.netlify.app/"
                                            target="_blank"
                                 >
                                     SEE LIVE
