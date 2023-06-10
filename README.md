@@ -1,6 +1,6 @@
 ## react-portfolio-page
 
-A portfolio page made by using CSS, JavaScript, React, React Bootstrap, and Tailwind CSS. Responsive.
+A portfolio page.
 
 ## deployment
 
