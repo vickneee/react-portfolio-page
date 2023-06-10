@@ -9,6 +9,8 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import PYTHON from "../../assets/img/skills/python.svg"
+import CPLUSPLUS from "../../assets/img/skills/cpusplus.png"
+
 import MYSQL from "../../assets/img/skills/mysql-logo.png"
 // import MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
@@ -96,6 +98,12 @@ export const skills = {
         imgAltText: "Python",
         imgSrc: PYTHON,
         skillName: "Python",
+      },
+      {
+        link: "https://cplusplus.com/",
+        imgAltText: "C++",
+        imgSrc: CPLUSPLUS,
+        skillName: "C++",
       },
       {
         link: "https://mysql.com/",
