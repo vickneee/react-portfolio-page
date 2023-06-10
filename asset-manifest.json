@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1739e1e.css",
-    "main.js": "/static/js/main.598405a0.js",
+    "main.js": "/static/js/main.f0b8dc9d.js",
     "static/media/RoboFriends.png": "/static/media/RoboFriends.6a37ba9550ae3bf11003.png",
     "static/media/PortfolioPage.png": "/static/media/PortfolioPage.4afa9217f37a3cab4456.png",
     "static/media/SuperMarioMemoryGame.png": "/static/media/SuperMarioMemoryGame.bec8760f26355b646e33.png",
@@ -23,10 +23,10 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.017e1e304e12384d156d384f40a4b5f8.svg",
     "main.c1739e1e.css.map": "/static/css/main.c1739e1e.css.map",
-    "main.598405a0.js.map": "/static/js/main.598405a0.js.map"
+    "main.f0b8dc9d.js.map": "/static/js/main.f0b8dc9d.js.map"
   },
   "entrypoints": [
     "static/css/main.c1739e1e.css",
-    "static/js/main.598405a0.js"
+    "static/js/main.f0b8dc9d.js"
   ]
 }
