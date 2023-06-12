@@ -2,15 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-.about {
+.light .about {
     background: #d2eafb;
 }
 
-.skills {
+.light .skills {
     background: #a4d6f8;
 }
 
 .App {
     background: #a4d6f8;
 }
+
+.dark {
+    background-color: #1c1e21;
+    color: #fff;
+}
+
+.dark .navbar,
+.dark footer {
+    background-color: #1c1e21;
+    color: #fff;
+}
+
+.light {
+    background-color: lightskyblue;
+    color: #302c34;
+}
+
+.button-dark-light {
+    width: 30px;
+    height: 30px;
+}
+
 

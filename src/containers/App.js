@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import "./App.css";
 import NavBar from "../components/nav-bar/NavBar";
 import Home from "../sections/home/Home";
@@ -9,11 +9,28 @@ import Skills from "../sections/skills/Skills";
 import Projects from "../sections/projects/Projects";
 import Contact from "../sections/contact/Contact";
 import Footer from "../components/footer/Footer";
+import DarkModeToggle from "../components/button-dark-light/ButtonDarkLight";
+// import Toggle from "../components/toggle/Toggle";
+import Button from "../components/button/Button";
 
 function App() {
+    const [theme, setTheme] = useState('light');
+
+    const toggleTheme = () => {
+        if (theme === 'light') {
+            setTheme('dark');
+        } else {
+            setTheme('light');
+        }
+    };
+
+    useEffect(() => {
+        document.body.className = theme;
+    }, [theme]);
+
     return (
-        <div className="App">
-            <NavBar />
+        <div className={`App ${theme}`}>
+            <NavBar className="navbar" />
             <div className="section">
                 <Container className="container-box">
                     <Slide top duration={2000}>
@@ -21,7 +38,15 @@ function App() {
                     </Slide>
                 </Container>
             </div>
-
+            <DarkModeToggle className="toggle-button"
+                    type="button" onClick={toggleTheme} />
+            <button className="button-dark-light" type="button" onClick={toggleTheme}>
+                ☀
+            </button>
+            <button className="button-dark-light" type="button" onClick={toggleTheme}>
+                ☾
+            </button>
+            <Button type="button" onClick={toggleTheme}/>
             <div className="about">
                 <Container className="container-box">
                     <Slide left duration={2000}>
@@ -57,7 +82,7 @@ function App() {
                 <hr />
             </div>
             <div>
-                <Footer />
+                <Footer className="footer" />
             </div>
         </div>
     );
