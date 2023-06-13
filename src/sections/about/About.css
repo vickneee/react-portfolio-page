@@ -10,7 +10,6 @@
     max-width: 22em;
     max-height: 32em;
     border-radius: 5px;
-    /*filter: invert(70%);*/
 }
 
 @media only screen and (max-width: 990px) {
@@ -36,7 +35,6 @@
     }
 }
 
-
 @media only screen and (max-width: 786px) {
     .about {
         display: flex;
@@ -58,6 +56,4 @@
     .study {
         max-width: 15em;
     }
-
-
 }
