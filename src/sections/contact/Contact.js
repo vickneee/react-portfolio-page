@@ -33,7 +33,7 @@ const Contact = () => {
                         <div className="m-2">
                             <a href="https://github.com/vickneee" target="_blank" rel="noopener noreferrer">
                                 <Button className="github" variant="outline-secondary" title="My other projects">
-                                    <i className="github fab fa-github"></i> GitHub
+                                    <i className="fab fa-github"></i> GitHub
                                 </Button>
                             </a>
                         </div>
