@@ -9,57 +9,65 @@ import Skills from "../sections/skills/Skills";
 import Projects from "../sections/projects/Projects";
 import Contact from "../sections/contact/Contact";
 import Footer from "../components/footer/Footer";
-// import DarkModeToggle from "../components/button-dark-light/ButtonDarkLight";
-// import Toggle from "../components/toggle/Toggle";
-// import Button from "../components/button/Button";
 
 function App() {
     const [theme, setTheme] = useState('light');
-
-    // const toggleTheme = () => {
-    //     if (theme === 'light') {
-    //         setTheme('dark');
-    //     } else {
-    //         setTheme('light');
-    //     }
-    // };
-
-    // const toggleTheme = (requestedTheme) => {
-    //     if (theme !== requestedTheme) {
-    //         setTheme(requestedTheme);
-    //     }
-    // };
+    const [isButtonVisible, setButtonVisible] = useState(true);
 
     const toggleTheme = () => {
-        setTheme(theme === 'light' ? 'dark' : 'light');
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        setTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
     };
+
+    useEffect(() => {
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme) {
+            setTheme(storedTheme);
+        }
+    }, []);
 
     useEffect(() => {
         document.body.className = theme;
     }, [theme]);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentPosition = window.scrollY;
+            const threshold = 30; // Adjust this value to change when the button should hide
+
+            if (currentPosition > threshold) {
+                setButtonVisible(false);
+            } else {
+                setButtonVisible(true);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className={`App ${theme}`}>
+            {isButtonVisible && (
+                <button className="button-dark-light right-corner-button" type="button" onClick={toggleTheme}>
+                    {theme === 'light' ? '🌓' : ' 🌗'}
+                </button>
+            )}
 
             <NavBar className="navbar" />
             <div className="section">
                 <Container className="container-box">
                     <Slide top duration={2000}>
-                        <Home />
+                        <Home toggleTheme={toggleTheme}/>
                     </Slide>
                 </Container>
 
             </div>
-            <button className="button-dark-light" type="button" onClick={toggleTheme}>
-                {theme === 'light' ? 'Dark' : 'Light'}
-            </button>
 
-            {/*<button className="button-dark-light" type="button" onClick={() => toggleTheme('dark')}>*/}
-            {/*    Dark*/}
-            {/*</button>*/}
-            {/*<button className="button-dark-light" type="button" onClick={() => toggleTheme('light')}>*/}
-            {/*    Light*/}
-            {/*</button>*/}
 
             <div className="about">
                 <Container className="container-box">

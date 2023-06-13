@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.button-dark-light {
-    width: 80px;
-    height: 30px;
-    border: 1px solid #004aad;
-    border-radius: 4px;
-    outline: #004aad;
+.right-corner-button {
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 1;
 }
 
 .dark {
@@ -31,8 +31,13 @@
     color: #1c98ed;
 }
 
-.dark h1 {
+.dark h1,
+.dark .text {
     color: white;
+}
+
+.dark .text {
+    background-color:  #464748;
 }
 
 .dark .card {
