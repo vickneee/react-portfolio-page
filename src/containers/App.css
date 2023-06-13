@@ -60,12 +60,16 @@
 
 .light .github:hover {
     color: #fefefe;
-    border-color: #2f3031;
+    border-color: #888;
 }
 
 .dark .github {
    color: #fefefe;
     border-color: #fefefe;
+}
+
+.dark .github:hover {
+    border-color: #888;
 }
 
 
