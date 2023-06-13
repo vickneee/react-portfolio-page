@@ -24,7 +24,7 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software development student who places
+                                <br/> Greetings from my website! I am an enthusiastic web development student who places
                                 a lot of emphasis on developing websites and applications that are user-friendly. I'm
                                 excited to start this path of creating digital experiences.
                                 <br/><br/>
