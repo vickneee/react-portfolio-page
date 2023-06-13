@@ -7,13 +7,13 @@ import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
-import NODEJS from "../../assets/img/skills/nodejs-png.png"
+import NODEJS from "../../assets/img/skills/node-js.png"
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
-import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
+// import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import MYSQLWORKBENCH from "../../assets/img/skills/mysqlworkbench.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
@@ -126,12 +126,12 @@ export const skills = {
         imgSrc: PYTHON,
         skillName: "Python",
       },
-      {
-        link: "https://cplusplus.com/",
-        imgAltText: "C++",
-        imgSrc: CPLUSPLUS,
-        skillName: "C++",
-      },
+      // {
+      //   link: "https://cplusplus.com/",
+      //   imgAltText: "C++",
+      //   imgSrc: CPLUSPLUS,
+      //   skillName: "C++",
+      // },
       {
         link: "https://mysql.com/",
         imgAltText: "MySQL",
