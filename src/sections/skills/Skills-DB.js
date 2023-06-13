@@ -114,12 +114,6 @@ export const skills = {
       //   imgSrc: MATERIALUI,
       //   skillName: "Material-UI",
       // },
-      // {
-      //   link: "https://getbootstrap.com/",
-      //   imgAltText: "Bootstrap",
-      //   imgSrc: BOOTSTRAP,
-      //   skillName: "Bootstrap",
-      // },
       {
         link: "https://www.python.org/",
         imgAltText: "Python",
