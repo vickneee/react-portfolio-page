@@ -1,5 +1,4 @@
 import React from 'react';
-// import Toggle from '../../components/toggle/Toggle';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from "../../assets/icons/VictoriaTrans.svg";
@@ -28,7 +27,6 @@ const NavBar = () => {
                         <Nav.Link href="#skills">Skills</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
-                        {/*<Toggle onClick={handleToggle} />*/}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
