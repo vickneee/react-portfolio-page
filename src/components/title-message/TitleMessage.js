@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 import './TitleMessage.css'
 
-
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
