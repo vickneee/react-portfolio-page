@@ -20,7 +20,6 @@ import MYSQL from "../../assets/img/skills/my-sql.png"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
 // import HEROKU from "../../assets/img/skills/heroku.png";
 
-
 export const skills = {
 
     skillsList: [
