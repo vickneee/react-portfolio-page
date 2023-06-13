@@ -2,15 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-.about {
+.right-corner-button {
+    padding: 5px 10px;
+    position: fixed;
+    top: 120px;
+    right: 50px;
+    z-index: 1;
+}
+
+.dark {
+    background-color: #18191a;
+    color: #fff;
+}
+
+.dark .navbar,
+.dark footer {
+    background-color: #18191a;
+    color: #fff;
+}
+
+.dark .titleMessage,
+.dark .contact-jumbotron {
+    background-color: #2f3031;
+}
+
+.dark .main,
+.dark .sub {
+    color: #1c98ed;
+}
+
+.dark h1,
+.dark .text {
+    color: white;
+}
+
+.dark .text {
+    background-color:  #464748;
+}
+
+.dark .card {
+    background-color: #2f3031 !important;
+}
+
+.light {
+    background-color: #a4d6f8;
+    color: #302c34;
+}
+
+.light .about {
     background: #d2eafb;
 }
 
-.skills {
-    background: #a4d6f8;
+.dark .github {
+    color: white;
+    border: 1px solid white;
 }
 
-.App {
-    background: #a4d6f8;
-}
 

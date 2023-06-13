@@ -56,7 +56,7 @@ const ProjectTimeline = () => {
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
                             <div>
-                                <Accordion>
+                                <Accordion className="accordion">
                                     <Card>
                                         <Accordion.Toggle
                                             eventKey="0"
@@ -65,7 +65,7 @@ const ProjectTimeline = () => {
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
-                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>A personal portfolio is an online platform
@@ -173,7 +173,7 @@ const ProjectTimeline = () => {
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
-                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>Robots of all shapes and sizes can be
@@ -252,7 +252,7 @@ const ProjectTimeline = () => {
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
-                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>The Super Mario Memory Game is a digital
@@ -333,7 +333,7 @@ const ProjectTimeline = () => {
                                             PROJECT DETAILS
                                         </Accordion.Toggle>
 
-                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>Tic Tac Toe is a classic strategy game that
@@ -400,4 +400,4 @@ const ProjectTimeline = () => {
     )
 }
 
-export default ProjectTimeline
+export default ProjectTimeline;
