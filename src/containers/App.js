@@ -52,6 +52,7 @@ function App() {
 
     return (
         <div className={`App ${theme}`}>
+
             {isButtonVisible && (
                 <button className="button-dark-light right-corner-button" type="button" onClick={toggleTheme}>
                     {theme === 'light' ? '🌓' : ' 🌗'}
@@ -65,9 +66,7 @@ function App() {
                         <Home toggleTheme={toggleTheme}/>
                     </Slide>
                 </Container>
-
             </div>
-
 
             <div className="about">
                 <Container className="container-box">
@@ -103,9 +102,11 @@ function App() {
                 </Container>
                 <hr />
             </div>
+
             <div>
                 <Footer className="footer" />
             </div>
+
         </div>
     );
 }
