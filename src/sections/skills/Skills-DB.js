@@ -10,6 +10,7 @@ import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import NODEJS from "../../assets/img/skills/node-js.png"
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+// import REDUX from "../../assets/img/skills/redux.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
@@ -89,18 +90,18 @@ export const skills = {
         imgSrc: REACT,
         skillName: "React JS",
       },
-      // {
-      //   link: "https://redux.js.org/",
-      //   imgAltText: "Redux",
-      //   imgSrc: REDUX,
-      //   skillName: "Redux",
-      // },
       {
         link: "https://react-bootstrap.github.io/",
         imgAltText: "React Bootstrap",
         imgSrc: REACT_BOOTSTRAP,
         skillName: "React Bootstrap",
       },
+      // {
+      //   link: "https://redux.js.org/",
+      //   imgAltText: "Redux",
+      //   imgSrc: REDUX,
+      //   skillName: "Redux",
+      // },
       {
         link: "https://tailwindcss.com/",
         imgAltText: "Tailwind CSS",
