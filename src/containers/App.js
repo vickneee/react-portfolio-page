@@ -9,19 +9,29 @@ import Skills from "../sections/skills/Skills";
 import Projects from "../sections/projects/Projects";
 import Contact from "../sections/contact/Contact";
 import Footer from "../components/footer/Footer";
-import DarkModeToggle from "../components/button-dark-light/ButtonDarkLight";
+// import DarkModeToggle from "../components/button-dark-light/ButtonDarkLight";
 // import Toggle from "../components/toggle/Toggle";
-import Button from "../components/button/Button";
+// import Button from "../components/button/Button";
 
 function App() {
     const [theme, setTheme] = useState('light');
 
+    // const toggleTheme = () => {
+    //     if (theme === 'light') {
+    //         setTheme('dark');
+    //     } else {
+    //         setTheme('light');
+    //     }
+    // };
+
+    // const toggleTheme = (requestedTheme) => {
+    //     if (theme !== requestedTheme) {
+    //         setTheme(requestedTheme);
+    //     }
+    // };
+
     const toggleTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark');
-        } else {
-            setTheme('light');
-        }
+        setTheme(theme === 'light' ? 'dark' : 'light');
     };
 
     useEffect(() => {
@@ -30,6 +40,7 @@ function App() {
 
     return (
         <div className={`App ${theme}`}>
+
             <NavBar className="navbar" />
             <div className="section">
                 <Container className="container-box">
@@ -37,16 +48,19 @@ function App() {
                         <Home />
                     </Slide>
                 </Container>
+
             </div>
-            <DarkModeToggle className="toggle-button"
-                    type="button" onClick={toggleTheme} />
             <button className="button-dark-light" type="button" onClick={toggleTheme}>
-                ☀
+                {theme === 'light' ? 'Dark' : 'Light'}
             </button>
-            <button className="button-dark-light" type="button" onClick={toggleTheme}>
-                ☾
-            </button>
-            <Button type="button" onClick={toggleTheme}/>
+
+            {/*<button className="button-dark-light" type="button" onClick={() => toggleTheme('dark')}>*/}
+            {/*    Dark*/}
+            {/*</button>*/}
+            {/*<button className="button-dark-light" type="button" onClick={() => toggleTheme('light')}>*/}
+            {/*    Light*/}
+            {/*</button>*/}
+
             <div className="about">
                 <Container className="container-box">
                     <Slide left duration={2000}>

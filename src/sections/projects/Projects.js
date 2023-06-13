@@ -56,7 +56,7 @@ const ProjectTimeline = () => {
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
                             <div>
-                                <Accordion>
+                                <Accordion className="accordion">
                                     <Card>
                                         <Accordion.Toggle
                                             eventKey="0"
@@ -400,4 +400,4 @@ const ProjectTimeline = () => {
     )
 }
 
-export default ProjectTimeline
+export default ProjectTimeline;

@@ -20,14 +20,15 @@
     color: #082e47;
   }
 
+.col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 786px) {
-  .col {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
   .image-style {
     height: 4em;
   }

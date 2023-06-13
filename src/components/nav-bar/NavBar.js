@@ -1,17 +1,22 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react';
+// import Toggle from '../../components/toggle/Toggle';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import Logo from "../../assets/icons/VictoriaTrans.svg";
 import "./NavBar.css";
 import "tachyons";
 
 const NavBar = () => {
+
     return (
         <div>
-            <Navbar collapseOnSelect expand="md"
-                    fixed="top"
-                    className="animate-navbar nav-theme justify-content-between"
-                    variant="dark">
+            <Navbar
+                collapseOnSelect
+                expand="md"
+                fixed="top"
+                className="animate-navbar nav-theme justify-content-between"
+                variant="dark"
+            >
                 <Navbar.Brand href="#home">
                     <img className="logo grow" src={Logo} alt='Logo'/>
                 </Navbar.Brand>
@@ -23,11 +28,12 @@ const NavBar = () => {
                         <Nav.Link href="#skills">Skills</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
+                        {/*<Toggle onClick={handleToggle} />*/}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div>
-    )
-}
+    );
+};
 
-export default NavBar
+export default NavBar;
