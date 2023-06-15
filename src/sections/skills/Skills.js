@@ -19,7 +19,7 @@ const Skills = () => {
                                 {skills.skillsList.map((skill, index) => (
                                     <span key={index}>
                                         <a className="" href={skill.link} target="_blank" rel="noopener noreferrer">
-                                            <Image src={skill.imgSrc} alt={skill.imgAltText} className="image-style m-1 grow"></Image>
+                                            <Image src={skill.imgSrc} alt={skill.imgAltText} className="image-style m-1"></Image>
                                         </a>
                                     </span>
                                 ))}

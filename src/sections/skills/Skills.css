@@ -7,6 +7,14 @@
     width: auto;
   }
 
+.image-style:hover {
+  transform: translateY(-3px);
+}
+
+.image-style:active {
+  transform: translateY(-1px);
+}
+
   .font-details {
     font-size: 3em;
     font-weight: 500;
