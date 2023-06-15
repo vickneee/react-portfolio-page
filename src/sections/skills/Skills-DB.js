@@ -7,11 +7,11 @@ import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 import SASS from "../../assets/img/skills/Sass.svg";
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import NODEJS from "../../assets/img/skills/node-js.png"
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
@@ -79,12 +79,6 @@ export const skills = {
         skillName: "Sass",
       },
       {
-        link: "https://tailwindcss.com/",
-        imgAltText: "Tailwind CSS",
-        imgSrc: TAILWINDCSS,
-        skillName: "Tailwind CSS",
-      },
-      {
         link: "https://www.w3schools.com/js/js_intro.asp",
         imgAltText: "JavaScript",
         imgSrc: JAVASCRIPT,
@@ -107,6 +101,12 @@ export const skills = {
         imgAltText: "React Bootstrap",
         imgSrc: REACT_BOOTSTRAP,
         skillName: "React Bootstrap",
+      },
+      {
+        link: "https://tailwindcss.com/",
+        imgAltText: "Tailwind CSS",
+        imgSrc: TAILWINDCSS,
+        skillName: "Tailwind CSS",
       },
       // {
       //   link: "https://material-ui.com/",
