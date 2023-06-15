@@ -7,6 +7,10 @@
 .my-name {
     font-family: Monoton, sans-serif;
     color: white;
+
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
 }
 
 .titleMessage {
@@ -27,5 +31,14 @@
 @media only screen and (max-width: 786px) {
     .my-name {
         font-size: 0.8em !important;
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
