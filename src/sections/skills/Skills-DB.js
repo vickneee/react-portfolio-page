@@ -16,6 +16,7 @@ import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import PYTHON from "../../assets/img/skills/python.svg"
 // import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
+import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
@@ -131,6 +132,12 @@ export const skills = {
         imgAltText: "Node.js",
         imgSrc: NODEJS,
         skillName: "Node.js",
+      },
+      {
+        link: "https://expressjs.com/",
+        imgAltText: "Express.js",
+        imgSrc: EXPRESS,
+        skillName: "Express.js",
       },
       {
         link: "https://mysql.com/",
