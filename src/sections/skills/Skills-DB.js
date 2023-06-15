@@ -8,14 +8,14 @@ import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 import SASS from "../../assets/img/skills/Sass.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
-import NODEJS from "../../assets/img/skills/node-js.png"
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
 // import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
+import NODEJS from "../../assets/img/skills/node-js.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
@@ -85,12 +85,6 @@ export const skills = {
         skillName: "JavaScript",
       },
       {
-        link: "https://nodejs.org/",
-        imgAltText: "Node.js",
-        imgSrc: NODEJS,
-        skillName: "Node.js",
-      },
-      {
         link: "https://reactjs.org/",
         imgAltText: "React JS",
         imgSrc: REACT,
@@ -102,18 +96,18 @@ export const skills = {
         imgSrc: REACT_BOOTSTRAP,
         skillName: "React Bootstrap",
       },
-      {
-        link: "https://tailwindcss.com/",
-        imgAltText: "Tailwind CSS",
-        imgSrc: TAILWINDCSS,
-        skillName: "Tailwind CSS",
-      },
       // {
       //   link: "https://material-ui.com/",
       //   imgAltText: "Material-UI",
       //   imgSrc: MATERIALUI,
       //   skillName: "Material-UI",
       // },
+      {
+        link: "https://tailwindcss.com/",
+        imgAltText: "Tailwind CSS",
+        imgSrc: TAILWINDCSS,
+        skillName: "Tailwind CSS",
+      },
       // {
       //   link: "https://redux.js.org/",
       //   imgAltText: "Redux",
@@ -132,6 +126,12 @@ export const skills = {
       //   imgSrc: CPLUSPLUS,
       //   skillName: "C++",
       // },
+      {
+        link: "https://nodejs.org/",
+        imgAltText: "Node.js",
+        imgSrc: NODEJS,
+        skillName: "Node.js",
+      },
       {
         link: "https://mysql.com/",
         imgAltText: "MySQL",
