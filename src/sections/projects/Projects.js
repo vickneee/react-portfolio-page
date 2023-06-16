@@ -8,7 +8,6 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 
 //Projects
-
 import Mountours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import RoboFriends from "../../assets/img/projects/RoboFriends.png"
@@ -19,6 +18,7 @@ import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 //Skills
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
+import SASS from "../../assets/img/skills/Sass.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -94,16 +94,16 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                     </li>
-                            {/*                        <li>*/}
-                            {/*<span>*/}
-                            {/*  <Image*/}
-                            {/*      src={JAVASCRIPT}*/}
-                            {/*      alt="JavaScript"*/}
-                            {/*      rounded*/}
-                            {/*      className="image-style m-1 img-style"*/}
-                            {/*  ></Image>{" "}*/}
-                            {/*</span>*/}
-                            {/*                        </li>*/}
+                                                    <li>
+                            <span>
+                              <Image
+                                  src={SASS}
+                                  alt="SASS"
+                                  rounded
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                    </li>
                             {/*                        <li>*/}
                             {/*<span>*/}
                             {/*  <Image*/}
