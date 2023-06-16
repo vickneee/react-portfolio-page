@@ -41,6 +41,7 @@
 }
 
 .dark .card {
+    color: #fff !important;
     background-color: #2f3031 !important;
 }
 
