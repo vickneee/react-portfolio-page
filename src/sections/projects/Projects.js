@@ -71,7 +71,7 @@ const ProjectTimeline = () => {
                                         <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
-                                                <br/>Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to our Mountain Travel Tours, where we give you all the details you need to organize your upcoming mountain vacation.
+                                                <br/>A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
@@ -154,7 +154,7 @@ const ProjectTimeline = () => {
                                     SEE LIVE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://github.com/vickneee/react-portfolio-page"
+                                    href="https://github.com/vickneee/mountours"
                                     target="_blank"
                                 >
                                     SOURCE CODE
