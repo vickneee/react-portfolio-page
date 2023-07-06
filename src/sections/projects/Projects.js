@@ -51,7 +51,7 @@ const ProjectTimeline = () => {
 
                     {/* //Mountours */}
                     <ImageEvent
-                        date="Jun 2023"
+                        date="Jul 2023"
                         className="text-center"
                         text="Mountours"
                         src={Mountours}
@@ -104,15 +104,15 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                     </li>
-                            {/*                        <li>*/}
-                            {/*<span>*/}
-                            {/*  <Image*/}
-                            {/*      src={REACT}*/}
-                            {/*      alt="React"*/}
-                            {/*      className="image-style m-1 img-style"*/}
-                            {/*  ></Image>{" "}*/}
-                            {/*</span>*/}
-                            {/*                        </li>*/}
+                                                    <li>
+                            <span>
+                              <Image
+                                  src={JAVASCRIPT}
+                                  alt="JavaScript"
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                    </li>
                             {/*                        <li>*/}
                             {/*<span >*/}
                             {/*  <Image*/}
