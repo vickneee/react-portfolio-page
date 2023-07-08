@@ -37,7 +37,7 @@ const About = () => {
                                 back-end development using Node.js and studied databases.
                                 {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience)*/}
                                 <br/><br/>
-                                In order to improve my abilities, I am actively looking for knowledge about UX and UI
+                                In order to improve my abilities, I am actively looking for knowledge about UI and UX
                                 design. I am learning how to use Figma software to create user interfaces that are easy
                                 to use and focused on the expectations and tastes of the user. Thank you for visiting my
                                 web page!
