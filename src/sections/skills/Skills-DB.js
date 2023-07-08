@@ -2,6 +2,7 @@ import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
 import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
+import FIGMA from "../../assets/img/skills/figma-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import HTML5 from "../../assets/img/skills/HTML5.png";
@@ -16,7 +17,7 @@ import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import PYTHON from "../../assets/img/skills/python.svg"
 import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
-import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
+// import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
@@ -48,6 +49,12 @@ export const skills = {
         imgAltText: "PyCharm",
         imgSrc: PYCHARM,
         skillName: "PyCharm",
+      },
+      {
+        link: "https://www.figma.com/",
+        imgAltText: "Figma",
+        imgSrc: FIGMA,
+        skillName: "Figma",
       },
       {
         link: "https://git-scm.com/",
@@ -133,12 +140,12 @@ export const skills = {
         imgSrc: NODEJS,
         skillName: "Node.js",
       },
-      {
-        link: "https://expressjs.com/",
-        imgAltText: "Express.js",
-        imgSrc: EXPRESS,
-        skillName: "Express.js",
-      },
+      // {
+      //   link: "https://expressjs.com/",
+      //   imgAltText: "Express.js",
+      //   imgSrc: EXPRESS,
+      //   skillName: "Express.js",
+      // },
       {
         link: "https://mysql.com/",
         imgAltText: "MySQL",

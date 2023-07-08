@@ -12,7 +12,7 @@ import "./Skills.css";
 const Skills = () => {
     return (
         <div className="skills" id="skills">
-            <h1 className="text-center font-details-b pb-3">Tech Skills</h1>
+            <h1 className="text-center font-details-b pb-3">Tools and Tech Skills</h1>
             <Jumbotron className="contact-jumbotron shadow-md content-center">
                 <Row className="row">
                     <Col className=" col tc d-flex align-items-center justify-content-center">
