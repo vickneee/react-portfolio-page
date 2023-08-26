@@ -7,7 +7,7 @@ import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
-import SASS from "../../assets/img/skills/Sass.svg";
+// import SASS from "../../assets/img/skills/Sass.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -80,12 +80,12 @@ export const skills = {
         imgSrc: CSS3,
         skillName: "CSS",
       },
-      {
-        link: "https://sass-lang.com/",
-        imgAltText: "Sass",
-        imgSrc: SASS,
-        skillName: "Sass",
-      },
+      // {
+      //   link: "https://sass-lang.com/",
+      //   imgAltText: "Sass",
+      //   imgSrc: SASS,
+      //   skillName: "Sass",
+      // },
       {
         link: "https://www.w3schools.com/js/js_intro.asp",
         imgAltText: "JavaScript",
