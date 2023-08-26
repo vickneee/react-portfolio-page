@@ -488,6 +488,15 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                             </span>
                                                         </li>
+                                                        <li>
+                            <span>
+                              <Image
+                                  src={NETLIFY}
+                                  alt="Netlify"
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                        </li>
                                                     </ul>
                                                 </Card.Body>
                                             </Accordion.Collapse>
@@ -502,7 +511,7 @@ const ProjectTimeline = () => {
                                         SEE LIVE
                                     </UrlButton>
                                     <UrlButton
-                                        href="https://github.com/vickneee/tic-tac-toe"
+                                        href="https://tic-tac-toe-vickneee.netlify.app/"
                                         target="_blank"
                                     >
                                         SOURCE CODE
