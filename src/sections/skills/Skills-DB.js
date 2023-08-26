@@ -19,7 +19,7 @@ import CPLUSPLUS from "../../assets/img/skills/cplusplus_1.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
-import MONGODB from "../../assets/img/skills/mongo-db.svg"
+import MONGODB from "../../assets/img/skills/mongoDB.svg"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
 // import HEROKU from "../../assets/img/skills/heroku.png";
