@@ -505,13 +505,13 @@ const ProjectTimeline = () => {
                                 </div>
                                 <div className="d-flex justify-content-between flex-nowrap text-center">
                                     <UrlButton
-                                        href="https://vickneee.github.io/tic-tac-toe/"
+                                        href="https://tic-tac-toe-vickneee.netlify.app/"
                                         target="_blank"
                                     >
                                         SEE LIVE
                                     </UrlButton>
                                     <UrlButton
-                                        href="https://tic-tac-toe-vickneee.netlify.app/"
+                                        href="https://github.com/vickneee/tic-tac-toe"
                                         target="_blank"
                                     >
                                         SOURCE CODE
