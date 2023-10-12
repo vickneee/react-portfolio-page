@@ -54,7 +54,7 @@ const ProjectTimeline = () => {
                         date="Oct 2023"
                         className="text-center"
                         text="Dips Oy"
-                        src={Mountours}
+                        src={DipsOy}
                         alt="Dips Oy"
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
