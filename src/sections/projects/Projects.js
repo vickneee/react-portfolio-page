@@ -49,65 +49,6 @@ const ProjectTimeline = () => {
             <Timeline theme={customTheme}>
                 <Events>
 
-                    {/* //Dips Oy */}
-                    <ImageEvent
-                        date="Oct 2023"
-                        className="text-center"
-                        text="Dips Oy"
-                        src={DipsOy}
-                        alt="Dips Oy"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion className="accordion">
-                                    <Card>
-                                        <Accordion.Toggle
-                                            eventKey="0"
-                                            className="p-2 text-center accordion-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </Accordion.Toggle>
-
-                                        <Accordion.Collapse eventKey="0" className="text text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong>
-                                                <br/>A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.
-                                                <br/><br/>
-                                                <strong>Tech used:</strong>
-                                                <br/>
-                                                <ul className="d-flex content-center flex-wrap">
-                                                    <li>
-                            <span className="p-0">
-                              <Image
-                                  src={WORDPRESS}
-                                  alt="WORDPRESS"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton className="url-button"
-                                           href="https://dips.fi"
-                                           target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://dips.fi"
-                                    target="_blank"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                            </div>
-                        </div>
-                    </ImageEvent>
-
                     {/* //Mountours */}
                     <ImageEvent
                         date="Jul 2023"
