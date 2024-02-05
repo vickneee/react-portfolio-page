@@ -2,7 +2,8 @@ import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
 import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
-import WORDPRESS from "../../assets/img/skills/Wordpress.svg"
+import RIDER from "../../assets/img/skills/rider.jpeg"
+// import WORDPRESS from "../../assets/img/skills/Wordpress.svg"
 import FIGMA from "../../assets/img/skills/figma-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
@@ -53,11 +54,17 @@ export const skills = {
         skillName: "PyCharm",
       },
       {
-        link: "https://www.wordpress.com/",
-        imgAltText: "WordPress",
-        imgSrc: WORDPRESS,
-        skillName: "WordPress",
+        link: "https://www.jetbrains.com/rider/",
+        imgAltText: "Rider",
+        imgSrc: RIDER,
+        skillName: "Rider",
       },
+      // {
+      //   link: "https://www.wordpress.com/",
+      //   imgAltText: "WordPress",
+      //   imgSrc: WORDPRESS,
+      //   skillName: "WordPress",
+      // },
       {
         link: "https://www.figma.com/",
         imgAltText: "Figma",
