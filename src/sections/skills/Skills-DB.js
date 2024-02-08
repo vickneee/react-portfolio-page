@@ -2,7 +2,7 @@ import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
 import VISUALSTUDIOCODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
-import RIDER from "../../assets/img/skills/rider.jpeg"
+// import RIDER from "../../assets/img/skills/rider.jpeg"
 // import WORDPRESS from "../../assets/img/skills/Wordpress.svg"
 import FIGMA from "../../assets/img/skills/figma-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
@@ -21,8 +21,8 @@ import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
+import MONGODB from "../../assets/img/skills/MongoDB.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
-// import MONGODB from "../../assets/img/skills/MongoDB.svg"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
 // import HEROKU from "../../assets/img/skills/heroku.png";
@@ -54,12 +54,12 @@ export const skills = {
         imgSrc: PYCHARM,
         skillName: "PyCharm",
       },
-      {
-        link: "https://www.jetbrains.com/rider/",
-        imgAltText: "Rider",
-        imgSrc: RIDER,
-        skillName: "Rider",
-      },
+      // {
+      //   link: "https://www.jetbrains.com/rider/",
+      //   imgAltText: "Rider",
+      //   imgSrc: RIDER,
+      //   skillName: "Rider",
+      // },
       // {
       //   link: "https://www.wordpress.com/",
       //   imgAltText: "WordPress",
@@ -169,17 +169,17 @@ export const skills = {
       //   skillName: "Express.js",
       // },
       {
+        link: "https://www.mongodb.com/",
+        imgAltText: "MongoDB",
+        imgSrc: MONGODB,
+        skillName: "MongoDB",
+      },
+      {
         link: "https://mysql.com/",
         imgAltText: "MySQL",
         imgSrc: MYSQL,
         skillName: "MySQL",
       },
-      // {
-      //   link: "https://www.mongodb.com/",
-      //   imgAltText: "MongoDB",
-      //   imgSrc: MONGODB,
-      //   skillName: "MongoDB",
-      // },
       // {
       //   link: "https://firebase.google.com/",
       //   imgAltText: "Firebase Database",
