@@ -21,7 +21,8 @@ import PYTHON from "../../assets/img/skills/python.svg"
 // import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
-import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
+import EXPRESSJS from "../../assets/img/skills/ExpressJS-Dark.svg"
+// import NEXTJS from "../../assets/img/skills/Next.js-720.png"
 import MONGODB from "../../assets/img/skills/MongoDB.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
@@ -172,9 +173,15 @@ export const skills = {
       {
         link: "https://expressjs.com/",
         imgAltText: "Express.js",
-        imgSrc: EXPRESS,
+        imgSrc: EXPRESSJS,
         skillName: "Express.js",
       },
+      // {
+      //   link: "https://nextjs.org/",
+      //   imgAltText: "Next.js",
+      //   imgSrc: NEXTJS,
+      //   skillName: "Next.js",
+      // },
       {
         link: "https://www.mongodb.com/",
         imgAltText: "MongoDB",
