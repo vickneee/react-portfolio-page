@@ -18,7 +18,7 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
-import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
+// import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESS from "../../assets/img/skills/ExpressJS-Dark.svg"
@@ -151,12 +151,12 @@ export const skills = {
         imgSrc: PYTHON,
         skillName: "Python",
       },
-      {
-        link: "https://cplusplus.com/",
-        imgAltText: "C++",
-        imgSrc: CPLUSPLUS,
-        skillName: "C++",
-      },
+      // {
+      //   link: "https://cplusplus.com/",
+      //   imgAltText: "C++",
+      //   imgSrc: CPLUSPLUS,
+      //   skillName: "C++",
+      // },
       // {
       //   link: "https://dotnet.microsoft.com/en-us/languages/csharp",
       //   imgAltText: "C#",
