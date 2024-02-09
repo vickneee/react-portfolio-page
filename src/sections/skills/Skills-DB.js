@@ -11,10 +11,11 @@ import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 // import SASS from "../../assets/img/skills/Sass.svg";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
+// import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react.png";
-// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
-// import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
 import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
@@ -108,30 +109,36 @@ export const skills = {
         imgSrc: JAVASCRIPT,
         skillName: "JavaScript",
       },
+      // {
+      //   link: "https://www.typescriptlang.org/",
+      //   imgAltText: "TypeScript",
+      //   imgSrc: TYPESCRIPT,
+      //   skillName: "TypeScript",
+      // },
       {
         link: "https://reactjs.org/",
         imgAltText: "React JS",
         imgSrc: REACT,
         skillName: "React JS",
       },
-      // {
-      //   link: "https://react-bootstrap.github.io/",
-      //   imgAltText: "React Bootstrap",
-      //   imgSrc: REACT_BOOTSTRAP,
-      //   skillName: "React Bootstrap",
-      // },
+      {
+        link: "https://react-bootstrap.github.io/",
+        imgAltText: "React Bootstrap",
+        imgSrc: REACT_BOOTSTRAP,
+        skillName: "React Bootstrap",
+      },
       // {
       //   link: "https://material-ui.com/",
       //   imgAltText: "Material-UI",
       //   imgSrc: MATERIALUI,
       //   skillName: "Material-UI",
       // },
-      // {
-      //   link: "https://tailwindcss.com/",
-      //   imgAltText: "Tailwind CSS",
-      //   imgSrc: TAILWINDCSS,
-      //   skillName: "Tailwind CSS",
-      // },
+      {
+        link: "https://tailwindcss.com/",
+        imgAltText: "Tailwind CSS",
+        imgSrc: TAILWINDCSS,
+        skillName: "Tailwind CSS",
+      },
       // {
       //   link: "https://redux.js.org/",
       //   imgAltText: "Redux",
