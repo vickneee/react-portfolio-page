@@ -24,23 +24,22 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software development student who places
+                                <br/> Greetings from my website! I am an enthusiastic software development student who
+                                places
                                 a lot of emphasis on developing websites and applications that are user-friendly. I'm
                                 excited to start this path of creating digital experiences.
                                 <br/><br/>
                                 JavaScript, React, and other frameworks are of particular interest to me, and I
                                 appreciate using these potent tools to create dynamic and interactive web solutions. I
-                                enjoy using code to make ideas come to life, whether it's creating responsive interfaces
-                                or adding advanced functionality.
+                                enjoy using code to make ideas come to life.
                                 <br/><br/>
                                 In addition to having experience with front-end development, I've also experimented in
                                 back-end development using Node.js and studied databases.
                                 {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience)*/}
                                 <br/><br/>
-                                In order to improve my abilities, I am actively looking for knowledge about UI and UX
-                                design. I am learning how to use Figma software to create user interfaces that are easy
-                                to use and focused on the expectations and tastes of the user. Thank you for visiting my
-                                web page!
+                                UI/UX design is something I'm quite interested in, although I haven't had the chance to learn much about it yet. Also, code testing programs are of interest to me.
+                                <br/>
+                                Thank you for visiting my web page!
                                 <br/><br/>
                                 {/*<Col className="d-flex justify-content-center flex-wrap">*/}
                                 {/*  <div>*/}
