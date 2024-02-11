@@ -18,8 +18,8 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIALUI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
-import REACTNATIVE from "../../assets/img/skills/react-native.png";
-import EXPO from "../../assets/img/skills/Expo.png";
+// import REACTNATIVE from "../../assets/img/skills/react-native.png";
+// import EXPO from "../../assets/img/skills/Expo.png";
 import PYTHON from "../../assets/img/skills/python.svg"
 // import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
@@ -149,18 +149,18 @@ export const skills = {
         imgSrc: TAILWINDCSS,
         skillName: "Tailwind CSS",
       },
-      {
-        link: "https://reactnative.dev/",
-        imgAltText: "React Native",
-        imgSrc: REACTNATIVE,
-        skillName: "React NAtive",
-      },
-      {
-        link: "https://expo.dev/",
-        imgAltText: "Expo",
-        imgSrc: EXPO,
-        skillName: "Expo",
-      },
+      // {
+      //   link: "https://reactnative.dev/",
+      //   imgAltText: "React Native",
+      //   imgSrc: REACTNATIVE,
+      //   skillName: "React NAtive",
+      // },
+      // {
+      //   link: "https://expo.dev/",
+      //   imgAltText: "Expo",
+      //   imgSrc: EXPO,
+      //   skillName: "Expo",
+      // },
       // {
       //   link: "https://redux.js.org/",
       //   imgAltText: "Redux",
