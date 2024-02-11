@@ -7,6 +7,7 @@ import PYCHARM from "../../assets/img/skills/pycharm.png"
 import FIGMA from "../../assets/img/skills/figma-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
 // import SASS from "../../assets/img/skills/Sass.svg";
@@ -87,6 +88,12 @@ export const skills = {
         imgAltText: "GitHub Pages",
         imgSrc: GITHUB_PAGES,
         skillName: "GitHub Pages",
+      },
+      {
+        link: "https://www.markdownguide.org/",
+        imgAltText: "Markdown",
+        imgSrc: MARKDOWN,
+        skillName: "Markdown",
       },
       {
         link: "https://www.w3schools.com/html/html_intro.asp",
