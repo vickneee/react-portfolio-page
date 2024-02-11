@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import "./About.css";
 import StudyDesk from "../../assets/img/about-me/iStock-1165699436.jpg";
 import Image from "react-bootstrap/Image";
-// import Button from "react-bootstrap/Button";
 import "tachyons";
 
 const About = () => {
@@ -29,41 +28,16 @@ const About = () => {
                                 a lot of emphasis on developing websites and applications that are user-friendly. I'm
                                 excited to start this path of creating digital experiences.
                                 <br/><br/>
-                                JavaScript, React, and other frameworks are of particular interest to me, and I
-                                appreciate using these potent tools to create dynamic and interactive web solutions. I
-                                enjoy using code to make ideas come to life.
+                                React and other frameworks are of particular interest to me, and I
+                                appreciate using these potent tools to create dynamic and interactive web solutions. I enjoy using code to make ideas come to life.
                                 <br/><br/>
-                                In addition to having experience with front-end development, I've also experimented in
-                                back-end development using Node.js and studied databases.
+                                In addition to having experience with front-end development, I've also experimented in back-end development using Node.js and studied databases.
                                 {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience)*/}
                                 <br/><br/>
                                 UI/UX design is something I'm quite interested in, although I haven't had the chance to learn much about it yet. Also, code testing programs are of interest to me.
                                 <br/>
                                 Thank you for visiting my web page!
                                 <br/><br/>
-                                {/*<Col className="d-flex justify-content-center flex-wrap">*/}
-                                {/*  <div>*/}
-                                {/*    <a href="https://drive.google.com/file/d/1CTgIKZRxE_VC7zdjqZPaJPVtF17qRKWn/view?usp=sharing" target="_blank" rel="noopener noreferrer">*/}
-                                {/*      <Button className="m-2" variant="outline-success">*/}
-                                {/*        My Resume*/}
-                                {/*      </Button>*/}
-                                {/*    </a>*/}
-                                {/*  </div>*/}
-                                {/*<div>*/}
-                                {/*  <a href="https://github.com/vickneee" target="_blank" rel="noopener noreferrer">*/}
-                                {/*    <Button className="m-2" variant="outline-dark">*/}
-                                {/*      GitHub*/}
-                                {/*    </Button>*/}
-                                {/*  </a>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*  <a href="https://www.linkedin.com/in/victoriavavulina/" target="_blank" rel="noopener noreferrer">*/}
-                                {/*    <Button className="m-2" variant="outline-primary">*/}
-                                {/*      LinkedIn*/}
-                                {/*    </Button>*/}
-                                {/*  </a>*/}
-                                {/*</div>*/}
-                                {/*</Col>*/}
                             </Row>
                         </Col>
                     </Row>
