@@ -12,7 +12,7 @@ import CSS3 from "../../assets/img/skills/CSS3.png";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-// import MATERIALUI from "../../assets/img/skills/material-ui.svg";
+// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import REACT_NATIVE from "../../assets/img/skills/react-native.png";
@@ -22,7 +22,7 @@ import PYTHON from "../../assets/img/skills/python.svg"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESSJS from "../../assets/img/skills/ExpressJS-Dark.svg"
-// import NEXTJS from "../../assets/img/skills/Next.js-720.png"
+// import NEXT_JS from "../../assets/img/skills/Next.js-720.png"
 // import MONGODB from "../../assets/img/skills/MongoDB.svg"
 import MYSQL from "../../assets/img/skills/my-sql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
@@ -119,7 +119,7 @@ export const skills = {
         // {
         //   link: "https://material-ui.com/",
         //   imgAltText: "Material-UI",
-        //   imgSrc: MATERIALUI,
+        //   imgSrc: MATERIAL_UI,
         //   skillName: "Material-UI",
         // },
         {
@@ -132,7 +132,7 @@ export const skills = {
         //   link: "https://reactnative.dev/",
         //   imgAltText: "React Native",
         //   imgSrc: REACT_NATIVE,
-        //   skillName: "React NAtive",
+        //   skillName: "React Native",
         // },
         // {
         //   link: "https://expo.dev/",
@@ -179,7 +179,7 @@ export const skills = {
         // {
         //   link: "https://nextjs.org/",
         //   imgAltText: "Next.js",
-        //   imgSrc: NEXTJS,
+        //   imgSrc: NEXT_JS,
         //   skillName: "Next.js",
         // },
         // {
