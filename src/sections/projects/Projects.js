@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 
 //Projects
-import MYDIAMONDS from "../../assets/img/projects/myDiamonds.png";
+import MyDiamonds from "../../assets/img/projects/myDiamonds.png";
 import Mountours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
@@ -22,7 +22,7 @@ import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg";
-import MARKDOWN from "../../assets/img/skills/markdown.svg"
+// import MARKDOWN from "../../assets/img/skills/markdown.svg"
 
 
 // Custom Timeline Theme
@@ -53,7 +53,7 @@ const ProjectTimeline = () => {
                         date="Feb 2024"
                         className="text-center"
                         text="myDiamonds 💎"
-                        src={MYDIAMONDS}
+                        src={MyDiamonds}
                         alt="myDiamonds"
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
@@ -75,15 +75,15 @@ const ProjectTimeline = () => {
                                                 <strong>Tech used:</strong>
                                                 <br/>
                                                 <ul className="d-flex content-center">
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={MARKDOWN}
-                                  alt="MarkDown"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
+                            {/*                        <li>*/}
+                            {/*<span>*/}
+                            {/*  <Image*/}
+                            {/*      src={MARKDOWN}*/}
+                            {/*      alt="MarkDown"*/}
+                            {/*      className="image-style m-1 img-style"*/}
+                            {/*  ></Image>{" "}*/}
+                            {/*</span>*/}
+                            {/*                        </li>*/}
                                                     <li>
                             <span>
                               <Image
