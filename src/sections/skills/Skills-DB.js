@@ -3,6 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 // import FIGMA from "../../assets/img/skills/figma-logo.png"
+// import EXPO from "../../assets/img/skills/expo-white.png";
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
@@ -15,19 +16,17 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
-// import REACT_NATIVE from "../../assets/img/skills/react-native.png";
-// import EXPO from "../../assets/img/skills/Expo.png";
 import PYTHON from "../../assets/img/skills/python.svg"
 // import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
 // import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
-// import EXPRESSJS from "../../assets/img/skills/ExpressJS-Dark.svg"
+// import EXPRESSJS from "../../assets/img/skills/express.png"
 // import NEXT_JS from "../../assets/img/skills/next.png"
-// import MONGODB from "../../assets/img/skills/MongoDB.svg"
+// import MONGODB from "../../assets/img/skills/mongodb_logo.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
-// import FIREBASE from "../../assets/img/skills/firebase-icon.svg"
+// import FIREBASE from "../../assets/img/skills/firebase-logo.png"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
-// import HEROKU from "../../assets/img/skills/heroku.png";
+// import VERCEL from "../../assets/img/skills/vercel-logo.png";
 
 export const skills = {
 
@@ -61,6 +60,12 @@ export const skills = {
         //   imgAltText: "Figma",
         //   imgSrc: FIGMA,
         //   skillName: "Figma",
+        // },
+        // {
+        //     link: "https://expo.dev/",
+        //     imgAltText: "Expo",
+        //     imgSrc: EXPO,
+        //     skillName: "Expo",
         // },
         {
             link: "https://git-scm.com/",
@@ -117,10 +122,10 @@ export const skills = {
             skillName: "React Bootstrap",
         },
         // {
-        //   link: "https://material-ui.com/",
-        //   imgAltText: "Material-UI",
-        //   imgSrc: MATERIAL_UI,
-        //   skillName: "Material-UI",
+        //     link: "https://material-ui.com/",
+        //     imgAltText: "Material-UI",
+        //     imgSrc: MATERIAL_UI,
+        //     skillName: "Material-UI",
         // },
         {
             link: "https://tailwindcss.com/",
@@ -128,18 +133,6 @@ export const skills = {
             imgSrc: TAILWINDCSS,
             skillName: "Tailwind CSS",
         },
-        // {
-        //   link: "https://reactnative.dev/",
-        //   imgAltText: "React Native",
-        //   imgSrc: REACT_NATIVE,
-        //   skillName: "React Native",
-        // },
-        // {
-        //   link: "https://expo.dev/",
-        //   imgAltText: "Expo",
-        //   imgSrc: EXPO,
-        //   skillName: "Expo",
-        // },
         // {
         //   link: "https://redux.js.org/",
         //   imgAltText: "Redux",
@@ -207,10 +200,10 @@ export const skills = {
             skillName: "Netlify",
         },
         // {
-        //   link: "https://www.heroku.com/",
-        //   imgAltText: "Heroku",
-        //   imgSrc: HEROKU,
-        //   skillName: "Heroku",
+        //   link: "https://vercel.com/",
+        //   imgAltText: "Vercel",
+        //   imgSrc: VERCEL,
+        //   skillName: "Vercel",
         // },
     ],
 };
