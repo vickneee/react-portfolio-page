@@ -49,13 +49,13 @@ const ProjectTimeline = () => {
             <Timeline theme={customTheme}>
                 <Events>
 
-                    {/* // MyDevResources */}
+                    {/* // myDiamonds */}
                     <ImageEvent
                         date="Feb 2024"
                         className="text-center"
-                        text="My Web Dev Resources 💎"
-                        src={MYWEBDEVRESOURCES}
-                        alt="My Web Dev Resources"
+                        text="myDiamonds 💎"
+                        src={MYDIAMONDS}
+                        alt="myDiamonds"
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
                             <div>
@@ -111,13 +111,13 @@ const ProjectTimeline = () => {
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton
-                                    href="https://vickneee.github.io/my-web-development-resources/"
+                                    href="https://vickneee.github.io/myDiamonds/"
                                     target="_blank"
                                 >
                                     SEE LIVE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://github.com/vickneee/my-web-development-resources"
+                                    href="https://github.com/vickneee/myDiamonds"
                                     target="_blank"
                                 >
                                     SOURCE CODE
