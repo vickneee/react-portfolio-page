@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 
 //Projects
-import MYWEBDEVRESOURCES from "../../assets/img/projects/MyWebDevResources.png";
+import MYDIAMONDS from "../../assets/img/projects/myDiamonds.png";
 import Mountours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import RoboFriends from "../../assets/img/projects/RoboFriends.png"
