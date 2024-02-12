@@ -70,8 +70,8 @@ const ProjectTimeline = () => {
                                         <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
-                                                <br/>To prevent losing my Diamonds, I created a basic website for My Web
-                                                Development Resources so they will be all in one place. 💎
+                                                <br/>To prevent losing my Diamonds, I created a basic website for my web
+                                                development resources so they will be all in one place. 💎
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
