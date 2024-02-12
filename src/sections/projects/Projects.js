@@ -17,6 +17,7 @@ import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 //Skills
 import HTML5 from "../../assets/img/skills/HTML5.png";
 import CSS3 from "../../assets/img/skills/CSS3.png";
+import SASS from "../../assets/img/skills/Sass.png";
 import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -75,15 +76,15 @@ const ProjectTimeline = () => {
                                                 <strong>Tech used:</strong>
                                                 <br/>
                                                 <ul className="d-flex content-center">
-                            {/*                        <li>*/}
-                            {/*<span>*/}
-                            {/*  <Image*/}
-                            {/*      src={MARKDOWN}*/}
-                            {/*      alt="MarkDown"*/}
-                            {/*      className="image-style m-1 img-style"*/}
-                            {/*  ></Image>{" "}*/}
-                            {/*</span>*/}
-                            {/*                        </li>*/}
+                                                    {/*                        <li>*/}
+                                                    {/*<span>*/}
+                                                    {/*  <Image*/}
+                                                    {/*      src={MARKDOWN}*/}
+                                                    {/*      alt="MarkDown"*/}
+                                                    {/*      className="image-style m-1 img-style"*/}
+                                                    {/*  ></Image>{" "}*/}
+                                                    {/*</span>*/}
+                                                    {/*                        </li>*/}
                                                     <li>
                             <span>
                               <Image
@@ -101,6 +102,15 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
+                                                    </li>
+                                                    <li>
+                                                    <span>
+                                                      <Image
+                                                          src={JAVASCRIPT}
+                                                          alt="JavaScript"
+                                                          className="image-style m-1 img-style"
+                                                      ></Image>{" "}
+                                                    </span>
                                                     </li>
                                                 </ul>
                                             </Card.Body>
@@ -169,6 +179,15 @@ const ProjectTimeline = () => {
                               <Image
                                   src={CSS3}
                                   alt="CSS3"
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                    </li>
+                                                    <li>
+                            <span className="p-0">
+                              <Image
+                                  src={SASS}
+                                  alt="Sass"
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
