@@ -24,6 +24,7 @@ import NODEJS from "../../assets/img/skills/node-js.png"
 // import NEXT_JS from "../../assets/img/skills/next.png"
 // import MONGODB from "../../assets/img/skills/mongodb_logo.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
+// import POSTGRESQL from "../../assets/img/skills/postgresql.png"
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png"
 import NETLIFY from "../../assets/img/skills/netlify.svg"
 // import VERCEL from "../../assets/img/skills/vercel-logo.png";
@@ -187,6 +188,12 @@ export const skills = {
             imgSrc: MYSQL,
             skillName: "MySQL",
         },
+        // {
+        //     link: "https://www.postgresql.org/",
+        //     imgAltText: "PosgreSQL",
+        //     imgSrc: POSTGRESQL,
+        //     skillName: "PostgreSQL",
+        // },
         // {
         //   link: "https://firebase.google.com/",
         //   imgAltText: "Firebase Database",
