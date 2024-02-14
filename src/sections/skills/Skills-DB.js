@@ -3,7 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 // import FIGMA from "../../assets/img/skills/figma-logo.png"
-// import EXPO from "../../assets/img/skills/expo-white.png";
+// import INSOMNIA from "../../assets/img/skills/insomnia.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
@@ -12,6 +12,7 @@ import CSS3 from "../../assets/img/skills/CSS3.png";
 // import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react.png";
+// import EXPO from "../../assets/img/skills/expo-white.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
@@ -63,10 +64,10 @@ export const skills = {
         //   skillName: "Figma",
         // },
         // {
-        //     link: "https://expo.dev/",
-        //     imgAltText: "Expo",
-        //     imgSrc: EXPO,
-        //     skillName: "Expo",
+        //   link: "https://insomnia.rest/",
+        //   imgAltText: "Insomnia",
+        //   imgSrc: INSOMNIA,
+        //   skillName: "Insomnia",
         // },
         {
             link: "https://git-scm.com/",
@@ -116,6 +117,12 @@ export const skills = {
             imgSrc: REACT,
             skillName: "React JS",
         },
+        // {
+        //     link: "https://expo.dev/",
+        //     imgAltText: "Expo",
+        //     imgSrc: EXPO,
+        //     skillName: "Expo",
+        // },
         {
             link: "https://react-bootstrap.github.io/",
             imgAltText: "React Bootstrap",
