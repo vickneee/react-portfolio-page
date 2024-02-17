@@ -23,7 +23,6 @@ import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg";
-// import MARKDOWN from "../../assets/img/skills/markdown.svg"
 
 
 // Custom Timeline Theme
