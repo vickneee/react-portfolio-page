@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import './Project.css';
 
 //Projects
-import MyDiamonds from "../../assets/img/projects/myDiamonds.png";
+import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 import Mountours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
