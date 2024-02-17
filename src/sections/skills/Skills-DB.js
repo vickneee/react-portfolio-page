@@ -19,8 +19,6 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
-// import CPLUSPLUS from "../../assets/img/skills/cplusplus-logo.png"
-// import CSHARP from "../../assets/img/skills/c-sharp.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESSJS from "../../assets/img/skills/express.png"
 // import NEXT_JS from "../../assets/img/skills/next.png"
