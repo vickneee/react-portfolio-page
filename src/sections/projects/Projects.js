@@ -70,21 +70,12 @@ const ProjectTimeline = () => {
                                         <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
-                                                <br/>To prevent losing my Diamonds, I created a basic website for my web
-                                                development resources so they will be all in one place. 💎
+                                                <br/>To prevent losing my Diamonds, I created a basic website for my web development resources so they will be all in one place. 💎
+                                                Made for myself.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
                                                 <ul className="d-flex content-center">
-                                                    {/*                        <li>*/}
-                                                    {/*<span>*/}
-                                                    {/*  <Image*/}
-                                                    {/*      src={MARKDOWN}*/}
-                                                    {/*      alt="MarkDown"*/}
-                                                    {/*      className="image-style m-1 img-style"*/}
-                                                    {/*  ></Image>{" "}*/}
-                                                    {/*</span>*/}
-                                                    {/*                        </li>*/}
                                                     <li>
                             <span>
                               <Image
@@ -157,10 +148,7 @@ const ProjectTimeline = () => {
                                         <Accordion.Collapse eventKey="0" className="text text-left">
                                             <Card.Body>
                                                 <strong>Description:</strong>
-                                                <br/>A fictional travel agency UI page. Want to get away from the noise
-                                                of the town and be surrounded by the beauty of nature? Welcome to
-                                                Mountours, where we give you all the details you need to organize your
-                                                upcoming mountain vacation.
+                                                <br/>A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
@@ -353,10 +341,7 @@ const ProjectTimeline = () => {
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>Tic Tac Toe is a classic strategy game that
-                                                has gained immense popularity in recent years. The game involves two
-                                                players who take turns marking a 3x3 grid with Xs and Os until one
-                                                of
-                                                the players succeeds in placing three marks.
+                                                has gained immense popularity in recent years. The game involves two players who take turns marking a 3x3 grid with Xs and Os until one of the players succeeds in placing three marks.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
