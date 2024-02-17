@@ -3,6 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/visual-studio-code.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 // import FIGMA from "../../assets/img/skills/figma-logo.png"
+// import POSTMAN from "../../assets/img/skills/postman-logo.png"
 // import INSOMNIA from "../../assets/img/skills/insomnia.png"
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB_PAGES from "../../assets/img/skills/github.svg";
@@ -62,6 +63,12 @@ export const skills = {
         //   imgAltText: "Figma",
         //   imgSrc: FIGMA,
         //   skillName: "Figma",
+        // },
+        // {
+        //   link: "https://www.postman.com/",
+        //   imgAltText: "Postman",
+        //   imgSrc: POSTMAN,
+        //   skillName: "Postman",
         // },
         // {
         //   link: "https://insomnia.rest/",
