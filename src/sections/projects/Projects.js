@@ -9,7 +9,7 @@ import './Project.css';
 
 //Projects
 import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
-import Mountours from "../../assets/img/projects/Mountours.png";
+import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 
@@ -130,7 +130,7 @@ const ProjectTimeline = () => {
                         date="Jul 2023"
                         className="text-center"
                         text="Mountours"
-                        src={Mountours}
+                        src={MounTours}
                         alt="Mountours"
                     >
                         <div className="d-flex justify-content-between flex-column mt-1">
