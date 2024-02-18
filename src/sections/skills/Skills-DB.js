@@ -19,8 +19,8 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
+import EXPRESSJS from "../../assets/img/skills/express.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
-// import EXPRESSJS from "../../assets/img/skills/express.png"
 // import NEXT_JS from "../../assets/img/skills/next.png"
 // import MONGODB from "../../assets/img/skills/mongodb_logo.png"
 import MYSQL from "../../assets/img/skills/my-sql.png"
@@ -158,30 +158,19 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
-        // {
-        //   link: "https://cplusplus.com/",
-        //   imgAltText: "C++",
-        //   imgSrc: CPLUSPLUS,
-        //   skillName: "C++",
-        // },
-        // {
-        //   link: "https://dotnet.microsoft.com/en-us/languages/csharp",
-        //   imgAltText: "C#",
-        //   imgSrc: CSHARP,
-        //   skillName: "C#",
-        // },
+        {
+          link: "https://expressjs.com/",
+          imgAltText: "Express.js",
+          imgSrc: EXPRESSJS,
+          skillName: "Express.js",
+        },
         {
             link: "https://nodejs.org/",
             imgAltText: "Node.js",
             imgSrc: NODEJS,
             skillName: "Node.js",
         },
-        // {
-        //   link: "https://expressjs.com/",
-        //   imgAltText: "Express.js",
-        //   imgSrc: EXPRESSJS,
-        //   skillName: "Express.js",
-        // },
+
         // {
         //   link: "https://nextjs.org/",
         //   imgAltText: "Next.js",

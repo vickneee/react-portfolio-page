@@ -70,7 +70,6 @@ const ProjectTimeline = () => {
                                             <Card.Body>
                                                 <strong>Description:</strong>
                                                 <br/>To prevent losing my Diamonds, I created a basic website for my web development resources so they will be all in one place. 💎
-                                                Made for myself.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
@@ -244,7 +243,6 @@ const ProjectTimeline = () => {
                                                 <strong>Description:</strong>
                                                 <br/>A personal portfolio is an online platform
                                                 that showcases an individual's skills, achievements, and experiences.
-                                                Made for myself.
                                                 <br/><br/>
                                                 <strong>Tech used:</strong>
                                                 <br/>
