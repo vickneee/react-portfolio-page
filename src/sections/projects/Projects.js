@@ -15,10 +15,10 @@ import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 
 
 //Skills
-import HTML5 from "../../assets/img/skills/HTML5.png";
-import CSS3 from "../../assets/img/skills/CSS3.png";
-import SASS from "../../assets/img/skills/Sass.png";
-import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
+import HTML5 from "../../assets/img/skills/html5.png";
+import CSS3 from "../../assets/img/skills/css3.png";
+import SASS from "../../assets/img/skills/sass.png";
+import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
