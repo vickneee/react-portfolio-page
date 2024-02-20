@@ -18,10 +18,10 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
-import PYTHON from "../../assets/img/skills/python.svg"
-import EXPRESSJS from "../../assets/img/skills/express.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import NEXT_JS from "../../assets/img/skills/next.png"
+// import EXPRESSJS from "../../assets/img/skills/express.svg"
+import PYTHON from "../../assets/img/skills/python.svg"
 // import MONGODB from "../../assets/img/skills/mongodb_logo.png"
 import MYSQL from "../../assets/img/skills/mysql.png"
 // import POSTGRESQL from "../../assets/img/skills/postgresql.png"
@@ -153,30 +153,29 @@ export const skills = {
         //   skillName: "Redux",
         // },
         {
-            link: "https://www.python.org/",
-            imgAltText: "Python",
-            imgSrc: PYTHON,
-            skillName: "Python",
-        },
-        {
-          link: "https://expressjs.com/",
-          imgAltText: "Express.js",
-          imgSrc: EXPRESSJS,
-          skillName: "Express.js",
-        },
-        {
             link: "https://nodejs.org/",
             imgAltText: "Node.js",
             imgSrc: NODEJS,
             skillName: "Node.js",
         },
-
         // {
         //   link: "https://nextjs.org/",
         //   imgAltText: "Next.js",
         //   imgSrc: NEXT_JS,
         //   skillName: "Next.js",
         // },
+        // {
+        //   link: "https://expressjs.com/",
+        //   imgAltText: "Express.js",
+        //   imgSrc: EXPRESSJS,
+        //   skillName: "Express.js",
+        // },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "Python",
+            imgSrc: PYTHON,
+            skillName: "Python",
+        },
         // {
         //   link: "https://www.mongodb.com/",
         //   imgAltText: "MongoDB",
