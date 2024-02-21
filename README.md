@@ -9,7 +9,6 @@ A portfolio page.
 ## tech used
 
 - CSS
-- JavaScript
 - React
 - React Bootstrap
 - Tailwind CSS
