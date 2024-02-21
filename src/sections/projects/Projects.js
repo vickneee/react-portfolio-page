@@ -25,6 +25,7 @@ import REACT from "../../assets/img/skills/react.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NETLIFY from "../../assets/img/skills/netlify.svg";
+import RENDER from "../../assets/img/skills/render.png";
 
 
 // Custom Timeline Theme
@@ -101,6 +102,15 @@ const ProjectTimeline = () => {
                                                       ></Image>{" "}
                                                     </span>
                                                 </li>
+                                                <li>
+                            <span>
+                              <Image
+                                  src={RENDER}
+                                  alt="Render"
+                                  className="image-style m-1 img-style"
+                              ></Image>{" "}
+                            </span>
+                                                </li>
                                             </ul>
                                         </Card.Body>
                                     </AccordionCollapse>
@@ -109,7 +119,7 @@ const ProjectTimeline = () => {
                         </div>
                         <div className="d-flex justify-content-between flex-nowrap text-center">
                             <UrlButton
-                                href="https://vickneee.github.io/myDiamonds/"
+                                href="https://mydiamonds.onrender.com/"
                                 target="_blank"
                             >
                                 SEE LIVE
@@ -146,8 +156,10 @@ const ProjectTimeline = () => {
                                     <AccordionCollapse eventKey="0" className="text text-left">
                                         <Card.Body>
                                             <strong>Description:</strong>
-                                            <br/>A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to
-                                            Mountours, where we give you all the details you need to organize your upcoming mountain vacation.
+                                            <br/>A fictional travel agency UI page. Want to get away from the noise of
+                                            the town and be surrounded by the beauty of nature? Welcome to
+                                            Mountours, where we give you all the details you need to organize your
+                                            upcoming mountain vacation.
                                             <br/><br/>
                                             <strong>Tech used:</strong>
                                             <br/>
