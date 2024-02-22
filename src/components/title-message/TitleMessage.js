@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect';
 import styled from "styled-components";
 import './TitleMessage.css'
 
