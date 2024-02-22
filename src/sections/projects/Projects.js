@@ -6,17 +6,17 @@ import AccordionCollapse from 'react-bootstrap/AccordionCollapse';
 import Card from 'react-bootstrap/Card';
 import Image from "react-bootstrap/Image";
 
-//Css file
+// CSS file
 import './Project.css';
 
-//Projects
+// Projects
 import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 
 
-//Skills
+// Skills
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import SASS from "../../assets/img/skills/sass.png";
