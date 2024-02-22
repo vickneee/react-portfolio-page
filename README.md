@@ -1,6 +1,6 @@
 # React portfolio page
 
-A portfolio page.
+React portfolio page.
 
 ## Tech used
 
