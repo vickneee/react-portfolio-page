@@ -32,7 +32,7 @@ const About = () => {
                                 appreciate using these potent tools to create dynamic and interactive web solutions. I enjoy using code to make ideas come to life.
                                 <br/><br/>
                                 In addition to having experience with front-end development, I've also experimented in back-end development using Node.js and studied databases.
-                                {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience)*/}
+                                {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience.)*/}
                                 <br/><br/>
                                 UI/UX design is something I'm quite interested in, although I haven't had the chance to learn much about it yet. Also, code testing programs are of interest to me.
                                 <br/>
