@@ -42,40 +42,41 @@ const customTheme = createTheme(themes.default, {
 });
 
 const ProjectTimeline = () => {
-    return (<div id="projects">
-        <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
-        <Timeline theme={customTheme}>
-            <Events>
+    return (
+        <div className="pt-5 pb-5" id="projects">
+            <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
+            <Timeline theme={customTheme}>
+                <Events>
 
-                {/* // myDiamonds */}
-                <ImageEvent
-                    date="Feb 2024"
-                    className="text-center"
-                    text="myDiamonds 💎"
-                    src={MyDiamonds}
-                    alt="myDiamonds"
-                >
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion>
-                                <Card>
-                                    <AccordionToggle
-                                        eventKey="0"
-                                        className="p-2 text-center accordion-main"
-                                    >
-                                        PROJECT DETAILS
-                                    </AccordionToggle>
-                                    <AccordionCollapse eventKey="0" className="text text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong>
-                                            <br/>To prevent losing my Diamonds, I created a basic website for my
-                                            web
-                                            development resources so they will be all in one place. 💎
-                                            <br/><br/>
-                                            <strong>Tech used:</strong>
-                                            <br/>
-                                            <ul className="d-flex content-center">
-                                                <li>
+                    {/* // myDiamonds */}
+                    <ImageEvent
+                        date="Feb 2024"
+                        className="text-center"
+                        text="myDiamonds 💎"
+                        src={MyDiamonds}
+                        alt="myDiamonds"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <AccordionToggle
+                                            eventKey="0"
+                                            className="p-2 text-center accordion-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </AccordionToggle>
+                                        <AccordionCollapse eventKey="0" className="text text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong>
+                                                <br/>To prevent losing my Diamonds, I created a basic website for my
+                                                web
+                                                development resources so they will be all in one place. 💎
+                                                <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
+                                                <ul className="d-flex content-center">
+                                                    <li>
                             <span>
                               <Image
                                   src={HTML5}
@@ -83,8 +84,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={CSS3}
@@ -92,8 +93,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                                                     <span>
                                                       <Image
                                                           src={JAVASCRIPT}
@@ -101,8 +102,8 @@ const ProjectTimeline = () => {
                                                           className="image-style m-1 img-style"
                                                       ></Image>{" "}
                                                     </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={RENDER}
@@ -110,61 +111,62 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                            </ul>
-                                        </Card.Body>
-                                    </AccordionCollapse>
-                                </Card>
-                            </Accordion>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </AccordionCollapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://mydiamonds.onrender.com/"
+                                    target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/vickneee/myDiamonds"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                            </div>
                         </div>
-                        <div className="d-flex justify-content-between flex-nowrap text-center">
-                            <UrlButton
-                                href="https://mydiamonds.onrender.com/"
-                                target="_blank"
-                            >
-                                SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                                href="https://github.com/vickneee/myDiamonds"
-                                target="_blank"
-                            >
-                                SOURCE CODE
-                            </UrlButton>
-                        </div>
-                    </div>
-                </ImageEvent>
+                    </ImageEvent>
 
-                {/* // Mountours */}
-                <ImageEvent
-                    date="Jul 2023"
-                    className="text-center"
-                    text="Mountours"
-                    src={MounTours}
-                    alt="Mountours"
-                >
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion className="accordion">
-                                <Card>
-                                    <AccordionToggle
-                                        eventKey="0"
-                                        className="p-2 text-center accordion-main"
-                                    >
-                                        PROJECT DETAILS
-                                    </AccordionToggle>
+                    {/* // Mountours */}
+                    <ImageEvent
+                        date="Jul 2023"
+                        className="text-center"
+                        text="Mountours"
+                        src={MounTours}
+                        alt="Mountours"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion className="accordion">
+                                    <Card>
+                                        <AccordionToggle
+                                            eventKey="0"
+                                            className="p-2 text-center accordion-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </AccordionToggle>
 
-                                    <AccordionCollapse eventKey="0" className="text text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong>
-                                            <br/>A fictional travel agency UI page. Want to get away from the noise of
-                                            the town and be surrounded by the beauty of nature? Welcome to
-                                            Mountours, where we give you all the details you need to organize your
-                                            upcoming mountain vacation.
-                                            <br/><br/>
-                                            <strong>Tech used:</strong>
-                                            <br/>
-                                            <ul className="d-flex content-center flex-wrap">
-                                                <li>
+                                        <AccordionCollapse eventKey="0" className="text text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong>
+                                                <br/>A fictional travel agency UI page. Want to get away from the noise
+                                                of
+                                                the town and be surrounded by the beauty of nature? Welcome to
+                                                Mountours, where we give you all the details you need to organize your
+                                                upcoming mountain vacation.
+                                                <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
+                                                <ul className="d-flex content-center flex-wrap">
+                                                    <li>
                             <span className="p-0">
                               <Image
                                   src={HTML5}
@@ -172,8 +174,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span className="p-0">
                               <Image
                                   src={CSS3}
@@ -181,8 +183,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span className="p-0">
                               <Image
                                   src={SASS}
@@ -190,8 +192,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={JAVASCRIPT}
@@ -199,8 +201,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={NETLIFY}
@@ -208,59 +210,59 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                            </ul>
-                                        </Card.Body>
-                                    </AccordionCollapse>
-                                </Card>
-                            </Accordion>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </AccordionCollapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton className="url-button"
+                                           href="https://mountours.netlify.app/"
+                                           target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/vickneee/mountours"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                            </div>
                         </div>
-                        <div className="d-flex justify-content-between flex-nowrap text-center">
-                            <UrlButton className="url-button"
-                                       href="https://mountours.netlify.app/"
-                                       target="_blank"
-                            >
-                                SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                                href="https://github.com/vickneee/mountours"
-                                target="_blank"
-                            >
-                                SOURCE CODE
-                            </UrlButton>
-                        </div>
-                    </div>
-                </ImageEvent>
+                    </ImageEvent>
 
-                {/* // PortfolioPage */}
-                <ImageEvent
-                    date="Jun 2023"
-                    className="text-center"
-                    text="Portfolio Page"
-                    src={PortfolioPage}
-                    alt="PortfolioWebsite"
-                >
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion className="accordion">
-                                <Card>
-                                    <AccordionToggle
-                                        eventKey="0"
-                                        className="p-2 text-center accordion-main"
-                                    >
-                                        PROJECT DETAILS
-                                    </AccordionToggle>
+                    {/* // PortfolioPage */}
+                    <ImageEvent
+                        date="Jun 2023"
+                        className="text-center"
+                        text="Portfolio Page"
+                        src={PortfolioPage}
+                        alt="PortfolioWebsite"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion className="accordion">
+                                    <Card>
+                                        <AccordionToggle
+                                            eventKey="0"
+                                            className="p-2 text-center accordion-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </AccordionToggle>
 
-                                    <AccordionCollapse eventKey="0" className="text text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong>
-                                            <br/>A personal portfolio is an online platform
-                                            that showcases an individual's skills, achievements, and experiences.
-                                            <br/><br/>
-                                            <strong>Tech used:</strong>
-                                            <br/>
-                                            <ul className="d-flex content-center flex-wrap">
-                                                <li>
+                                        <AccordionCollapse eventKey="0" className="text text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong>
+                                                <br/>A personal portfolio is an online platform
+                                                that showcases an individual's skills, achievements, and experiences.
+                                                <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
+                                                <ul className="d-flex content-center flex-wrap">
+                                                    <li>
                             <span className="p-0">
                               <Image
                                   src={CSS3}
@@ -268,8 +270,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={REACT}
@@ -277,8 +279,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={REACT_BOOTSTRAP}
@@ -286,8 +288,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={TAILWINDCSS}
@@ -295,8 +297,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={NETLIFY}
@@ -304,61 +306,61 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                            </ul>
-                                        </Card.Body>
-                                    </AccordionCollapse>
-                                </Card>
-                            </Accordion>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </AccordionCollapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton className="url-button"
+                                           href="https://victoriavavulina.netlify.app/"
+                                           target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/vickneee/react-portfolio-page"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                            </div>
                         </div>
-                        <div className="d-flex justify-content-between flex-nowrap text-center">
-                            <UrlButton className="url-button"
-                                       href="https://victoriavavulina.netlify.app/"
-                                       target="_blank"
-                            >
-                                SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                                href="https://github.com/vickneee/react-portfolio-page"
-                                target="_blank"
-                            >
-                                SOURCE CODE
-                            </UrlButton>
-                        </div>
-                    </div>
-                </ImageEvent>
+                    </ImageEvent>
 
-                {/* // TicTacToe */}
-                <ImageEvent
-                    date="Apr 2023"
-                    className="text-center"
-                    text="Tic-Tac-Toe"
-                    src={TicTacToe}
-                    alt="Tic-Tac-Toe"
-                >
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion>
-                                <Card>
-                                    <AccordionToggle
-                                        eventKey="0"
-                                        className="p-2 text-center accordion-main"
-                                    >
-                                        PROJECT DETAILS
-                                    </AccordionToggle>
+                    {/* // TicTacToe */}
+                    <ImageEvent
+                        date="Apr 2023"
+                        className="text-center"
+                        text="Tic-Tac-Toe"
+                        src={TicTacToe}
+                        alt="Tic-Tac-Toe"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <AccordionToggle
+                                            eventKey="0"
+                                            className="p-2 text-center accordion-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </AccordionToggle>
 
-                                    <AccordionCollapse eventKey="0" className="text text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong>
-                                            <br/>Tic Tac Toe is a classic strategy game that
-                                            has gained immense popularity in recent years. The game involves two
-                                            players who take turns marking a 3x3 grid with Xs and Os until one of
-                                            the players succeeds in placing three marks.
-                                            <br/><br/>
-                                            <strong>Tech used:</strong>
-                                            <br/>
-                                            <ul className="d-flex content-center">
-                                                <li>
+                                        <AccordionCollapse eventKey="0" className="text text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong>
+                                                <br/>Tic Tac Toe is a classic strategy game that
+                                                has gained immense popularity in recent years. The game involves two
+                                                players who take turns marking a 3x3 grid with Xs and Os until one of
+                                                the players succeeds in placing three marks.
+                                                <br/><br/>
+                                                <strong>Tech used:</strong>
+                                                <br/>
+                                                <ul className="d-flex content-center">
+                                                    <li>
                             <span>
                               <Image
                                   src={HTML5}
@@ -366,8 +368,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={CSS3}
@@ -375,8 +377,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={JAVASCRIPT}
@@ -384,8 +386,8 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                                <li>
+                                                    </li>
+                                                    <li>
                             <span>
                               <Image
                                   src={NETLIFY}
@@ -393,32 +395,32 @@ const ProjectTimeline = () => {
                                   className="image-style m-1 img-style"
                               ></Image>{" "}
                             </span>
-                                                </li>
-                                            </ul>
-                                        </Card.Body>
-                                    </AccordionCollapse>
-                                </Card>
-                            </Accordion>
+                                                    </li>
+                                                </ul>
+                                            </Card.Body>
+                                        </AccordionCollapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://tic-tac-toe-vickneee.netlify.app/"
+                                    target="_blank"
+                                >
+                                    SEE LIVE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://github.com/vickneee/tic-tac-toe"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                            </div>
                         </div>
-                        <div className="d-flex justify-content-between flex-nowrap text-center">
-                            <UrlButton
-                                href="https://tic-tac-toe-vickneee.netlify.app/"
-                                target="_blank"
-                            >
-                                SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                                href="https://github.com/vickneee/tic-tac-toe"
-                                target="_blank"
-                            >
-                                SOURCE CODE
-                            </UrlButton>
-                        </div>
-                    </div>
-                </ImageEvent>
-            </Events>
-        </Timeline>
-    </div>)
+                    </ImageEvent>
+                </Events>
+            </Timeline>
+        </div>)
 }
 
 export default ProjectTimeline;
