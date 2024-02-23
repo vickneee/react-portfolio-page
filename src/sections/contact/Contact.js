@@ -7,7 +7,7 @@ import "./Contact.css";
 
 const Contact = () => {
     return (
-        <div id="contact d-flex justify-content-center">
+        <div className="pt-5 pb-5" id="contact d-flex justify-content-center">
             <h1 className="pt-3 text-center font-details-b pb-3">Contact Me</h1>
             <Jumbotron className="contact-jumbotron shadow-md ">
                 <Row>
