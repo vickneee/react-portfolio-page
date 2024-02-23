@@ -11,7 +11,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-        <div className="skills" id="skills">
+        <div className="skills pt-5 pb-5" id="skills">
             <h1 className="text-center font-details-b pb-3">Tools and Tech Skills</h1>
             <Jumbotron className="contact-jumbotron shadow-md content-center">
                 <Row className="row">
