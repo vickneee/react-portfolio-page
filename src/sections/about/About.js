@@ -9,8 +9,8 @@ import "tachyons";
 
 const About = () => {
     return (
-        <div id="about">
-            <div>
+        <div className="about" id="about">
+            <div className="pt-5 pb-5">
                 <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
 
                 <Container>
@@ -23,18 +23,23 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software development student who
+                                <br/> Greetings from my website! I am an enthusiastic software development student
+                                who
                                 places
-                                a lot of emphasis on developing websites and applications that are user-friendly. I'm
+                                a lot of emphasis on developing websites and applications that are user-friendly.
+                                I'm
                                 excited to start this path of creating digital experiences.
                                 <br/><br/>
                                 React and other frameworks are of particular interest to me, and I
-                                appreciate using these potent tools to create dynamic and interactive web solutions. I enjoy using code to make ideas come to life.
+                                appreciate using these potent tools to create dynamic and interactive web solutions.
+                                I enjoy using code to make ideas come to life.
                                 <br/><br/>
-                                In addition to having experience with front-end development, I've also experimented in back-end development using Node.js and studied databases.
+                                In addition to having experience with front-end development, I've also experimented
+                                in back-end development using Node.js and studied databases.
                                 {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience.)*/}
                                 <br/><br/>
-                                UI/UX design is something I'm quite interested in, although I haven't had the chance to learn much about it yet. Also, code testing programs are of interest to me.
+                                UI/UX design is something I'm quite interested in, although I haven't had the chance
+                                to learn much about it yet. Also, code testing programs are of interest to me.
                                 <br/>
                                 Thank you for visiting my web page!
                                 <br/><br/>
