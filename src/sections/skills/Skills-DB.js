@@ -3,10 +3,10 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 // import FIGMA from "../../assets/img/skills/figma-logo.png"
-import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg"
 import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
+import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 // import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
@@ -63,12 +63,6 @@ export const skills = {
         //   skillName: "Figma",
         // },
         {
-          link: "https://www.postman.com/",
-          imgAltText: "Postman",
-          imgSrc: POSTMAN,
-          skillName: "Postman",
-        },
-        {
             link: "https://git-scm.com/",
             imgAltText: "GIT",
             imgSrc: GIT,
@@ -85,6 +79,12 @@ export const skills = {
             imgAltText: "Markdown",
             imgSrc: MARKDOWN,
             skillName: "Markdown",
+        },
+        {
+            link: "https://www.postman.com/",
+            imgAltText: "Postman",
+            imgSrc: POSTMAN,
+            skillName: "Postman",
         },
         {
             link: "https://www.w3schools.com/html/html_intro.asp",
