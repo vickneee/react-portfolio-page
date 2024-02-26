@@ -1,43 +1,44 @@
-import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
+// import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
 import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
+import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
 // import FIGMA from "../../assets/img/skills/figma-logo.png"
 import GIT from "../../assets/img/skills/git-icon.svg"
 import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
-import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 // import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react.png"
+// import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
-// import REDUX from "../../assets/img/skills/redux.svg";
 import NODEJS from "../../assets/img/skills/node-js.png"
-// import NEXT_JS from "../../assets/img/skills/next.png"
 // import EXPRESSJS from "../../assets/img/skills/express.svg"
+// import NEXT_JS from "../../assets/img/skills/next.png"
 import PYTHON from "../../assets/img/skills/python.svg"
-// import MONGODB from "../../assets/img/skills/mongodb_logo.png"
+import POSTMAN from "../../assets/img/skills/postman-logo.png"
+import MONGODB from "../../assets/img/skills/mongodb_logo.png"
 import MYSQL from "../../assets/img/skills/mysql.png"
 // import POSTGRESQL from "../../assets/img/skills/postgresql.png";
-// import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import NETLIFY from "../../assets/img/skills/netlify.svg"
+// import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import RENDER from "../../assets/img/skills/render.png"
 // import VERCEL from "../../assets/img/skills/vercel.svg"
 
 export const skills = {
 
     skillsList: [
-        {
-            link: "https://www.sublimetext.com/",
-            imgAltText: "Sublime Text",
-            imgSrc: SUBLIMETEXT,
-            skillName: "Sublime Text",
-        },
+        // {
+        //     link: "https://www.sublimetext.com/",
+        //     imgAltText: "Sublime Text",
+        //     imgSrc: SUBLIMETEXT,
+        //     skillName: "Sublime Text",
+        // },
         {
             link: "https://code.visualstudio.com/",
             imgAltText: "Visual Studio Code",
@@ -55,6 +56,12 @@ export const skills = {
             imgAltText: "PyCharm",
             imgSrc: PYCHARM,
             skillName: "PyCharm",
+        },
+        {
+            link: "https://www.jetbrains.com/idea/",
+            imgAltText: "IntelliJ",
+            imgSrc: INTELLIJ,
+            skillName: "IntelliJ",
         },
         // {
         //   link: "https://www.figma.com/",
@@ -79,12 +86,6 @@ export const skills = {
             imgAltText: "Markdown",
             imgSrc: MARKDOWN,
             skillName: "Markdown",
-        },
-        {
-            link: "https://www.postman.com/",
-            imgAltText: "Postman",
-            imgSrc: POSTMAN,
-            skillName: "Postman",
         },
         {
             link: "https://www.w3schools.com/html/html_intro.asp",
@@ -117,6 +118,12 @@ export const skills = {
             skillName: "React JS",
         },
         // {
+        //   link: "https://redux.js.org/",
+        //   imgAltText: "Redux",
+        //   imgSrc: REDUX,
+        //   skillName: "Redux",
+        // },
+        // {
         //     link: "https://expo.dev/",
         //     imgAltText: "Expo",
         //     imgSrc: EXPO,
@@ -140,12 +147,6 @@ export const skills = {
             imgSrc: TAILWINDCSS,
             skillName: "Tailwind CSS",
         },
-        // {
-        //   link: "https://redux.js.org/",
-        //   imgAltText: "Redux",
-        //   imgSrc: REDUX,
-        //   skillName: "Redux",
-        // },
         {
             link: "https://nodejs.org/",
             imgAltText: "Node.js",
@@ -153,16 +154,16 @@ export const skills = {
             skillName: "Node.js",
         },
         // {
-        //   link: "https://nextjs.org/",
-        //   imgAltText: "Next.js",
-        //   imgSrc: NEXT_JS,
-        //   skillName: "Next.js",
-        // },
-        // {
         //   link: "https://expressjs.com/",
         //   imgAltText: "Express.js",
         //   imgSrc: EXPRESSJS,
         //   skillName: "Express.js",
+        // },
+        // {
+        //   link: "https://nextjs.org/",
+        //   imgAltText: "Next.js",
+        //   imgSrc: NEXT_JS,
+        //   skillName: "Next.js",
         // },
         {
             link: "https://www.python.org/",
@@ -170,12 +171,18 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
-        // {
-        //   link: "https://www.mongodb.com/",
-        //   imgAltText: "MongoDB",
-        //   imgSrc: MONGODB,
-        //   skillName: "MongoDB",
-        // },
+        {
+            link: "https://www.postman.com/",
+            imgAltText: "Postman",
+            imgSrc: POSTMAN,
+            skillName: "Postman",
+        },
+        {
+          link: "https://www.mongodb.com/",
+          imgAltText: "MongoDB",
+          imgSrc: MONGODB,
+          skillName: "MongoDB",
+        },
         {
             link: "https://mysql.com/",
             imgAltText: "MySQL",
@@ -188,18 +195,18 @@ export const skills = {
         //     imgSrc: POSTGRESQL,
         //     skillName: "PostgreSQL",
         // },
-        // {
-        //   link: "https://firebase.google.com/",
-        //   imgAltText: "Firebase Database",
-        //   imgSrc: FIREBASE,
-        //   skillName: "Firebase Database",
-        // },
         {
             link: "https://www.netlify.com/",
             imgAltText: "Netlify",
             imgSrc: NETLIFY,
             skillName: "Netlify",
         },
+        // {
+        //   link: "https://firebase.google.com/",
+        //   imgAltText: "Firebase Database",
+        //   imgSrc: FIREBASE,
+        //   skillName: "Firebase Database",
+        // },
         {
             link: "https://www.render.com/",
             imgAltText: "Render",
