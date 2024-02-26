@@ -1,5 +1,4 @@
 import React from "react";
-// import Typewriter from 'typewriter-effect';
 import TextLoop from "react-text-loop";
 import './TitleMessage.css';
 import styled from "styled-components";
@@ -30,6 +29,7 @@ const MyTitleMessage = styled.h1`
         }
     }
 `;
+
 const TitleMessage = () => (
     <MyTitleMessage>
         <div className="titleMessage shadow-md">
@@ -46,14 +46,6 @@ const TitleMessage = () => (
                         children={["Coding Enthusiast", "Student", "Interested in", "Web Development", "Web Design"]
                         }
                     />
-                    {/*<Typewriter*/}
-                    {/*    options={{*/}
-                    {/*        strings: ["Coding Enthusiast", "Student", "Interested in", "Web Development", "Web Design"],*/}
-                    {/*        autoStart: true,*/}
-                    {/*        loop: true,*/}
-                    {/*        delay: 70*/}
-                    {/*    }}*/}
-                    {/*/>*/}
                 </div>
             </div>
         </div>
