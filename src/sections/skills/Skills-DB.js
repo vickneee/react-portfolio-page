@@ -3,7 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
-// import FIGMA from "../../assets/img/skills/figma-logo.png"
+// import FIGMA from "../../assets/img/skills/figma.png"
 import GIT from "../../assets/img/skills/git-icon.svg"
 import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
@@ -11,7 +11,7 @@ import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 // import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import REACT from "../../assets/img/skills/react.png"
+import REACT from "../../assets/img/skills/react-2.png"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
@@ -20,15 +20,15 @@ import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
 // import EXPRESSJS from "../../assets/img/skills/express.svg"
 // import NEXT_JS from "../../assets/img/skills/next.png"
-import PYTHON from "../../assets/img/skills/python.svg"
 import POSTMAN from "../../assets/img/skills/postman-logo.png"
-import MONGODB from "../../assets/img/skills/mongodb_logo.png"
+import MONGODB from "../../assets/img/skills/mongo-db..ico"
 import MYSQL from "../../assets/img/skills/mysql.png"
-// import POSTGRESQL from "../../assets/img/skills/postgresql.png";
-import NETLIFY from "../../assets/img/skills/netlify.svg"
+// import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import PYTHON from "../../assets/img/skills/python.svg"
+import NETLIFY from "../../assets/img/skills/netlify.png"
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import RENDER from "../../assets/img/skills/render.png"
-// import VERCEL from "../../assets/img/skills/vercel.svg"
+// import VERCEL from "../../assets/img/skills/vercel.png"
 
 export const skills = {
 
@@ -166,12 +166,6 @@ export const skills = {
         //   skillName: "Next.js",
         // },
         {
-            link: "https://www.python.org/",
-            imgAltText: "Python",
-            imgSrc: PYTHON,
-            skillName: "Python",
-        },
-        {
             link: "https://www.postman.com/",
             imgAltText: "Postman",
             imgSrc: POSTMAN,
@@ -195,6 +189,12 @@ export const skills = {
         //     imgSrc: POSTGRESQL,
         //     skillName: "PostgreSQL",
         // },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "Python",
+            imgSrc: PYTHON,
+            skillName: "Python",
+        },
         {
             link: "https://www.netlify.com/",
             imgAltText: "Netlify",
