@@ -3,6 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
+// import XCODE from "../../assets/img/skills/xcode.png"
 // import FIGMA from "../../assets/img/skills/figma.png"
 import GIT from "../../assets/img/skills/git-icon.svg"
 import GITHUB from "../../assets/img/skills/github.svg"
@@ -11,6 +12,8 @@ import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 // import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+// import KOTLIN from "../../assets/img/skills/kotlin.svg";
+// import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from "../../assets/img/skills/react-2.png"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
@@ -64,6 +67,12 @@ export const skills = {
             skillName: "IntelliJ",
         },
         // {
+        //     link: "https://developer.apple.com/xcode/",
+        //     imgAltText: "Xcode",
+        //     imgSrc: XCODE,
+        //     skillName: "Xcode",
+        // },
+        // {
         //   link: "https://www.figma.com/",
         //   imgAltText: "Figma",
         //   imgSrc: FIGMA,
@@ -110,6 +119,18 @@ export const skills = {
         //   imgAltText: "TypeScript",
         //   imgSrc: TYPESCRIPT,
         //   skillName: "TypeScript",
+        // },
+        // {
+        //   link: "https://www.kotlinlang.org/",
+        //   imgAltText: "Kotlin",
+        //   imgSrc: KOTLIN,
+        //   skillName: "Kotlin",
+        // },
+        // {
+        //   link: "https://developer.apple.com/swift/",
+        //   imgAltText: "Swift",
+        //   imgSrc: SWIFT,
+        //   skillName: "Swift",
         // },
         {
             link: "https://reactjs.org/",
