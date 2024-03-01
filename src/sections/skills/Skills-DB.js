@@ -10,7 +10,8 @@ import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
-// import JAVASCRIPT from "../../assets/img/skills/JS.jpeg";
+import PYTHON from "../../assets/img/skills/python.svg"
+import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
@@ -28,7 +29,6 @@ import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import MONGODB from "../../assets/img/skills/mongo-db..ico"
 import MYSQL from "../../assets/img/skills/mysql.png"
 // import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import PYTHON from "../../assets/img/skills/python.svg"
 import NETLIFY from "../../assets/img/skills/netlify.png"
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import RENDER from "../../assets/img/skills/render.png"
@@ -109,12 +109,18 @@ export const skills = {
             imgSrc: CSS3,
             skillName: "CSS",
         },
-        // {
-        //   link: "https://www.w3schools.com/js/js_intro.asp",
-        //   imgAltText: "JavaScript",
-        //   imgSrc: JAVASCRIPT,
-        //   skillName: "JavaScript",
-        // },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "Python",
+            imgSrc: PYTHON,
+            skillName: "Python",
+        },
+        {
+          link: "https://www.w3schools.com/js/js_intro.asp",
+          imgAltText: "JavaScript",
+          imgSrc: JAVASCRIPT,
+          skillName: "JavaScript",
+        },
         // {
         //   link: "https://www.typescriptlang.org/",
         //   imgAltText: "TypeScript",
@@ -217,12 +223,6 @@ export const skills = {
         //     imgSrc: POSTGRESQL,
         //     skillName: "PostgreSQL",
         // },
-        {
-            link: "https://www.python.org/",
-            imgAltText: "Python",
-            imgSrc: PYTHON,
-            skillName: "Python",
-        },
         {
             link: "https://www.netlify.com/",
             imgAltText: "Netlify",
