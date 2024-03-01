@@ -22,7 +22,7 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
-// import EXPRESSJS from "../../assets/img/skills/express.svg"
+import EXPRESSJS from "../../assets/img/skills/express.svg"
 // import NEXT_JS from "../../assets/img/skills/next.png"
 import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import MONGODB from "../../assets/img/skills/mongo-db..ico"
@@ -181,12 +181,12 @@ export const skills = {
             imgSrc: NODEJS,
             skillName: "Node.js",
         },
-        // {
-        //   link: "https://expressjs.com/",
-        //   imgAltText: "Express.js",
-        //   imgSrc: EXPRESSJS,
-        //   skillName: "Express.js",
-        // },
+        {
+          link: "https://expressjs.com/",
+          imgAltText: "Express.js",
+          imgSrc: EXPRESSJS,
+          skillName: "Express.js",
+        },
         // {
         //   link: "https://nextjs.org/",
         //   imgAltText: "Next.js",
