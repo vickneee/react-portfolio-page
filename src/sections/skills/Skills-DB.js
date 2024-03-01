@@ -18,6 +18,7 @@ import REACT from "../../assets/img/skills/react-2.png"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
+// import NATIVE_WIND from "../../assets/img/skills/nativewind.svg"
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
@@ -156,6 +157,12 @@ export const skills = {
             imgSrc: REACT_BOOTSTRAP,
             skillName: "React Bootstrap",
         },
+        // {
+        //     link: "https://www.nativewind.dev/",
+        //     imgAltText: "NativeWind",
+        //     imgSrc: NATIVE_WIND,
+        //     skillName: "NativeWind",
+        // },
         // {
         //     link: "https://material-ui.com/",
         //     imgAltText: "Material-UI",
