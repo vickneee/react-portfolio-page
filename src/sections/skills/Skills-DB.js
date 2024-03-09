@@ -3,7 +3,8 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
-import DATAGRIP from "../../assets/img/skills/datagrip.png"
+import DBVISUALIZER from "../../assets/img/skills/dbvisualizer_logo.svg"
+// import DATAGRIP from "../../assets/img/skills/datagrip.png"
 // import XCODE from "../../assets/img/skills/xcode.png"
 // import FIGMA from "../../assets/img/skills/figma.png"
 import GIT from "../../assets/img/skills/git-icon.svg"
@@ -12,14 +13,14 @@ import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 import PYTHON from "../../assets/img/skills/python.svg"
-import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
+// import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from "../../assets/img/skills/react-2.png"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
-import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
+// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
@@ -28,7 +29,7 @@ import EXPRESSJS from "../../assets/img/skills/express.svg"
 import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import MONGODB from "../../assets/img/skills/mongo-db..ico"
 import MYSQL from "../../assets/img/skills/mysql.png"
-// import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import NETLIFY from "../../assets/img/skills/netlify.png"
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import RENDER from "../../assets/img/skills/render.png"
@@ -68,11 +69,17 @@ export const skills = {
             skillName: "IntelliJ",
         },
         {
-            link: "https://www.jetbrains.com/datagrip/",
-            imgAltText: "DataGrip",
-            imgSrc: DATAGRIP,
-            skillName: "DataGrip",
+            link: "https://www.dbvis.com/",
+            imgAltText: "DbVisualizer",
+            imgSrc: DBVISUALIZER,
+            skillName: "DbVisualizer",
         },
+        // {
+        //     link: "https://www.jetbrains.com/datagrip/",
+        //     imgAltText: "DataGrip",
+        //     imgSrc: DATAGRIP,
+        //     skillName: "DataGrip",
+        // },
         // {
         //     link: "https://developer.apple.com/xcode/",
         //     imgAltText: "Xcode",
@@ -121,12 +128,12 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
-        {
-          link: "https://www.w3schools.com/js/js_intro.asp",
-          imgAltText: "JavaScript",
-          imgSrc: JAVASCRIPT,
-          skillName: "JavaScript",
-        },
+        // {
+        //   link: "https://www.w3schools.com/js/js_intro.asp",
+        //   imgAltText: "JavaScript",
+        //   imgSrc: JAVASCRIPT,
+        //   skillName: "JavaScript",
+        // },
         // {
         //   link: "https://www.typescriptlang.org/",
         //   imgAltText: "TypeScript",
@@ -163,12 +170,12 @@ export const skills = {
         //     imgSrc: EXPO,
         //     skillName: "Expo",
         // },
-        {
-            link: "https://react-bootstrap.github.io/",
-            imgAltText: "React Bootstrap",
-            imgSrc: REACT_BOOTSTRAP,
-            skillName: "React Bootstrap",
-        },
+        // {
+        //     link: "https://react-bootstrap.github.io/",
+        //     imgAltText: "React Bootstrap",
+        //     imgSrc: REACT_BOOTSTRAP,
+        //     skillName: "React Bootstrap",
+        // },
         // {
         //     link: "https://material-ui.com/",
         //     imgAltText: "Material-UI",
@@ -217,12 +224,12 @@ export const skills = {
             imgSrc: MYSQL,
             skillName: "MySQL",
         },
-        // {
-        //     link: "https://www.postgresql.org/",
-        //     imgAltText: "PosgreSQL",
-        //     imgSrc: POSTGRESQL,
-        //     skillName: "PostgreSQL",
-        // },
+        {
+            link: "https://postgresapp.com/",
+            imgAltText: "PosgreSQL",
+            imgSrc: POSTGRESQL,
+            skillName: "PostgreSQL",
+        },
         {
             link: "https://www.netlify.com/",
             imgAltText: "Netlify",
