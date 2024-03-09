@@ -37,7 +37,7 @@ import RENDER from "../../assets/img/skills/render.png"
 
 export const skills = {
 
-    skillsList: [
+    skillList: [
         // {
         //     link: "https://www.sublimetext.com/",
         //     imgAltText: "Sublime Text",

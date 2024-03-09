@@ -16,7 +16,7 @@ const Skills = () => {
             <Jumbotron className="contact-jumbotron shadow-md content-center">
                 <Row className="row">
                     <Col className=" col tc d-flex align-items-center justify-content-center">
-                                {skills.skillsList.map((skill, index) => (
+                                {skills.skillList.map((skill, index) => (
                                     <span key={index}>
                                         <a className="" href={skill.link} target="_blank" rel="noopener noreferrer">
                                             <Image src={skill.imgSrc} alt={skill.imgAltText} className="image-style m-1"></Image>
