@@ -13,7 +13,7 @@ import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
 import PYTHON from "../../assets/img/skills/python.svg"
-// import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
+import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
@@ -128,12 +128,12 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
-        // {
-        //   link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
-        //   imgAltText: "JavaScript",
-        //   imgSrc: JAVASCRIPT,
-        //   skillName: "JavaScript",
-        // },
+        {
+          link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+          imgAltText: "JavaScript",
+          imgSrc: JAVASCRIPT,
+          skillName: "JavaScript",
+        },
         // {
         //   link: "https://www.typescriptlang.org/",
         //   imgAltText: "TypeScript",
