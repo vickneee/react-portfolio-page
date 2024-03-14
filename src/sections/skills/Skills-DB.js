@@ -12,6 +12,9 @@ import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
+// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
@@ -20,9 +23,6 @@ import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 import REACT from "../../assets/img/skills/react-2.png"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
-// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
-// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NODEJS from "../../assets/img/skills/node-js.png"
 import EXPRESSJS from "../../assets/img/skills/express.svg"
 // import NEXT_JS from "../../assets/img/skills/next.png"
@@ -123,6 +123,24 @@ export const skills = {
             skillName: "CSS",
         },
         {
+            link: "https://tailwindcss.com/",
+            imgAltText: "Tailwind CSS",
+            imgSrc: TAILWINDCSS,
+            skillName: "Tailwind CSS",
+        },
+        // {
+        //     link: "https://react-bootstrap.github.io/",
+        //     imgAltText: "React Bootstrap",
+        //     imgSrc: REACT_BOOTSTRAP,
+        //     skillName: "React Bootstrap",
+        // },
+        // {
+        //     link: "https://material-ui.com/",
+        //     imgAltText: "Material-UI",
+        //     imgSrc: MATERIAL_UI,
+        //     skillName: "Material-UI",
+        // },
+        {
             link: "https://www.python.org/",
             imgAltText: "Python",
             imgSrc: PYTHON,
@@ -170,24 +188,6 @@ export const skills = {
         //     imgSrc: EXPO,
         //     skillName: "Expo",
         // },
-        // {
-        //     link: "https://react-bootstrap.github.io/",
-        //     imgAltText: "React Bootstrap",
-        //     imgSrc: REACT_BOOTSTRAP,
-        //     skillName: "React Bootstrap",
-        // },
-        // {
-        //     link: "https://material-ui.com/",
-        //     imgAltText: "Material-UI",
-        //     imgSrc: MATERIAL_UI,
-        //     skillName: "Material-UI",
-        // },
-        {
-            link: "https://tailwindcss.com/",
-            imgAltText: "Tailwind CSS",
-            imgSrc: TAILWINDCSS,
-            skillName: "Tailwind CSS",
-        },
         {
             link: "https://nodejs.org/",
             imgAltText: "Node.js",
