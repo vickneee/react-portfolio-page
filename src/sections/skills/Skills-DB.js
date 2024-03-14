@@ -111,13 +111,13 @@ export const skills = {
             skillName: "Markdown",
         },
         {
-            link: "https://www.w3schools.com/html/html_intro.asp",
+            link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
             imgAltText: "HTML",
             imgSrc: HTML5,
             skillName: "HTML",
         },
         {
-            link: "https://www.w3schools.com/Css/css_intro.asp",
+            link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
             imgAltText: "CSS",
             imgSrc: CSS3,
             skillName: "CSS",
@@ -129,7 +129,7 @@ export const skills = {
             skillName: "Python",
         },
         // {
-        //   link: "https://www.w3schools.com/js/js_intro.asp",
+        //   link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
         //   imgAltText: "JavaScript",
         //   imgSrc: JAVASCRIPT,
         //   skillName: "JavaScript",
