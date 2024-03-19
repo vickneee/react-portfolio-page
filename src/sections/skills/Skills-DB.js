@@ -3,7 +3,7 @@ import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
 import WEBSTORM from "../../assets/img/skills/webstorm.png"
 import PYCHARM from "../../assets/img/skills/pycharm.png"
 import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
-import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png"
+// import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png"
 // import DATAGRIP from "../../assets/img/skills/datagrip.png"
 // import XCODE from "../../assets/img/skills/xcode.png"
 // import FIGMA from "../../assets/img/skills/figma.png"
@@ -48,7 +48,7 @@ export const skills = {
             link: "https://code.visualstudio.com/",
             imgAltText: "Visual Studio Code",
             imgSrc: VISUAL_STUDIO_CODE,
-            skillName: "Visual Studio Code",
+            skillName: "VSCode",
         },
         {
             link: "https://www.jetbrains.com/webstorm/",
@@ -68,12 +68,12 @@ export const skills = {
             imgSrc: INTELLIJ,
             skillName: "IntelliJ",
         },
-        {
-            link: "https://www.dbvis.com/",
-            imgAltText: "DbVisualizer",
-            imgSrc: DBVISUALIZER,
-            skillName: "DbVisualizer",
-        },
+        // {
+        //     link: "https://www.dbvis.com/",
+        //     imgAltText: "DbVisualizer",
+        //     imgSrc: DBVISUALIZER,
+        //     skillName: "DbVisualizer",
+        // },
         // {
         //     link: "https://www.jetbrains.com/datagrip/",
         //     imgAltText: "DataGrip",
@@ -124,7 +124,7 @@ export const skills = {
         },
         {
             link: "https://tailwindcss.com/",
-            imgAltText: "Tailwind CSS",
+            imgAltText: "TailwindCSS",
             imgSrc: TAILWINDCSS,
             skillName: "Tailwind CSS",
         },
@@ -172,9 +172,9 @@ export const skills = {
         // },
         {
             link: "https://reactjs.org/",
-            imgAltText: "React JS",
+            imgAltText: "ReactJS",
             imgSrc: REACT,
-            skillName: "React JS",
+            skillName: "ReactJS",
         },
         // {
         //   link: "https://redux.js.org/",
