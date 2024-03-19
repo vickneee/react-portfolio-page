@@ -16,7 +16,7 @@ const Skills = () => {
 			<Jumbotron className="contact-jumbotron shadow-md db mr-3">
 				<Marquee
 				gradient={false}
-				speed={40}
+				speed={80}
 				pauseOnHover={true}
 				pauseOnClick={true}
 				delay={0}
