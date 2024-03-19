@@ -54,43 +54,29 @@ function App() {
         <div className={`App ${theme}`}>
 
             {isButtonVisible && (
-                <button className="button-dark-light right-corner-button" type="button" onClick={toggleTheme}>
-                    {theme === 'light' ? '🌓' : ' 🌗'}
+                <button className="right-corner-button" type="button" onClick={toggleTheme}>
+                    {theme === 'light' ? '🌙' : '☀️'}
                 </button>
             )}
-
-            <NavBar className="navbar" />
+            
+            <NavBar className="navbar"/>
             <div className="section">
-                <Container className="container-box">
-                    <Slide top duration={2000}>
-                        <Home toggleTheme={toggleTheme}/>
-                    </Slide>
-                </Container>
+                <Container className="container-box"> <Slide top duration={2000}> <Home toggleTheme={toggleTheme}/>
+                </Slide> </Container>
             </div>
-
+            
             <div className="about">
-                <Container className="container-box">
-                    <Slide left duration={2000}>
-                        <About />
-                    </Slide>
-                </Container>
+                <Container className="container-box"> <Slide left duration={2000}> <About/> </Slide> </Container>
             </div>
-
+            
             <div className="skills" id="skills">
-                <Container className="container-box">
-                    <Slide left duration={2000}>
-                        <Skills />
-                    </Slide>
-                </Container>
+                <Container className="container-box"> <Slide left duration={2000}> <Skills/> </Slide> </Container>
             </div>
-
+            
             <div className="projects" id="projects">
-                <Container className="container-box">
-                    <Slide left duration={2000}>
-                        <hr />
-                        <Projects />
-                    </Slide>
-                </Container>
+                <Container className="container-box"> <Slide left duration={2000}>
+                    <hr/>
+                    <Projects/> </Slide> </Container>
             </div>
 
             <div className="contact" id="contact">

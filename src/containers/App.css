@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 .right-corner-button {
-    padding: 5px 15px;
+    padding: 0;
     position: fixed;
-    bottom: 30px;
-    right: 35px;
-    z-index: 1;
+    top: +30px;
+    left: 100px;
+    z-index: 9999;
+    outline: none !important;
+    font-size: larger;
+}
+
+.right-corner-button:active {
+    outline: none !important;
 }
 
 .dark {
