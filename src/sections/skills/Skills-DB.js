@@ -12,21 +12,24 @@ import GITHUB from "../../assets/img/skills/github.svg"
 import MARKDOWN from '../../assets/img/skills/markdown.svg'
 import HTML5 from "../../assets/img/skills/html5.png"
 import CSS3 from "../../assets/img/skills/css3.png"
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
-// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
-// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 import PYTHON from "../../assets/img/skills/python.svg"
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from "../../assets/img/skills/react-2.png"
+// import REACTNATIVE from "../../assets/img/skills/react-2.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
+// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+// import DAISYUI from "../../assets/img/skills/daisyui.svg"
+// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
+// import NEXT_JS from "../../assets/img/skills/next.png"
 import NODEJS from "../../assets/img/skills/node-js.png"
 import EXPRESSJS from "../../assets/img/skills/express.svg"
-// import NEXT_JS from "../../assets/img/skills/next.png"
 import POSTMAN from "../../assets/img/skills/postman-logo.png"
+// import PRISMA from "../../assets/img/skills/prisma.svg"
 import MONGODB from "../../assets/img/skills/mongo-db..ico"
 import MYSQL from "../../assets/img/skills/mysql.png"
 import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
@@ -124,24 +127,6 @@ export const skills = {
             skillName: "CSS",
         },
         {
-            link: "https://tailwindcss.com/",
-            imgAltText: "TailwindCSS",
-            imgSrc: TAILWINDCSS,
-            skillName: "Tailwind CSS",
-        },
-        // {
-        //     link: "https://react-bootstrap.github.io/",
-        //     imgAltText: "React Bootstrap",
-        //     imgSrc: REACT_BOOTSTRAP,
-        //     skillName: "React Bootstrap",
-        // },
-        // {
-        //     link: "https://material-ui.com/",
-        //     imgAltText: "Material-UI",
-        //     imgSrc: MATERIAL_UI,
-        //     skillName: "Material-UI",
-        // },
-        {
             link: "https://www.python.org/",
             imgAltText: "Python",
             imgSrc: PYTHON,
@@ -178,6 +163,12 @@ export const skills = {
             skillName: "ReactJS",
         },
         // {
+        //     link: "https://reactnative.dev/",
+        //     imgAltText: "React Native",
+        //     imgSrc: REACTNATIVE,
+        //     skillName: "React Native",
+        // },
+        // {
         //   link: "https://redux.js.org/",
         //   imgAltText: "Redux",
         //   imgSrc: REDUX,
@@ -188,6 +179,36 @@ export const skills = {
         //     imgAltText: "Expo",
         //     imgSrc: EXPO,
         //     skillName: "Expo",
+        // },
+        // {
+        //     link: "https://react-bootstrap.github.io/",
+        //     imgAltText: "React Bootstrap",
+        //     imgSrc: REACT_BOOTSTRAP,
+        //     skillName: "React Bootstrap",
+        // },
+        {
+            link: "https://tailwindcss.com/",
+            imgAltText: "TailwindCSS",
+            imgSrc: TAILWINDCSS,
+            skillName: "Tailwind CSS",
+        },
+        // {
+        //     link: "https://daisyui.com/",
+        //     imgAltText: "Daisy UI",
+        //     imgSrc: DAISYUI,
+        //     skillName: "Daisy UI",
+        // },
+        // {
+        //     link: "https://material-ui.com/",
+        //     imgAltText: "Material-UI",
+        //     imgSrc: MATERIAL_UI,
+        //     skillName: "Material-UI",
+        // },
+        // {
+        //   link: "https://nextjs.org/",
+        //   imgAltText: "Next.js",
+        //   imgSrc: NEXT_JS,
+        //   skillName: "Next.js",
         // },
         {
             link: "https://nodejs.org/",
@@ -201,18 +222,18 @@ export const skills = {
           imgSrc: EXPRESSJS,
           skillName: "Express.js",
         },
-        // {
-        //   link: "https://nextjs.org/",
-        //   imgAltText: "Next.js",
-        //   imgSrc: NEXT_JS,
-        //   skillName: "Next.js",
-        // },
         {
             link: "https://www.postman.com/",
             imgAltText: "Postman",
             imgSrc: POSTMAN,
             skillName: "Postman",
         },
+        // {
+        //     link: "https://www.prisma.io/",
+        //     imgAltText: "Prisma",
+        //     imgSrc: PRISMA,
+        //     skillName: "Prisma",
+        // },
         {
           link: "https://www.mongodb.com/",
           imgAltText: "MongoDB",
