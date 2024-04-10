@@ -1,12 +1,11 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
-// import Row from "react-bootstrap/Row";
 import "tachyons";
 import Marquee from "react-fast-marquee";
 
 // Skills
-import {skills} from "./Skills-DB";
+import skills from "./Skills-DB";
 import "./Skills.css";
 
 const Skills = () => {

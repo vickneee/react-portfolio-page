@@ -39,7 +39,7 @@ import NETLIFY from "../../assets/img/skills/netlify.png"
 import RENDER from "../../assets/img/skills/render.png"
 // import VERCEL from "../../assets/img/skills/vercel.png"
 
-export const skills = {
+const skills = {
 
     skillList: [
         // {
@@ -284,3 +284,5 @@ export const skills = {
         // },
     ],
 };
+
+export default skills;
