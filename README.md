@@ -4,7 +4,6 @@ React portfolio page.
 
 ## Tech used
 
-- CSS
 - React
 - React Bootstrap
 - Tailwind CSS
