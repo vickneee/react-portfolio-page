@@ -54,8 +54,6 @@ export const projects = [
     text: "Portfolio Page",
     description: "A personal portfolio is an online platform that showcases an individual's skills, achievements, and experiences.",
     techUsed: [
-      {src: HTML5, alt: "HTML 5"},
-      {src: CSS3, alt: "CSS 3"},
       {src: REACT, alt: "React"},
       {src: REACT_BOOTSTRAP, alt: "React Bootstrap"},
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
