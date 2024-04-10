@@ -59,7 +59,7 @@ export const projects = [
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
       {src: NETLIFY, alt: "Netlify"}
     ],
-    liveLink: "https://vickneee.netlify.app/",
+    liveLink: "https://victoriavavulina.netlify.app/",
     sourceCodeLink: "https://github.com/vickneee/react-portfolio-page"
   },
   {
