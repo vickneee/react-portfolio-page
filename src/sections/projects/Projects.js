@@ -1,10 +1,6 @@
 import React from "react";
-import {Timeline, Events, UrlButton, ImageEvent, createTheme, themes} from "@merc/react-timeline";
-import Accordion from "react-bootstrap/Accordion";
-import AccordionToggle from 'react-bootstrap/AccordionToggle';
-import AccordionCollapse from 'react-bootstrap/AccordionCollapse';
-import Card from 'react-bootstrap/Card';
-import Image from "react-bootstrap/Image";
+import {Timeline, Events, createTheme, themes} from "@merc/react-timeline";
+import ProjectEvent from "./ProjectEvent";
 
 // CSS file
 import './Project.css';
@@ -29,397 +25,58 @@ import RENDER from "../../assets/img/skills/render.png";
 
 // Custom Timeline Theme
 const customTheme = createTheme(themes.default, {
-    card: {
-        backgroundColor: '#efefef',
-    }, date: {
-        backgroundColor: '#004aad',
-    }, marker: {
-        borderColor: '#004aad',
-    }, timelineTrack: {
-        backgroundColor: '#004aad',
-    },
+  card: {
+    backgroundColor: '#efefef',
+  }, date: {
+    backgroundColor: '#004aad',
+  }, marker: {
+    borderColor: '#004aad',
+  }, timelineTrack: {
+    backgroundColor: '#004aad',
+  },
 });
 
 const ProjectTimeline = () => {
-    return (
-        <div className="pt-5 pb-5" id="projects">
-            <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
-            <Timeline theme={customTheme}>
-                <Events>
-
-                    {/* // myDiamonds */}
-                    <ImageEvent
-                        date="Feb 2024"
-                        className="text-center"
-                        text="myDiamonds 💎"
-                        src={MyDiamonds}
-                        alt="myDiamonds"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <AccordionToggle
-                                            eventKey="0"
-                                            className="p-2 text-center accordion-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </AccordionToggle>
-                                        <AccordionCollapse eventKey="0" className="text text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong>
-                                                <br/>To prevent losing my Diamonds, I created a basic website for my
-                                                web
-                                                development resources, so they will be all in one place. 💎
-                                                <br/><br/>
-                                                <strong>Tech used:</strong>
-                                                <br/>
-                                                <ul className="d-flex content-center">
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={HTML5}
-                                  alt="HTML 5"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={CSS3}
-                                  alt="CSS 3"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                                                    <span>
-                                                      <Image
-                                                          src={JAVASCRIPT}
-                                                          alt="JavaScript"
-                                                          className="image-style m-1 img-style"
-                                                      ></Image>{" "}
-                                                    </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={RENDER}
-                                  alt="Render"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </AccordionCollapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://mydiamonds.onrender.com/"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/vickneee/myDiamonds"
-                                    target="_blank"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                            </div>
-                        </div>
-                    </ImageEvent>
-
-                    {/* // Mountours */}
-                    <ImageEvent
-                        date="Jul 2023"
-                        className="text-center"
-                        text="Mountours"
-                        src={MounTours}
-                        alt="Mountours"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion className="accordion">
-                                    <Card>
-                                        <AccordionToggle
-                                            eventKey="0"
-                                            className="p-2 text-center accordion-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </AccordionToggle>
-
-                                        <AccordionCollapse eventKey="0" className="text text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong>
-                                                <br/>A fictional travel agency UI page. Want to get away from the noise
-                                                of
-                                                the town and be surrounded by the beauty of nature? Welcome to
-                                                Mountours, where we give you all the details you need to organize your
-                                                upcoming mountain vacation.
-                                                <br/><br/>
-                                                <strong>Tech used:</strong>
-                                                <br/>
-                                                <ul className="d-flex content-center flex-wrap">
-                                                    <li>
-                            <span className="p-0">
-                              <Image
-                                  src={HTML5}
-                                  alt="HTML%"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span className="p-0">
-                              <Image
-                                  src={CSS3}
-                                  alt="CSS3"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span className="p-0">
-                              <Image
-                                  src={SASS}
-                                  alt="Sass"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={JAVASCRIPT}
-                                  alt="JavaScript"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={NETLIFY}
-                                  alt="Netlify"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </AccordionCollapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton className="url-button"
-                                           href="https://mountours.netlify.app/"
-                                           target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/vickneee/mountours"
-                                    target="_blank"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                            </div>
-                        </div>
-                    </ImageEvent>
-
-                    {/* // PortfolioPage */}
-                    <ImageEvent
-                        date="Jun 2023"
-                        className="text-center"
-                        text="Portfolio Page"
-                        src={PortfolioPage}
-                        alt="PortfolioWebsite"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion className="accordion">
-                                    <Card>
-                                        <AccordionToggle
-                                            eventKey="0"
-                                            className="p-2 text-center accordion-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </AccordionToggle>
-
-                                        <AccordionCollapse eventKey="0" className="text text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong>
-                                                <br/>A personal portfolio is an online platform
-                                                that showcases an individual's skills, achievements, and experiences.
-                                                <br/><br/>
-                                                <strong>Tech used:</strong>
-                                                <br/>
-                                                <ul className="d-flex content-center flex-wrap">
-                                                    <li>
-                            <span className="p-0">
-                              <Image
-                                  src={CSS3}
-                                  alt="CSS3"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={REACT}
-                                  alt="React"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={REACT_BOOTSTRAP}
-                                  alt="React Bootstrap"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={TAILWINDCSS}
-                                  alt="Tailwind CSS"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={NETLIFY}
-                                  alt="Netlify"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </AccordionCollapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton className="url-button"
-                                           href="https://victoriavavulina.netlify.app/"
-                                           target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/vickneee/react-portfolio-page"
-                                    target="_blank"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                            </div>
-                        </div>
-                    </ImageEvent>
-
-                    {/* // TicTacToe */}
-                    <ImageEvent
-                        date="Apr 2023"
-                        className="text-center"
-                        text="Tic-Tac-Toe"
-                        src={TicTacToe}
-                        alt="Tic-Tac-Toe"
-                    >
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <AccordionToggle
-                                            eventKey="0"
-                                            className="p-2 text-center accordion-main"
-                                        >
-                                            PROJECT DETAILS
-                                        </AccordionToggle>
-
-                                        <AccordionCollapse eventKey="0" className="text text-left">
-                                            <Card.Body>
-                                                <strong>Description:</strong>
-                                                <br/>Tic Tac Toe is a classic strategy game that
-                                                has gained immense popularity in recent years. The game involves two
-                                                players who take turns marking a 3x3 grid with Xs and Os until one of
-                                                the players succeeds in placing three marks.
-                                                <br/><br/>
-                                                <strong>Tech used:</strong>
-                                                <br/>
-                                                <ul className="d-flex content-center">
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={HTML5}
-                                  alt="HTML 5"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={CSS3}
-                                  alt="CSS 3"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={JAVASCRIPT}
-                                  alt="JavaScript"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                    <li>
-                            <span>
-                              <Image
-                                  src={NETLIFY}
-                                  alt="Netlify"
-                                  className="image-style m-1 img-style"
-                              ></Image>{" "}
-                            </span>
-                                                    </li>
-                                                </ul>
-                                            </Card.Body>
-                                        </AccordionCollapse>
-                                    </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                    href="https://tic-tac-toe-vickneee.netlify.app/"
-                                    target="_blank"
-                                >
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
-                                    href="https://github.com/vickneee/tic-tac-toe"
-                                    target="_blank"
-                                >
-                                    SOURCE CODE
-                                </UrlButton>
-                            </div>
-                        </div>
-                    </ImageEvent>
-                </Events>
-            </Timeline>
-        </div>)
+  return (
+    <div className="pt-5 pb-5" id="projects">
+      <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
+      <Timeline theme={customTheme}>
+        <Events>
+          {/* // MyDiamonds */}
+          <ProjectEvent src={MyDiamonds} alt="myDiamonds" date="Feb 2024" text="myDiamonds 💎"
+                        description="To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎"
+                        techUsed={[{src: HTML5, alt: "HTML 5"}, {src: CSS3, alt: "CSS 3"}, {
+                          src: JAVASCRIPT, alt: "JavaScript"
+                        }, {src: RENDER, alt: "Render"}]}
+                        liveLink="https://mydiamonds.onrender.com/"
+                        sourceCodeLink="https://github.com/vickneee/myDiamonds"/>
+          {/* // MounTours */}
+          <ProjectEvent src={MounTours} alt="Mountours" date="Jul 2023" text="Mountours"
+                        description="A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation."
+                        techUsed={[{src: HTML5, alt: "HTML 5"}, {src: CSS3, alt: "CSS 3"}, {
+                          src: SASS, alt: "Sass"
+                        }, {src: JAVASCRIPT, alt: "JavaScript"}, {src: NETLIFY, alt: "Netlify"}]}
+                        liveLink="https://mountours.netlify.app/"
+                        sourceCodeLink="https://github.com/vickneee/mountours"/>
+          {/* // PortfolioPage */}
+          <ProjectEvent src={PortfolioPage} alt="PortfolioWebsite" date="Jun 2023" text="Portfolio Page"
+                        description="A personal portfolio is an online platform that showcases an individual's skills, achievements, and experiences."
+                        techUsed={[{src: CSS3, alt: "CSS 3"}, {src: REACT, alt: "React"}, {
+                          src: REACT_BOOTSTRAP, alt: "React Bootstrap"
+                        }, {src: TAILWINDCSS, alt: "Tailwind CSS"}, {src: NETLIFY, alt: "Netlify"}]}
+                        liveLink="https://victoriavavulina.netlify.app/"
+                        sourceCodeLink="https://github.com/vickneee/react-portfolio-page"/>
+          {/* // TicTacToe */}
+          <ProjectEvent src={TicTacToe} alt="Tic-Tac-Toe" date="Apr 2023" text="Tic-Tac-Toe"
+                        description="Tic Tac Toe is a classic strategy game that has gained immense popularity in recent years. The game involves two players who take turns marking a 3x3 grid with Xs and Os until one of the players succeeds in placing three marks."
+                        techUsed={[{src: HTML5, alt: "HTML 5"}, {src: CSS3, alt: "CSS 3"}, {
+                          src: JAVASCRIPT, alt: "JavaScript"
+                        }, {src: NETLIFY, alt: "Netlify"}]}
+                        liveLink="https://tic-tac-toe-vickneee.netlify.app/"
+                        sourceCodeLink="https://github.com/vickneee/tic-tac-toe"/>
+        </Events>
+      </Timeline>
+    </div>)
 }
 
 export default ProjectTimeline;
