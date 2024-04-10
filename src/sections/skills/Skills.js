@@ -5,7 +5,7 @@ import "tachyons";
 import Marquee from "react-fast-marquee";
 
 // Skills
-import skills from "./Skills-DB";
+import {skills} from "./Skills-DB";
 import "./Skills.css";
 
 const Skills = () => {
