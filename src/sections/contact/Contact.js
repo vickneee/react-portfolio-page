@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div className="pt-5 pb-5" id="contact d-flex justify-content-center">
             <h1 className="pt-3 text-center font-details-b pb-3">Contact Me</h1>
-            <Jumbotron className="contact-jumbotron shadow-md ">
+            <Jumbotron className="contact-jumbotron contact-scale shadow-md ">
                 <Row>
                     <Col className="d-flex justify-content-center flex-wrap">
 
