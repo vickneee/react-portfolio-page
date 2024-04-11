@@ -9,13 +9,14 @@ import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import SASS from "../../assets/img/skills/sass.png";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
-import REACT from "../../assets/img/skills/react-d.png"
+import REACT from "../../assets/img/skills/react.svg"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
+  // Add more projects here...
   {
     src: MyDiamonds,
     alt: "myDiamonds",
@@ -50,7 +51,7 @@ export const projects = [
   {
     src: PortfolioPage,
     alt: "PortfolioPage",
-    date: "Jan 2023",
+    date: "Jun 2023",
     text: "Portfolio Page",
     description: "A personal portfolio is an online platform that showcases an individual's skills, achievements, and experiences.",
     techUsed: [
@@ -65,7 +66,7 @@ export const projects = [
   {
     src: TicTacToe,
     alt: "TicTacToe",
-    date: "Dec 2022",
+    date: "Mar 2023",
     text: "Tic Tac Toe",
     description: "Tic Tac Toe is a classic strategy game that has gained immense popularity in recent years. The game involves two players who take turns marking a 3x3 grid with Xs and Os until one of the players succeeds in placing three marks.",
     techUsed: [
@@ -75,8 +76,7 @@ export const projects = [
     ],
     liveLink: "https://vickneee.github.io/tic-tac-toe/",
     sourceCodeLink: "https://github.com/vickneee/tic-tac-toe/"
-  },
-  // Add more projects here...
+  }
 ];
 
 // export default projects;
