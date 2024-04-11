@@ -1,8 +1,10 @@
 // Projects
+
 import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
+import Helppomatka from "../../assets/img/projects/Helppomatka.png";
 
 // Skills
 import HTML5 from "../../assets/img/skills/html5.png";
@@ -11,12 +13,30 @@ import SASS from "../../assets/img/skills/sass.png";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 import REACT from "../../assets/img/skills/react.svg"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
+import NODEJS from "../../assets/img/skills/node-js.png";
+import MONGODB from "../../assets/img/skills/mongo-db..ico";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
   // Add more projects here...
+  {
+    src: Helppomatka,
+    alt: "Helppomatka",
+    date: "Mar 2024",
+    text: "Helppomatka",
+    description: "Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a Full Stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.",
+    techUsed: [
+      {src: REACT, alt: "React"},
+      {src: REACT_BOOTSTRAP, alt: "React Bootstrap"},
+      {src: NODEJS, alt: "Node.js"},
+      {src: MONGODB, alt: "MongoDB"},
+      {src: RENDER, alt: "Render"}
+    ],
+    liveLink: "https://vickneee-helppomatka.onrender.com/",
+    sourceCodeLink: "https://github.com/vickneee/helppomatka"
+  },
   {
     src: MyDiamonds,
     alt: "myDiamonds",
