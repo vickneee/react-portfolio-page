@@ -1,4 +1,4 @@
-# React portfolio page
+# React Portfolio Page
 
 My React portfolio page.
 
