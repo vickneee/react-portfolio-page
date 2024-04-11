@@ -17,7 +17,7 @@ import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
-import REACT from "../../assets/img/skills/react-2.png"
+import REACT from "../../assets/img/skills/react.svg"
 // import REACTNATIVE from "../../assets/img/skills/react-2.svg"
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
