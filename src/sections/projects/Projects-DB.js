@@ -17,6 +17,7 @@ import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESS from "../../assets/img/skills/express.svg";
 import MONGODB from "../../assets/img/skills/mongo-db..ico";
+import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
 
@@ -93,9 +94,11 @@ export const projects = [
     techUsed: [
       {src: HTML5, alt: "HTML 5"},
       {src: CSS3, alt: "CSS 3"},
-      {src: JAVASCRIPT, alt: "JavaScript"}
+      {src: JAVASCRIPT, alt: "JavaScript"},
+      {src: AMPLIFY, alt: "Amplify"},
+      {src: NETLIFY, alt: "Netlify"}
     ],
-    liveLink: "https://vickneee.github.io/tic-tac-toe/",
+    liveLink: "https://main.dcegc8v6526c0.amplifyapp.com/",
     sourceCodeLink: "https://github.com/vickneee/tic-tac-toe/"
   }
 ];

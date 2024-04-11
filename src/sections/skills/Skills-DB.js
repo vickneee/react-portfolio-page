@@ -33,7 +33,7 @@ import POSTMAN from "../../assets/img/skills/postman-logo.png"
 import MONGODB from "../../assets/img/skills/mongo-db..ico"
 import MYSQL from "../../assets/img/skills/mysql.png"
 import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-// import AMPLIFY from "../../assets/img/skills/amplify.jpeg"
+import AMPLIFY from "../../assets/img/skills/amplify.jpeg"
 import NETLIFY from "../../assets/img/skills/netlify.png"
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import RENDER from "../../assets/img/skills/render.png"
@@ -252,12 +252,12 @@ export const skills = {
             imgSrc: POSTGRESQL,
             skillName: "PostgreSQL",
         },
-        // {
-        //     link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
-        //     imgAltText: "Amplify",
-        //     imgSrc: AMPLIFY,
-        //     skillName: "Amplify",
-        // },
+        {
+            link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
+            imgAltText: "Amplify",
+            imgSrc: AMPLIFY,
+            skillName: "Amplify",
+        },
         {
             link: "https://www.netlify.com/",
             imgAltText: "Netlify",
