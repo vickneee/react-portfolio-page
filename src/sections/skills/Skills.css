@@ -48,6 +48,10 @@
     opacity: 1;
 }
 
+.dark .hover-text {
+    color: #fff;
+}
+
 @media only screen and (max-width: 786px) {
     .image-style {
         height: 4em;

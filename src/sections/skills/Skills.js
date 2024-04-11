@@ -26,7 +26,7 @@ const Skills = () => {
               <div key={index} className="d-flex flex-column m-2">
                 <div className="image-container">
                   <p className="text-center text-blue-950 hover-text">{skill.skillName}</p>
-                  <span className="bg-gray-200 rounded-md gap-2 d-flex p-3 m-2">
+                  <span className="rounded-md gap-2 d-flex p-3 m-2">
                 <a className="" href={skill.link} target="_blank" rel="noopener noreferrer">
                   <Image src={skill.imgSrc} alt={skill.imgAltText} className="image-style"></Image>
                 </a>
