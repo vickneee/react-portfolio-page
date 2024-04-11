@@ -1,43 +1,43 @@
-// import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png"
-import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png"
-import WEBSTORM from "../../assets/img/skills/webstorm.png"
-import PYCHARM from "../../assets/img/skills/pycharm.png"
-import INTELLIJ from "../../assets/img/skills/intellij-idea.png"
-// import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png"
-// import DATAGRIP from "../../assets/img/skills/datagrip.png"
-// import XCODE from "../../assets/img/skills/xcode.png"
-// import FIGMA from "../../assets/img/skills/figma.png"
-import GIT from "../../assets/img/skills/git-icon.svg"
-import GITHUB from "../../assets/img/skills/github.svg"
-import MARKDOWN from '../../assets/img/skills/markdown.svg'
-import HTML5 from "../../assets/img/skills/html5.png"
-import CSS3 from "../../assets/img/skills/css3.png"
-import PYTHON from "../../assets/img/skills/python.svg"
+// import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png";
+import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png";
+import WEBSTORM from "../../assets/img/skills/webstorm.png";
+import PYCHARM from "../../assets/img/skills/pycharm.png";
+import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
+// import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
+// import DATAGRIP from "../../assets/img/skills/datagrip.png";
+// import XCODE from "../../assets/img/skills/xcode.png";
+// import FIGMA from "../../assets/img/skills/figma.png";
+import GIT from "../../assets/img/skills/git-icon.svg";
+import GITHUB from "../../assets/img/skills/github.svg";
+import MARKDOWN from '../../assets/img/skills/markdown.svg';
+import HTML5 from "../../assets/img/skills/html5.png";
+import CSS3 from "../../assets/img/skills/css3.png";
+import PYTHON from "../../assets/img/skills/python.svg";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
-// import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
-import REACT from "../../assets/img/skills/react.svg"
-// import REACTNATIVE from "../../assets/img/skills/react-2.svg"
-// import REDUX from "../../assets/img/skills/redux.svg";
+import REACT from "../../assets/img/skills/react-circle.png";
+// import REACTNATIVE from "../../assets/img/skills/react-square.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
-// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg"
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg"
-// import DAISYUI from "../../assets/img/skills/daisyui.svg"
+// import REDUX from "../../assets/img/skills/redux.svg";
+import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
+// import DAISYUI from "../../assets/img/skills/daisyui.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
-// import NEXT_JS from "../../assets/img/skills/next.png"
-import NODEJS from "../../assets/img/skills/node-js.png"
-import EXPRESSJS from "../../assets/img/skills/express.svg"
-import POSTMAN from "../../assets/img/skills/postman-logo.png"
-// import PRISMA from "../../assets/img/skills/prisma.svg"
-import MONGODB from "../../assets/img/skills/mongo-db..ico"
-import MYSQL from "../../assets/img/skills/mysql.png"
+// import NEXT_JS from "../../assets/img/skills/next.png";
+import NODEJS from "../../assets/img/skills/node-js.png";
+import EXPRESSJS from "../../assets/img/skills/express.svg";
+import POSTMAN from "../../assets/img/skills/postman-logo.png";
+// import PRISMA from "../../assets/img/skills/prisma.svg";
+import MONGODB from "../../assets/img/skills/mongo-db..ico";
+import MYSQL from "../../assets/img/skills/mysql.png";
 import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import AMPLIFY from "../../assets/img/skills/amplify.jpeg"
-import NETLIFY from "../../assets/img/skills/netlify.png"
+import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
+import NETLIFY from "../../assets/img/skills/netlify.png";
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
-import RENDER from "../../assets/img/skills/render.png"
-// import VERCEL from "../../assets/img/skills/vercel.png"
+import RENDER from "../../assets/img/skills/render.png";
+// import VERCEL from "../../assets/img/skills/vercel.png";
 
 export const skills = {
 
@@ -132,30 +132,30 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
+        // {
+        //     link: "https://www.kotlinlang.org/",
+        //     imgAltText: "Kotlin",
+        //     imgSrc: KOTLIN,
+        //     skillName: "Kotlin",
+        // },
+        // {
+        //     link: "https://developer.apple.com/swift/",
+        //     imgAltText: "Swift",
+        //     imgSrc: SWIFT,
+        //     skillName: "Swift",
+        // },
         {
           link: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
           imgAltText: "JavaScript",
           imgSrc: JAVASCRIPT,
           skillName: "JavaScript",
         },
-        // {
-        //   link: "https://www.typescriptlang.org/",
-        //   imgAltText: "TypeScript",
-        //   imgSrc: TYPESCRIPT,
-        //   skillName: "TypeScript",
-        // },
-        // {
-        //   link: "https://www.kotlinlang.org/",
-        //   imgAltText: "Kotlin",
-        //   imgSrc: KOTLIN,
-        //   skillName: "Kotlin",
-        // },
-        // {
-        //   link: "https://developer.apple.com/swift/",
-        //   imgAltText: "Swift",
-        //   imgSrc: SWIFT,
-        //   skillName: "Swift",
-        // },
+        {
+          link: "https://www.typescriptlang.org/",
+          imgAltText: "TypeScript",
+          imgSrc: TYPESCRIPT,
+          skillName: "TypeScript",
+        },
         {
             link: "https://reactjs.org/",
             imgAltText: "ReactJS",
@@ -166,13 +166,7 @@ export const skills = {
         //     link: "https://reactnative.dev/",
         //     imgAltText: "React Native",
         //     imgSrc: REACTNATIVE,
-        //     skillName: "React Native",
-        // },
-        // {
-        //   link: "https://redux.js.org/",
-        //   imgAltText: "Redux",
-        //   imgSrc: REDUX,
-        //   skillName: "Redux",
+        //     skillName: "ReactNative",
         // },
         // {
         //     link: "https://expo.dev/",
@@ -181,11 +175,17 @@ export const skills = {
         //     skillName: "Expo",
         // },
         // {
-        //     link: "https://react-bootstrap.github.io/",
-        //     imgAltText: "React Bootstrap",
-        //     imgSrc: REACT_BOOTSTRAP,
-        //     skillName: "React Bootstrap",
+        //   link: "https://redux.js.org/",
+        //   imgAltText: "Redux",
+        //   imgSrc: REDUX,
+        //   skillName: "Redux",
         // },
+        {
+            link: "https://react-bootstrap.github.io/",
+            imgAltText: "React Bootstrap",
+            imgSrc: REACT_BOOTSTRAP,
+            skillName: "ReactBootstrap",
+        },
         {
             link: "https://tailwindcss.com/",
             imgAltText: "TailwindCSS",
@@ -196,13 +196,13 @@ export const skills = {
         //     link: "https://daisyui.com/",
         //     imgAltText: "Daisy UI",
         //     imgSrc: DAISYUI,
-        //     skillName: "Daisy UI",
+        //     skillName: "DaisyUI",
         // },
         // {
         //     link: "https://material-ui.com/",
-        //     imgAltText: "Material-UI",
+        //     imgAltText: "Material UI",
         //     imgSrc: MATERIAL_UI,
-        //     skillName: "Material-UI",
+        //     skillName: "MaterialUI",
         // },
         // {
         //   link: "https://nextjs.org/",

@@ -11,7 +11,7 @@ import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import SASS from "../../assets/img/skills/sass.png";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
-import REACT from "../../assets/img/skills/react.svg"
+import REACT from "../../assets/img/skills/react-circle.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
