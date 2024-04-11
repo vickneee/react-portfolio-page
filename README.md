@@ -1,6 +1,6 @@
-# React portfolio page
+# React Portfolio Page
 
-React portfolio page.
+My React portfolio page.
 
 ## Tech used
 
