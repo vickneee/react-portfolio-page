@@ -11,7 +11,7 @@ const ProjectEvent = ({date, text, src, alt, description, techUsed, liveLink, so
           <div>
             <Accordion>
               <Card>
-                <Accordion.Toggle eventKey="0" className="p-2 text-center accordion-main">
+                <Accordion.Toggle eventKey="0" className="p-2 text-center accordion-main outline-blue-900">
                   PROJECT DETAILS
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0" className="text-left">
