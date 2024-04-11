@@ -15,6 +15,7 @@ import REACT from "../../assets/img/skills/react.svg"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
+import EXPRESS from "../../assets/img/skills/express.svg";
 import MONGODB from "../../assets/img/skills/mongo-db..ico";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
@@ -29,8 +30,8 @@ export const projects = [
     description: "Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a Full Stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.",
     techUsed: [
       {src: REACT, alt: "React"},
-      {src: REACT_BOOTSTRAP, alt: "React Bootstrap"},
       {src: NODEJS, alt: "Node.js"},
+      {src: EXPRESS, alt: "Express.js"},
       {src: MONGODB, alt: "MongoDB"},
       {src: RENDER, alt: "Render"}
     ],

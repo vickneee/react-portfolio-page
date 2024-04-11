@@ -25,11 +25,11 @@ const ProjectTimeline = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
       <Timeline theme={customTheme}>
         <Events>
-          {projects.map((project, index) => (
-            <ProjectEvent key={index} src={project.src} alt={project.alt} date={project.date} text={project.text}
-                          description={project.description} techUsed={project.techUsed}
-                          liveLink={project.liveLink} sourceCodeLink={project.sourceCodeLink}/>
-          ))}
+            {projects.map((project, index) => (
+              <ProjectEvent key={index} src={project.src} alt={project.alt} date={project.date} text={project.text}
+                            description={project.description} techUsed={project.techUsed}
+                            liveLink={project.liveLink} sourceCodeLink={project.sourceCodeLink}/>
+            ))}
         </Events>
       </Timeline>
     </div>)

@@ -1,10 +1,11 @@
 import React from "react";
 import {Accordion, Card, Image} from "react-bootstrap";
 import {ImageEvent, UrlButton} from "@merc/react-timeline";
+import "./Project.css";
 
 const ProjectEvent = ({date, text, src, alt, description, techUsed, liveLink, sourceCodeLink}) => {
   return (
-    <ImageEvent date={date} className="text-center" text={text} src={src} alt={alt}>
+    <ImageEvent date={date} className="text-center project-event" text={text} src={src} alt={alt}>
       <div className="d-flex justify-content-between flex-column mt-1">
         <div className="d-flex justify-content-between flex-column mt-1">
           <div>
