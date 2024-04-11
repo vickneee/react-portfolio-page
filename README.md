@@ -1,6 +1,6 @@
 # React portfolio page
 
-My React portfolio page. Personal portfolio is an online platform that showcases an individual's skills, achievements, and experiences.
+My React portfolio page.
 
 ## Tech used
 
