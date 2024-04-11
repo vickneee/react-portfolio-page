@@ -190,7 +190,7 @@ export const skills = {
             link: "https://tailwindcss.com/",
             imgAltText: "TailwindCSS",
             imgSrc: TAILWINDCSS,
-            skillName: "Tailwind CSS",
+            skillName: "TailwindCSS",
         },
         // {
         //     link: "https://daisyui.com/",
