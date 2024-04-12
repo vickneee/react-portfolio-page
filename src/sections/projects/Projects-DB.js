@@ -88,7 +88,7 @@ export const projects = [
   {
     src: TicTacToe,
     alt: "TicTacToe",
-    date: "Mar 2023",
+    date: "Apr 2023",
     text: "Tic Tac Toe",
     description: "Tic Tac Toe is a classic strategy game that has gained immense popularity in recent years. The game involves two players who take turns marking a 3x3 grid with Xs and Os until one of the players succeeds in placing three marks.",
     techUsed: [
