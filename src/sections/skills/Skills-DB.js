@@ -158,9 +158,9 @@ export const skills = {
         },
         {
             link: "https://reactjs.org/",
-            imgAltText: "ReactJS",
+            imgAltText: "React",
             imgSrc: REACT,
-            skillName: "ReactJS",
+            skillName: "React",
         },
         // {
         //     link: "https://reactnative.dev/",
