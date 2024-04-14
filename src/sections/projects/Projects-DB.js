@@ -1,16 +1,17 @@
 // Projects
-
+import TasksApp from "../../assets/img/projects/TasksApp.png";
+import Helppomatka from "../../assets/img/projects/Helppomatka.png";
 import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
-import Helppomatka from "../../assets/img/projects/Helppomatka.png";
 
 // Skills
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import SASS from "../../assets/img/skills/sass.png";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
+import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react-circle.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
@@ -23,6 +24,21 @@ import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
   // Add more projects here...
+  {
+    src: TasksApp,
+    alt: "Tasks App",
+    date: "Apr 2024",
+    text: "Tasks App",
+    description: "A simple task management app that allows users to add, delete, and mark tasks as completed with local storage. The app is built using CSS, React, TypeScript, and it's hosted on AWS Amplify.",
+    techUsed: [
+      {src: CSS3 , alt: "CSS 3"},
+      {src: REACT, alt: "React"},
+      {src: TYPESCRIPT, alt: "TypeScript"},
+      {src: AMPLIFY, alt: "Amplify"}
+    ],
+    liveLink: "https://main.d235kuju5iotcj.amplifyapp.com/",
+    sourceCodeLink: "https://github.com/vickneee/tasks-typescript-app"
+  },
   {
     src: Helppomatka,
     alt: "Helppomatka",
