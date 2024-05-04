@@ -1,8 +1,8 @@
 // import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png";
 import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png";
-import WEBSTORM from "../../assets/img/skills/webstorm.png";
-import PYCHARM from "../../assets/img/skills/pycharm.png";
 import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
+import PYCHARM from "../../assets/img/skills/pycharm.png";
+import WEBSTORM from "../../assets/img/skills/webstorm.png";
 // import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
 // import DATAGRIP from "../../assets/img/skills/datagrip.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
@@ -55,10 +55,10 @@ export const skills = {
             skillName: "VSCode",
         },
         {
-            link: "https://www.jetbrains.com/webstorm/",
-            imgAltText: "WebStorm",
-            imgSrc: WEBSTORM,
-            skillName: "WebStorm",
+            link: "https://www.jetbrains.com/idea/",
+            imgAltText: "IntelliJ",
+            imgSrc: INTELLIJ,
+            skillName: "IntelliJ",
         },
         {
             link: "https://www.jetbrains.com/pycharm/",
@@ -67,10 +67,10 @@ export const skills = {
             skillName: "PyCharm",
         },
         {
-            link: "https://www.jetbrains.com/idea/",
-            imgAltText: "IntelliJ",
-            imgSrc: INTELLIJ,
-            skillName: "IntelliJ",
+            link: "https://www.jetbrains.com/webstorm/",
+            imgAltText: "WebStorm",
+            imgSrc: WEBSTORM,
+            skillName: "WebStorm",
         },
         // {
         //     link: "https://www.dbvis.com/",
