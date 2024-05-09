@@ -30,7 +30,7 @@ import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESSJS from "../../assets/img/skills/express.svg";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 // import PRISMA from "../../assets/img/skills/prisma.svg";
-import MONGODB from "../../assets/img/skills/mongo-db..ico";
+import MONGODB from "../../assets/img/skills/mongo-db.png";
 import MYSQL from "../../assets/img/skills/mysql.png";
 import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
