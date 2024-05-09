@@ -17,7 +17,7 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESS from "../../assets/img/skills/express.svg";
-import MONGODB from "../../assets/img/skills/mongo-db..ico";
+import MONGODB from "../../assets/img/skills/mongo-db.png";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
