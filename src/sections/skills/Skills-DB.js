@@ -13,6 +13,7 @@ import MARKDOWN from '../../assets/img/skills/markdown.svg';
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import PYTHON from "../../assets/img/skills/python.svg";
+// import JAVA from "../../assets/img/skills/java-s.svg";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
@@ -132,6 +133,12 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
+        // {
+        //     link: "https://www.java.com/",
+        //     imgAltText: "Java",
+        //     imgSrc: JAVA,
+        //     skillName: "Java",
+        // },
         // {
         //     link: "https://www.kotlinlang.org/",
         //     imgAltText: "Kotlin",
