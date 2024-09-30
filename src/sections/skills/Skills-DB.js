@@ -1,6 +1,6 @@
 // import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png";
 import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png";
-import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
+// import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
 import PYCHARM from "../../assets/img/skills/pycharm.png";
 import WEBSTORM from "../../assets/img/skills/webstorm.png";
 // import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
@@ -15,15 +15,15 @@ import CSS3 from "../../assets/img/skills/css3.png";
 import PYTHON from "../../assets/img/skills/python.svg";
 // import JAVA from "../../assets/img/skills/java-s.svg";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
-import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+// import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from "../../assets/img/skills/react-circle.png";
 // import REACTNATIVE from "../../assets/img/skills/react-square.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 // import REDUX from "../../assets/img/skills/redux.svg";
-import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
+// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+// import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 // import DAISYUI from "../../assets/img/skills/daisyui.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 // import NEXT_JS from "../../assets/img/skills/next.png";
@@ -31,9 +31,9 @@ import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESSJS from "../../assets/img/skills/express.svg";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 // import PRISMA from "../../assets/img/skills/prisma.svg";
-import MONGODB from "../../assets/img/skills/mongo-db.png";
+// import MONGODB from "../../assets/img/skills/mongo-db.png";
 import MYSQL from "../../assets/img/skills/mysql.png";
-import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+// import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
@@ -55,12 +55,12 @@ export const skills = {
             imgSrc: VISUAL_STUDIO_CODE,
             skillName: "VSCode",
         },
-        {
-            link: "https://www.jetbrains.com/idea/",
-            imgAltText: "IntelliJ",
-            imgSrc: INTELLIJ,
-            skillName: "IntelliJ",
-        },
+        // {
+        //     link: "https://www.jetbrains.com/idea/",
+        //     imgAltText: "IntelliJ",
+        //     imgSrc: INTELLIJ,
+        //     skillName: "IntelliJ",
+        // },
         {
             link: "https://www.jetbrains.com/pycharm/",
             imgAltText: "PyCharm",
@@ -157,12 +157,12 @@ export const skills = {
           imgSrc: JAVASCRIPT,
           skillName: "JavaScript",
         },
-        {
-          link: "https://www.typescriptlang.org/",
-          imgAltText: "TypeScript",
-          imgSrc: TYPESCRIPT,
-          skillName: "TypeScript",
-        },
+        // {
+        //   link: "https://www.typescriptlang.org/",
+        //   imgAltText: "TypeScript",
+        //   imgSrc: TYPESCRIPT,
+        //   skillName: "TypeScript",
+        // },
         {
             link: "https://reactjs.org/",
             imgAltText: "React",
@@ -187,18 +187,18 @@ export const skills = {
         //   imgSrc: REDUX,
         //   skillName: "Redux",
         // },
-        {
-            link: "https://react-bootstrap.github.io/",
-            imgAltText: "React Bootstrap",
-            imgSrc: REACT_BOOTSTRAP,
-            skillName: "ReactBootstrap",
-        },
-        {
-            link: "https://tailwindcss.com/",
-            imgAltText: "TailwindCSS",
-            imgSrc: TAILWINDCSS,
-            skillName: "TailwindCSS",
-        },
+        // {
+        //     link: "https://react-bootstrap.github.io/",
+        //     imgAltText: "React Bootstrap",
+        //     imgSrc: REACT_BOOTSTRAP,
+        //     skillName: "ReactBootstrap",
+        // },
+        // {
+        //     link: "https://tailwindcss.com/",
+        //     imgAltText: "TailwindCSS",
+        //     imgSrc: TAILWINDCSS,
+        //     skillName: "TailwindCSS",
+        // },
         // {
         //     link: "https://daisyui.com/",
         //     imgAltText: "Daisy UI",
@@ -241,24 +241,24 @@ export const skills = {
         //     imgSrc: PRISMA,
         //     skillName: "Prisma",
         // },
-        {
-          link: "https://www.mongodb.com/",
-          imgAltText: "MongoDB",
-          imgSrc: MONGODB,
-          skillName: "MongoDB",
-        },
+        // {
+        //   link: "https://www.mongodb.com/",
+        //   imgAltText: "MongoDB",
+        //   imgSrc: MONGODB,
+        //   skillName: "MongoDB",
+        // },
         {
             link: "https://mysql.com/",
             imgAltText: "MySQL",
             imgSrc: MYSQL,
             skillName: "MySQL",
         },
-        {
-            link: "https://postgresapp.com/",
-            imgAltText: "PosgreSQL",
-            imgSrc: POSTGRESQL,
-            skillName: "PostgreSQL",
-        },
+        // {
+        //     link: "https://postgresapp.com/",
+        //     imgAltText: "PosgreSQL",
+        //     imgSrc: POSTGRESQL,
+        //     skillName: "PostgreSQL",
+        // },
         {
             link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
             imgAltText: "Amplify",
