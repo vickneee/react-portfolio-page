@@ -36,7 +36,7 @@ export const projects = [
       {src: NETLIFY, alt: "Netlify"}
     ],
     liveLink: "https://timeab.netlify.app/",
-    sourceCodeLink: "",
+    sourceCodeLink: "https://github.com/vickneee/watchesProject_1",
   },
   // Add more projects here...
   // {
