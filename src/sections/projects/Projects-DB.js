@@ -29,7 +29,7 @@ export const projects = [
     alt: "TimeAB - Luxury Watches Store",
     date: "Oct 2024",
     text: "TimeAB",
-    description: "TimeAB project is a school project that I did at Metropolia University of Applied Sciences. The project is a fictional luxury watches store website that offers a wide range of watches from the world's top brands. The website is built using basic HTML and CSS. It's hosted on Netlify. Note: The website is not responsive.",
+    description: "TimeAB is a school project I created at Metropolia University of Applied Sciences. It's a fictional luxury watch store website offering a wide range of watches from the world's top brands. Built using basic HTML and CSS, the website is hosted on Netlify. Note: The website is currently not responsive.",
     techUsed: [
       {src: HTML5, alt: "HTML 5"},
       {src: CSS3, alt: "CSS 3"},
