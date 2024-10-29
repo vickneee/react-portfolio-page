@@ -2,7 +2,7 @@
 import TimeAB from "../../assets/img/projects/TimeAB.png";
 import TasksApp from "../../assets/img/projects/TasksApp.png";
 import Helppomatka from "../../assets/img/projects/Helppomatka.png";
-import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
+// import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 // import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
@@ -69,21 +69,21 @@ export const projects = [
     liveLink: "https://vickneee-helppomatka.onrender.com/",
     sourceCodeLink: "https://github.com/vickneee/helppomatka"
   },
-  {
-    src: MyDiamonds,
-    alt: "myDiamonds",
-    date: "Feb 2024",
-    text: "myDiamonds 💎",
-    description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
-    techUsed: [
-      {src: HTML5, alt: "HTML 5"},
-      {src: CSS3, alt: "CSS 3"},
-      {src: JAVASCRIPT, alt: "JavaScript"},
-      {src: RENDER, alt: "Render"}
-    ],
-    liveLink: "https://mydiamonds.onrender.com/",
-    sourceCodeLink: "https://github.com/vickneee/myDiamonds"
-  },
+  // {
+  //   src: MyDiamonds,
+  //   alt: "myDiamonds",
+  //   date: "Feb 2024",
+  //   text: "myDiamonds 💎",
+  //   description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
+  //   techUsed: [
+  //     {src: HTML5, alt: "HTML 5"},
+  //     {src: CSS3, alt: "CSS 3"},
+  //     {src: JAVASCRIPT, alt: "JavaScript"},
+  //     {src: RENDER, alt: "Render"}
+  //   ],
+  //   liveLink: "https://mydiamonds.onrender.com/",
+  //   sourceCodeLink: "https://github.com/vickneee/myDiamonds"
+  // },
   // {
   //   src: MounTours,
   //   alt: "Mountours",
