@@ -1,16 +1,19 @@
 // Projects
+import OtaKiinniJosSaat from "../../assets/img/projects/OtaKiinniJosSaat.png";
 import TimeAB from "../../assets/img/projects/TimeAB.png";
 import TasksApp from "../../assets/img/projects/TasksApp.png";
 import Helppomatka from "../../assets/img/projects/Helppomatka.png";
-// import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
-// import MounTours from "../../assets/img/projects/Mountours.png";
+import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
+import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
 
 // Skills
+import TRELLO from "../../assets/img/skills/trello.png";
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
-// import SASS from "../../assets/img/skills/sass.png";
+import SASS from "../../assets/img/skills/sass.png";
+import PYTHON from "../../assets/img/skills/python.svg";
 import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react-circle.png"
@@ -18,12 +21,32 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESS from "../../assets/img/skills/express.svg";
+import POSTMAN from "../../assets/img/skills/postman-logo.png";
+import SQL from "../../assets/img/skills/mysql.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
+  {
+    src: OtaKiinniJosSaat,
+    alt: "Ota kiinni jos saat lentopeli",
+    date: "Dec 2024",
+    text: "Ota kiinni jos saat",
+    description: "Tämä projekti kehitettiin osana ryhmätyötä Ohjelmisto 1 ja 2 -kursseilla Metropolia Ammattikorkeakoulussa. Pelin idea pohjautuu Scotland Yard -lautapeliin. Pelissä kaksi etsivää jahtaa ympäristörikollista ympäri Euroopan lentokenttiä tavoitteenaan saada hänet kiinni ennen ajan loppumista.",
+    techUsed: [
+      {src: TRELLO, alt: "Trello"},
+      {src: HTML5, alt: "HTML 5"},
+      {src: CSS3, alt: "CSS 3"},
+      {src: JAVASCRIPT, alt: "JavaScript"},
+      {src: PYTHON, alt: "Python"},
+      {src: POSTMAN, alt: "Postman"},
+      {src: SQL, alt: "MySQL"},
+    ],
+    liveLink: "https://www.youtube.com/watch?v=2oeH_PIistw",
+    sourceCodeLink: "https://github.com/vickneee/Ota_kiinni_jos_saat",
+  },
   {
     src: TimeAB,
     alt: "TimeAB - Luxury Watches Store",
@@ -60,6 +83,7 @@ export const projects = [
     text: "Helppomatka",
     description: "Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a Full Stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.",
     techUsed: [
+      {src: TRELLO, alt: "Trello"},
       {src: REACT, alt: "React"},
       {src: NODEJS, alt: "Node.js"},
       {src: EXPRESS, alt: "Express.js"},
@@ -67,39 +91,38 @@ export const projects = [
       {src: RENDER, alt: "Render"}
     ],
     liveLink: "https://vickneee-helppomatka.onrender.com/",
-    sourceCodeLink: "https://github.com/vickneee/helppomatka"
+    sourceCodeLink: "https://github.com/vickneee/Helppomatka."
   },
-  // {
-  //   src: MyDiamonds,
-  //   alt: "myDiamonds",
-  //   date: "Feb 2024",
-  //   text: "myDiamonds 💎",
-  //   description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
-  //   techUsed: [
-  //     {src: HTML5, alt: "HTML 5"},
-  //     {src: CSS3, alt: "CSS 3"},
-  //     {src: JAVASCRIPT, alt: "JavaScript"},
-  //     {src: RENDER, alt: "Render"}
-  //   ],
-  //   liveLink: "https://mydiamonds.onrender.com/",
-  //   sourceCodeLink: "https://github.com/vickneee/myDiamonds"
-  // },
-  // {
-  //   src: MounTours,
-  //   alt: "Mountours",
-  //   date: "Jul 2023",
-  //   text: "Mountours",
-  //   description: "A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.",
-  //   techUsed: [
-  //     {src: HTML5, alt: "HTML 5"},
-  //     {src: CSS3, alt: "CSS 3"},
-  //     {src: SASS, alt: "Sass"},
-  //     {src: JAVASCRIPT, alt: "JavaScript"},
-  //     {src: NETLIFY, alt: "Netlify"}
-  //   ],
-  //   liveLink: "https://mountours.netlify.app/",
-  //   sourceCodeLink: "https://github.com/vickneee/mountours"
-  // },
+  {
+    src: MyDiamonds,
+    alt: "myDiamonds",
+    date: "Feb 2024",
+    text: "myDiamonds 💎",
+    description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
+    techUsed: [
+      {src: HTML5, alt: "HTML 5"},
+      {src: CSS3, alt: "CSS 3"},
+      {src: JAVASCRIPT, alt: "JavaScript"},
+      {src: RENDER, alt: "Render"}
+    ],
+    liveLink: "https://mydiamonds.onrender.com/",
+    sourceCodeLink: "https://github.com/vickneee/myDiamonds"
+  },
+  {
+    src: MounTours,
+    alt: "Mountours",
+    date: "Jul 2023",
+    text: "Mountours",
+    description: "A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.",
+    techUsed: [
+      {src: HTML5, alt: "HTML 5"},
+      {src: CSS3, alt: "CSS 3"},
+      {src: SASS, alt: "Sass"},
+      {src: NETLIFY, alt: "Netlify"}
+    ],
+    liveLink: "https://mountours.netlify.app/",
+    sourceCodeLink: "https://github.com/vickneee/mountours"
+  },
   {
     src: PortfolioPage,
     alt: "PortfolioPage",

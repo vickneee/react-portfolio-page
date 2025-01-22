@@ -23,7 +23,7 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software development student
+                                <br/> Greetings from my website! I am an enthusiastic software engineering student
                                 who
                                 places
                                 a lot of emphasis on developing websites and applications that are user-friendly.

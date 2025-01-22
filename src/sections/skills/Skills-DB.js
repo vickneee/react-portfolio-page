@@ -6,7 +6,8 @@ import WEBSTORM from "../../assets/img/skills/webstorm.png";
 // import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
 // import DATAGRIP from "../../assets/img/skills/datagrip.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
-// import FIGMA from "../../assets/img/skills/figma.png";
+import TRELLO from "../../assets/img/skills/trello.png";
+import FIGMA from "../../assets/img/skills/figma.png";
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB from "../../assets/img/skills/github.svg";
 import MARKDOWN from '../../assets/img/skills/markdown.svg';
@@ -91,12 +92,18 @@ export const skills = {
         //     imgSrc: XCODE,
         //     skillName: "Xcode",
         // },
-        // {
-        //   link: "https://www.figma.com/",
-        //   imgAltText: "Figma",
-        //   imgSrc: FIGMA,
-        //   skillName: "Figma",
-        // },
+        {
+            link: "https://trello.com/",
+            imgAltText: "Trello",
+            imgSrc: TRELLO,
+            skillName: "Trello",
+        },
+        {
+          link: "https://www.figma.com/",
+          imgAltText: "Figma",
+          imgSrc: FIGMA,
+          skillName: "Figma",
+        },
         {
             link: "https://git-scm.com/",
             imgAltText: "GIT",
