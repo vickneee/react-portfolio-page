@@ -34,7 +34,7 @@ export const projects = [
     alt: "Ota kiinni jos saat lentopeli",
     date: "Dec 2024",
     text: "Ota kiinni jos saat",
-    description: "Tämä projekti kehitettiin osana ryhmätyötä Ohjelmisto 1 ja 2 -kursseilla Metropolia Ammattikorkeakoulussa. Pelin idea pohjautuu Scotland Yard -lautapeliin. Pelissä kaksi etsivää jahtaa ympäristörikollista ympäri Euroopan lentokenttiä tavoitteenaan saada hänet kiinni ennen ajan loppumista.",
+    description: "Originally developed as a console game, this full-stack application was expanded into a browser-based version. The backend is implemented using Python and a MariaDB database, while the frontend is built with HTML, CSS, and JavaScript technologies. The project also utilizes external APIs, such as Google Maps API and AzureOpenAI GPT-4. This project was developed as a group effort during the Software Development 1 and 2 courses at Metropolia University of Applied Sciences.",
     techUsed: [
       {src: TRELLO, alt: "Trello"},
       {src: HTML5, alt: "HTML 5"},
@@ -45,7 +45,7 @@ export const projects = [
       {src: SQL, alt: "MySQL"},
     ],
     liveLink: "https://www.youtube.com/watch?v=2oeH_PIistw",
-    sourceCodeLink: "https://github.com/vickneee/Ota_kiinni_jos_saat",
+    sourceCodeLink: "https://github.com/vickneee/ota-kiinni-jos-saat",
   },
   {
     src: TimeAB,
