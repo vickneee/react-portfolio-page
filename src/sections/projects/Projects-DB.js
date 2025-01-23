@@ -3,7 +3,7 @@ import OtaKiinniJosSaat from "../../assets/img/projects/OtaKiinniJosSaat.png";
 import TimeAB from "../../assets/img/projects/TimeAB.png";
 import TasksApp from "../../assets/img/projects/TasksApp.png";
 import Helppomatka from "../../assets/img/projects/Helppomatka.png";
-import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
+// import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
 import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
 import TicTacToe from "../../assets/img/projects/TicTacToe.png";
@@ -93,26 +93,26 @@ export const projects = [
     liveLink: "https://vickneee-helppomatka.onrender.com/",
     sourceCodeLink: "https://github.com/vickneee/Helppomatka."
   },
-  {
-    src: MyDiamonds,
-    alt: "myDiamonds",
-    date: "Feb 2024",
-    text: "myDiamonds 💎",
-    description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
-    techUsed: [
-      {src: HTML5, alt: "HTML 5"},
-      {src: CSS3, alt: "CSS 3"},
-      {src: JAVASCRIPT, alt: "JavaScript"},
-      {src: RENDER, alt: "Render"}
-    ],
-    liveLink: "https://mydiamonds.onrender.com/",
-    sourceCodeLink: "https://github.com/vickneee/myDiamonds"
-  },
+  // {
+  //   src: MyDiamonds,
+  //   alt: "myDiamonds",
+  //   date: "Feb 2024",
+  //   text: "myDiamonds 💎",
+  //   description: "To prevent losing my Diamonds, I created a basic website for my web development resources, so they will be all in one place. 💎",
+  //   techUsed: [
+  //     {src: HTML5, alt: "HTML 5"},
+  //     {src: CSS3, alt: "CSS 3"},
+  //     {src: JAVASCRIPT, alt: "JavaScript"},
+  //     {src: RENDER, alt: "Render"}
+  //   ],
+  //   liveLink: "https://mydiamonds.onrender.com/",
+  //   sourceCodeLink: "https://github.com/vickneee/myDiamonds"
+  // },
   {
     src: MounTours,
-    alt: "Mountours",
+    alt: "MounTours",
     date: "Jul 2023",
-    text: "Mountours",
+    text: "MounTours",
     description: "A fictional travel agency UI page. Want to get away from the noise of the town and be surrounded by the beauty of nature? Welcome to Mountours, where we give you all the details you need to organize your upcoming mountain vacation.",
     techUsed: [
       {src: HTML5, alt: "HTML 5"},
