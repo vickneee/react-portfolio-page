@@ -1,6 +1,6 @@
 // Projects
 import OtaKiinniJosSaat from "../../assets/img/projects/OtaKiinniJosSaat.png";
-import TimeAB from "../../assets/img/projects/TimeAB.png";
+// import TimeAB from "../../assets/img/projects/TimeAB.png";
 import TasksApp from "../../assets/img/projects/TasksApp.png";
 import Helppomatka from "../../assets/img/projects/Helppomatka.png";
 // import MyDiamonds from "../../assets/img/projects/MyDiamonds.png";
@@ -14,7 +14,7 @@ import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import SASS from "../../assets/img/skills/sass.png";
 import PYTHON from "../../assets/img/skills/python.svg";
-import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
+import JAVASCRIPT from "../../assets/img/skills/js.svg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react-circle.png"
 import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -47,20 +47,20 @@ export const projects = [
     liveLink: "https://www.youtube.com/watch?v=2oeH_PIistw",
     sourceCodeLink: "https://github.com/vickneee/ota-kiinni-jos-saat",
   },
-  {
-    src: TimeAB,
-    alt: "TimeAB - Luxury Watches Store",
-    date: "Oct 2024",
-    text: "TimeAB",
-    description: "TimeAB is a school project I created at Metropolia University of Applied Sciences. It’s a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, but it only showcases the user interface and does not include any interactive features or links. The website is currently not responsive.",
-    techUsed: [
-      {src: HTML5, alt: "HTML 5"},
-      {src: CSS3, alt: "CSS 3"},
-      {src: NETLIFY, alt: "Netlify"}
-    ],
-    liveLink: "https://timeab.netlify.app/",
-    sourceCodeLink: "https://github.com/vickneee/timeAB",
-  },
+  // {
+  //   src: TimeAB,
+  //   alt: "TimeAB - Luxury Watches Store",
+  //   date: "Oct 2024",
+  //   text: "TimeAB",
+  //   description: "TimeAB is a school project I created at Metropolia University of Applied Sciences. It’s a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, but it only showcases the user interface and does not include any interactive features or links. The website is currently not responsive.",
+  //   techUsed: [
+  //     {src: HTML5, alt: "HTML 5"},
+  //     {src: CSS3, alt: "CSS 3"},
+  //     {src: NETLIFY, alt: "Netlify"}
+  //   ],
+  //   liveLink: "https://timeab.netlify.app/",
+  //   sourceCodeLink: "https://github.com/vickneee/timeAB",
+  // },
   {
     src: TasksApp,
     alt: "Tasks App",

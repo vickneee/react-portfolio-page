@@ -7,7 +7,7 @@ import WEBSTORM from "../../assets/img/skills/webstorm.png";
 // import DATAGRIP from "../../assets/img/skills/datagrip.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
 import TRELLO from "../../assets/img/skills/trello.png";
-import FIGMA from "../../assets/img/skills/figma.png";
+// import FIGMA from "../../assets/img/skills/figma.png";
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB from "../../assets/img/skills/github.svg";
 import MARKDOWN from '../../assets/img/skills/markdown.svg';
@@ -15,7 +15,7 @@ import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import PYTHON from "../../assets/img/skills/python.svg";
 // import JAVA from "../../assets/img/skills/java-s.svg";
-import JAVASCRIPT from "../../assets/img/skills/js.jpeg";
+import JAVASCRIPT from "../../assets/img/skills/js.svg";
 // import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 // import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
@@ -24,7 +24,7 @@ import REACT from "../../assets/img/skills/react-circle.png";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 // import REDUX from "../../assets/img/skills/redux.svg";
 // import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-// import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
+import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 // import DAISYUI from "../../assets/img/skills/daisyui.svg";
 // import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 // import NEXT_JS from "../../assets/img/skills/next.png";
@@ -32,7 +32,7 @@ import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESSJS from "../../assets/img/skills/express.svg";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 // import PRISMA from "../../assets/img/skills/prisma.svg";
-// import MONGODB from "../../assets/img/skills/mongo-db.png";
+import MONGODB from "../../assets/img/skills/mongo-db.png";
 import MYSQL from "../../assets/img/skills/mysql.png";
 // import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 // import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
@@ -98,12 +98,12 @@ export const skills = {
             imgSrc: TRELLO,
             skillName: "Trello",
         },
-        {
-          link: "https://www.figma.com/",
-          imgAltText: "Figma",
-          imgSrc: FIGMA,
-          skillName: "Figma",
-        },
+        // {
+        //   link: "https://www.figma.com/",
+        //   imgAltText: "Figma",
+        //   imgSrc: FIGMA,
+        //   skillName: "Figma",
+        // },
         {
             link: "https://git-scm.com/",
             imgAltText: "GIT",
@@ -200,12 +200,12 @@ export const skills = {
         //     imgSrc: REACT_BOOTSTRAP,
         //     skillName: "ReactBootstrap",
         // },
-        // {
-        //     link: "https://tailwindcss.com/",
-        //     imgAltText: "TailwindCSS",
-        //     imgSrc: TAILWINDCSS,
-        //     skillName: "TailwindCSS",
-        // },
+        {
+            link: "https://tailwindcss.com/",
+            imgAltText: "TailwindCSS",
+            imgSrc: TAILWINDCSS,
+            skillName: "TailwindCSS",
+        },
         // {
         //     link: "https://daisyui.com/",
         //     imgAltText: "Daisy UI",
@@ -248,17 +248,17 @@ export const skills = {
         //     imgSrc: PRISMA,
         //     skillName: "Prisma",
         // },
-        // {
-        //   link: "https://www.mongodb.com/",
-        //   imgAltText: "MongoDB",
-        //   imgSrc: MONGODB,
-        //   skillName: "MongoDB",
-        // },
         {
             link: "https://mysql.com/",
             imgAltText: "MySQL",
             imgSrc: MYSQL,
             skillName: "MySQL",
+        },
+        {
+            link: "https://www.mongodb.com/",
+            imgAltText: "MongoDB",
+            imgSrc: MONGODB,
+            skillName: "MongoDB",
         },
         // {
         //     link: "https://postgresapp.com/",
