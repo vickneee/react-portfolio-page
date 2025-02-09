@@ -87,6 +87,7 @@ export const projects = [
       {src: REACT, alt: "React"},
       {src: NODEJS, alt: "Node.js"},
       {src: EXPRESS, alt: "Express.js"},
+      {src: POSTMAN, alt: "Postman"},
       {src: MONGODB, alt: "MongoDB"},
       {src: RENDER, alt: "Render"}
     ],
