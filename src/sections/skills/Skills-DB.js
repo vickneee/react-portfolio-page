@@ -1,23 +1,24 @@
 // import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png";
 import VISUAL_STUDIO_CODE from "../../assets/img/skills/vscode.png";
-// import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
+import INTELLIJ from "../../assets/img/skills/intellij-idea.png";
 import PYCHARM from "../../assets/img/skills/pycharm.png";
 import WEBSTORM from "../../assets/img/skills/webstorm.png";
 // import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
 // import DATAGRIP from "../../assets/img/skills/datagrip.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
 import TRELLO from "../../assets/img/skills/trello.png";
-// import FIGMA from "../../assets/img/skills/figma.png";
+import JIRA from "../../assets/img/skills/jira.png";
+import FIGMA from "../../assets/img/skills/figma.png";
 import GIT from "../../assets/img/skills/git-icon.svg";
 import GITHUB from "../../assets/img/skills/github.svg";
 import MARKDOWN from '../../assets/img/skills/markdown.svg';
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import PYTHON from "../../assets/img/skills/python.svg";
-// import JAVA from "../../assets/img/skills/java-s.svg";
+import JAVA from "../../assets/img/skills/java-r.png";
 import JAVASCRIPT from "../../assets/img/skills/js.svg";
-// import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-// import KOTLIN from "../../assets/img/skills/kotlin.svg";
+import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import KOTLIN from "../../assets/img/skills/kotlin.svg";
 // import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from "../../assets/img/skills/react-circle.png";
 // import REACTNATIVE from "../../assets/img/skills/react-square.svg";
@@ -35,6 +36,7 @@ import POSTMAN from "../../assets/img/skills/postman-logo.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";
 import MYSQL from "../../assets/img/skills/mysql.png";
 // import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import SUPABASE from "../../assets/img/skills/supabase.svg";
 // import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
@@ -56,12 +58,6 @@ export const skills = {
             imgSrc: VISUAL_STUDIO_CODE,
             skillName: "VSCode",
         },
-        // {
-        //     link: "https://www.jetbrains.com/idea/",
-        //     imgAltText: "IntelliJ",
-        //     imgSrc: INTELLIJ,
-        //     skillName: "IntelliJ",
-        // },
         {
             link: "https://www.jetbrains.com/pycharm/",
             imgAltText: "PyCharm",
@@ -74,6 +70,12 @@ export const skills = {
             imgSrc: WEBSTORM,
             skillName: "WebStorm",
         },
+      {
+          link: "https://www.jetbrains.com/idea/",
+          imgAltText: "IntelliJ",
+          imgSrc: INTELLIJ,
+          skillName: "IntelliJ",
+      },
         // {
         //     link: "https://www.dbvis.com/",
         //     imgAltText: "DbVisualizer",
@@ -98,12 +100,18 @@ export const skills = {
             imgSrc: TRELLO,
             skillName: "Trello",
         },
-        // {
-        //   link: "https://www.figma.com/",
-        //   imgAltText: "Figma",
-        //   imgSrc: FIGMA,
-        //   skillName: "Figma",
-        // },
+      {
+        link: "https://www.atlassian.com/software/jira",
+        imgAltText: "Jira",
+        imgSrc: JIRA,
+        skillName: "Jira",
+      },
+        {
+          link: "https://www.figma.com/",
+          imgAltText: "Figma",
+          imgSrc: FIGMA,
+          skillName: "Figma",
+        },
         {
             link: "https://git-scm.com/",
             imgAltText: "GIT",
@@ -140,18 +148,18 @@ export const skills = {
             imgSrc: PYTHON,
             skillName: "Python",
         },
-        // {
-        //     link: "https://www.java.com/",
-        //     imgAltText: "Java",
-        //     imgSrc: JAVA,
-        //     skillName: "Java",
-        // },
-        // {
-        //     link: "https://www.kotlinlang.org/",
-        //     imgAltText: "Kotlin",
-        //     imgSrc: KOTLIN,
-        //     skillName: "Kotlin",
-        // },
+        {
+            link: "https://www.java.com/",
+            imgAltText: "Java",
+            imgSrc: JAVA,
+            skillName: "Java",
+        },
+        {
+            link: "https://www.kotlinlang.org/",
+            imgAltText: "Kotlin",
+            imgSrc: KOTLIN,
+            skillName: "Kotlin",
+        },
         // {
         //     link: "https://developer.apple.com/swift/",
         //     imgAltText: "Swift",
@@ -164,12 +172,12 @@ export const skills = {
           imgSrc: JAVASCRIPT,
           skillName: "JavaScript",
         },
-        // {
-        //   link: "https://www.typescriptlang.org/",
-        //   imgAltText: "TypeScript",
-        //   imgSrc: TYPESCRIPT,
-        //   skillName: "TypeScript",
-        // },
+        {
+          link: "https://www.typescriptlang.org/",
+          imgAltText: "TypeScript",
+          imgSrc: TYPESCRIPT,
+          skillName: "TypeScript",
+        },
         {
             link: "https://reactjs.org/",
             imgAltText: "React",
@@ -266,6 +274,12 @@ export const skills = {
         //     imgSrc: POSTGRESQL,
         //     skillName: "PostgreSQL",
         // },
+      {
+        link: "https://supabase.com/",
+        imgAltText: "Supabase",
+        imgSrc: SUPABASE,
+        skillName: "Supabase",
+      },
         // {
         //     link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
         //     imgAltText: "Amplify",
