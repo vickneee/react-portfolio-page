@@ -38,10 +38,10 @@ import RENDER from "../../assets/img/skills/render.png";
 export const projects = [
   {
     src: LibraryHub,
-    alt: "Library Hub",
+    alt: "LibraryHub",
     date: "Dec 2025",
-    text: "Library Hub",
-    description: "Library Hub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. Library Hub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes. ",
+    text: "LibraryHub",
+    description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. Library Hub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes. ",
     techUsed: [
       {src: JIRA, alt: "Jira"},
       {src: NEXT, alt: "Next.js"},
@@ -84,9 +84,9 @@ export const projects = [
   },
   {
     src: OtaKiinniJosSaat,
-    alt: "Ota kiinni jos saat lentopeli",
+    alt: "Ota Kiinni Jos Saat lentopeli",
     date: "Dec 2024",
-    text: "Ota kiinni jos saat",
+    text: "Ota Kiinni Jos Saat",
     description: "This project was developed as a group effort during the Software 1 and 2 courses at Metropolia University of Applied Sciences. Originally developed as a console game, this full-stack application was expanded into a browser-based version. The backend is implemented using Python and a MariaDB database, while the frontend is built with HTML, CSS, and JavaScript technologies. The project also utilizes external APIs, such as Google Maps API and AzureOpenAI GPT-4.",
     techUsed: [
       {src: TRELLO, alt: "Trello"},
