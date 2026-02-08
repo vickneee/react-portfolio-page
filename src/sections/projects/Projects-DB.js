@@ -77,7 +77,7 @@ export const projects = [
       {src: NODEJS, alt: "Node.js"},
       {src: EXPRESS, alt: "Express.js"},
       {src: POSTMAN, alt: "Postman"},
-      {src: SQL, alt: "MySQL"},
+      {src: MONGODB, alt: "MongoDB"},
     ],
     liveLink: "https://github.com/vickneee/WebDev-Project",
     sourceCodeLink: "https://github.com/vickneee/WebDev-Project",
