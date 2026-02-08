@@ -97,7 +97,7 @@ export const projects = [
       {src: POSTMAN, alt: "Postman"},
       {src: SQL, alt: "MySQL"},
     ],
-    liveLink: "https://www.youtube.com/watch?v=2oeH_PIistw",
+    liveLink: "https://www.youtube.com/watch?v=n1hs_IwryeM",
     sourceCodeLink: "https://github.com/vickneee/ota-kiinni-jos-saat",
   },
   {
