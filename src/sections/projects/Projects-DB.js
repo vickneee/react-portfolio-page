@@ -41,14 +41,14 @@ export const projects = [
     alt: "LibraryHub",
     date: "Dec 2025",
     text: "LibraryHub",
-    description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. Library Hub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes. ",
+    description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes. ",
     techUsed: [
       {src: JIRA, alt: "Jira"},
       {src: NEXT, alt: "Next.js"},
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
       {src: SUPABASE, alt: "Supabase"},
     ],
-    liveLink: "https://www.youtube.com/watch?v=JHYGC7uMR9U",
+    liveLink: "https://www.youtube.com/watch?v=jrJ7c9MOsFE",
     sourceCodeLink: "https://github.com/vickneee/SEP-R1",
   },
   {
