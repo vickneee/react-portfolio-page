@@ -62,7 +62,7 @@ export const projects = [
       {src: JAVA, alt: "Java"},
       {src: MONGODB, alt: "MongoDB"},
     ],
-    liveLink: "https://www.youtube.com/watch?v=kAXP5fTSJqc&t=2s",
+    liveLink: "https://www.youtube.com/watch?v=zKhnMIr5bM4",
     sourceCodeLink: "https://github.com/vickneee/airportSimulator",
   },
   {
