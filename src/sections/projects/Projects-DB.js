@@ -79,7 +79,7 @@ export const projects = [
       {src: POSTMAN, alt: "Postman"},
       {src: MONGODB, alt: "MongoDB"},
     ],
-    liveLink: "https://github.com/vickneee/WebDev-Project",
+    liveLink: "https://www.youtube.com/watch?v=0nC7l_O6t7Q",
     sourceCodeLink: "https://github.com/vickneee/WebDev-Project",
   },
   {
