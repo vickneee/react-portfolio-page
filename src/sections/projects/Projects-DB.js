@@ -1,4 +1,5 @@
 // Projects
+import Figma from "../../assets/img/projects/Figma.png";
 import LibraryHub from "../../assets/img/projects/LibraryHub.png";
 import AirportSimulator from "../../assets/img/projects/AirportSimulator.png";
 import MusaBarberShop from "../../assets/img/projects/MusaBarberShop.png";
@@ -16,6 +17,7 @@ import TRELLO from "../../assets/img/skills/trello.png";
 import JIRA from "../../assets/img/skills/jira.png";
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
+import FIGMA from "../../assets/img/skills/figma.png";
 import SASS from "../../assets/img/skills/sass.png";
 import PYTHON from "../../assets/img/skills/python.svg";
 import JAVA from "../../assets/img/skills/java-r.png";
@@ -37,11 +39,23 @@ import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
   {
+    src: Figma,
+    alt: "Figma Prototype",
+    date: "Dec 2025",
+    text: "Figma Prototype",
+    description: "Figma Prototype is a student group project during the User-centered Design course at Metropolia University of Applied Sciences.",
+    techUsed: [
+      {src: FIGMA, alt: "Figma Prototype"},
+    ],
+    liveLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-VV-MK-RT?node-id=0-1&t=ABVW3cG8wg6OaULk-1",
+    sourceCodeLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-VV-MK-RT?node-id=0-1&t=ABVW3cG8wg6OaULk-1"
+  },
+  {
     src: LibraryHub,
     alt: "LibraryHub",
     date: "Dec 2025",
     text: "LibraryHub",
-    description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes. ",
+    description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes.",
     techUsed: [
       {src: JIRA, alt: "Jira"},
       {src: NEXT, alt: "Next.js"},
