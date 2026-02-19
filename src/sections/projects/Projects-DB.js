@@ -47,8 +47,8 @@ export const projects = [
     techUsed: [
       {src: FIGMA, alt: "Figma Prototype"},
     ],
-    liveLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-VV-MK-RT?node-id=0-1&t=ABVW3cG8wg6OaULk-1",
-    sourceCodeLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-VV-MK-RT?node-id=0-1&t=ABVW3cG8wg6OaULk-1"
+    liveLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1",
+    sourceCodeLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1"
   },
   {
     src: LibraryHub,
