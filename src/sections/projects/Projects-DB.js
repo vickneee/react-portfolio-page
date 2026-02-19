@@ -69,7 +69,7 @@ export const projects = [
     alt: "AirportSimulator",
     date: "May 2025",
     text: "Airport Simulator",
-    description: "Airport Simulator is a Java-based application developed as a group project during the Object-oriented Programming Project course at Metropolia University of Applied Sciences. This project simulates the process of passengers going through an airport. The simulation is based on a queueing model, where passengers arrive at the airport and go through various service points such as check-in, security, passport, and boarding. The simulation allows users to configure various parameters such as arrival time between passengers, number of passengers traveling out of the EU, simulation time, and delay.",
+    description: "Airport Simulator is a Java-based application developed as a group project during the Object-Oriented Programming Project course at Metropolia University of Applied Sciences. This project simulates the process of passengers going through an airport. The simulation is based on a queueing model, where passengers arrive at the airport and go through various service points such as check-in, security, passport, and boarding. The simulation allows users to configure various parameters such as arrival time between passengers, number of passengers traveling out of the EU, simulation time, and delay.",
     techUsed: [
       {src: TRELLO, alt: "Jira"},
       {src: JAVA, alt: "Java"},
@@ -118,7 +118,7 @@ export const projects = [
     alt: "TimeAB - Luxury Watches Store",
     date: "Oct 2024",
     text: "TimeAB",
-    description: "TimeAB is a school project I created at Metropolia University of Applied Sciences. It’s a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, but it only showcases the user interface and does not include any interactive features or links. The website is currently not responsive.",
+    description: "TimeAB – a basic HTML & CSS school project at Metropolia University of Applied Sciences. It is a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, and showcases only the user interface. It has no interactive features or links and is currently not responsive.",
     techUsed: [
       {src: HTML5, alt: "HTML 5"},
       {src: CSS3, alt: "CSS 3"},
