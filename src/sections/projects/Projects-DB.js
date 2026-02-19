@@ -59,7 +59,7 @@ export const projects = [
     text: "Figma Prototype",
     description: "Figma Prototype is a student group project created during the User-Centered Design course at Metropolia University of Applied Sciences.",
     techUsed: [
-      {src: FIGMA, alt: "Figma Prototype"},
+      {src: FIGMA, alt: "Figma"},
     ],
     liveLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1",
     sourceCodeLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1"
