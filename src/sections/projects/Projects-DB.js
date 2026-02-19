@@ -148,7 +148,7 @@ export const projects = [
     alt: "Helppomatka",
     date: "Mar 2024",
     text: "Helppomatka",
-    description: "Helppomatka is a student group project created at Vantaa Vocational College Varia. It is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project is a fictional travel agency website with a booking system.",
+    description: "Helppomatka is a student group project: a MERN stack application created at Vantaa Vocational College Varia. It is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project is a fictional travel agency website with a booking system.",
     techUsed: [
       {src: TRELLO, alt: "Trello"},
       {src: REACT, alt: "React"},
