@@ -101,7 +101,7 @@ export const projects = [
     alt: "Ota Kiinni Jos Saat lentopeli",
     date: "Dec 2024",
     text: "Ota Kiinni Jos Saat",
-    description: "This project was developed as a group effort during the Software 1 and 2 courses at Metropolia University of Applied Sciences. Originally developed as a console game, this full-stack application was expanded into a browser-based version. The backend is implemented using Python and a MariaDB database, while the frontend is built with HTML, CSS, and JavaScript technologies. The project also utilizes external APIs, such as Google Maps API and AzureOpenAI GPT-4.",
+    description: "Ota kiinni jos saat was developed as a group project during the Software 1 and 2 courses at Metropolia University of Applied Sciences. Originally developed as a console game, this full-stack application was expanded into a browser-based version. The backend is implemented using Python and a MariaDB database, while the frontend is built with HTML, CSS, and JavaScript technologies. The project also utilizes external APIs, such as Google Maps API and AzureOpenAI GPT-4.",
     techUsed: [
       {src: TRELLO, alt: "Trello"},
       {src: HTML5, alt: "HTML 5"},
@@ -119,7 +119,7 @@ export const projects = [
     alt: "TimeAB - Luxury Watches Store",
     date: "Oct 2024",
     text: "TimeAB",
-    description: "TimeAB – a basic HTML & CSS school project at Metropolia University of Applied Sciences. It is a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, and showcases only the user interface. It has no interactive features or links and is currently not responsive.",
+    description: "TimeAB is a basic HTML & CSS school project at Metropolia University of Applied Sciences. It is a fictional luxury watch store UI website, built using basic HTML and CSS. The website is hosted on Netlify, and showcases only the user interface. It has no interactive features or links and is currently not responsive.",
     techUsed: [
       {src: HTML5, alt: "HTML 5"},
       {src: CSS3, alt: "CSS 3"},
@@ -148,7 +148,7 @@ export const projects = [
     alt: "Helppomatka",
     date: "Mar 2024",
     text: "Helppomatka",
-    description: "Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a Full Stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.",
+    description: "Helppomatka is a student group project created at Vantaa Vocational College Varia. It is a full-stack web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project is a fictional travel agency website with a booking system.",
     techUsed: [
       {src: TRELLO, alt: "Trello"},
       {src: REACT, alt: "React"},
