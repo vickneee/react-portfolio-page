@@ -46,6 +46,7 @@ export const projects = [
     techUsed: [
       {src: JIRA, alt: "Jira"},
       {src: NEXT, alt: "Next.js"},
+      {src: TYPESCRIPT, alt: "TypeScript"},
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
       {src: SUPABASE, alt: "Supabase"},
     ],
@@ -71,7 +72,7 @@ export const projects = [
     text: "Airport Simulator",
     description: "Airport Simulator is a Java-based application developed as a group project during the Object-Oriented Programming Project course at Metropolia University of Applied Sciences. This project simulates the process of passengers going through an airport. The simulation is based on a queueing model, where passengers arrive at the airport and go through various service points such as check-in, security, passport, and boarding. The simulation allows users to configure various parameters such as arrival time between passengers, number of passengers traveling out of the EU, simulation time, and delay.",
     techUsed: [
-      {src: TRELLO, alt: "Jira"},
+      {src: JIRA, alt: "Jira"},
       {src: JAVA, alt: "Java"},
       {src: MONGODB, alt: "MongoDB"},
     ],
