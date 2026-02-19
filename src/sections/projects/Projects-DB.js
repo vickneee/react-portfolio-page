@@ -43,7 +43,7 @@ export const projects = [
     alt: "Figma Prototype",
     date: "Dec 2025",
     text: "Figma Prototype",
-    description: "Figma Prototype – a student group project created during the User-Centered Design course at Metropolia University of Applied Sciences.",
+    description: "Figma Prototype is a student group project created during the User-Centered Design course at Metropolia University of Applied Sciences.",
     techUsed: [
       {src: FIGMA, alt: "Figma Prototype"},
     ],
@@ -53,7 +53,7 @@ export const projects = [
   {
     src: LibraryHub,
     alt: "LibraryHub",
-    date: "Dec 2025",
+    date: "Nov 2025",
     text: "LibraryHub",
     description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books. The project aims to increase the efficiency of the library system by automating routine operations and providing real-time updates on book availability, which supports user engagement and positive outcomes.",
     techUsed: [
