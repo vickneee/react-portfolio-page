@@ -43,7 +43,7 @@ export const projects = [
     alt: "Figma Prototype",
     date: "Dec 2025",
     text: "Figma Prototype",
-    description: "Figma Prototype is a student group project during the User-centered Design course at Metropolia University of Applied Sciences.",
+    description: "Figma Prototype – a student group project created during the User-Centered Design course at Metropolia University of Applied Sciences.",
     techUsed: [
       {src: FIGMA, alt: "Figma Prototype"},
     ],
