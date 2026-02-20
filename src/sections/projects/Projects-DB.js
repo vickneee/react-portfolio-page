@@ -94,6 +94,7 @@ export const projects = [
     text: "Musa Barber Shop",
     description: "Musa Barber Shop is a full-stack web application developed as a group project during the Web Development Project course at Metropolia University of Applied Sciences. The application is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The backend is implemented with Node.js and Express.js, while the frontend is developed using React.js.",
     techUsed: [
+      {src: CSS3, alt: "CSS 3"},
       {src: REACT, alt: "React"},
       {src: NODEJS, alt: "Node.js"},
       {src: EXPRESS, alt: "Express.js"},
