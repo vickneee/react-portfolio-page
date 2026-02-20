@@ -5,7 +5,7 @@ import AirportSimulator from "../../assets/img/projects/AirportSimulator.png";
 import MusaBarberShop from "../../assets/img/projects/MusaBarberShop.png";
 import OtaKiinniJosSaat from "../../assets/img/projects/OtaKiinniJosSaat.png";
 import TimeAB from "../../assets/img/projects/TimeAB.png";
-import TasksApp from "../../assets/img/projects/TasksApp.png";
+// import TasksApp from "../../assets/img/projects/TasksApp.png";
 import Helppomatka from "../../assets/img/projects/Helppomatka.png";
 import MounTours from "../../assets/img/projects/Mountours.png";
 import PortfolioPage from "../../assets/img/projects/PortfolioPage.png";
@@ -128,21 +128,21 @@ export const projects = [
     liveLink: "https://timeab.netlify.app/",
     sourceCodeLink: "https://github.com/vickneee/timeAB",
   },
-  {
-    src: TasksApp,
-    alt: "Tasks App",
-    date: "Apr 2024",
-    text: "Tasks App",
-    description: "A simple task management app that allows users to add, delete, and mark tasks as completed with local storage. The app is built using CSS, React, TypeScript, and it's hosted on AWS Amplify.",
-    techUsed: [
-      {src: CSS3 , alt: "CSS 3"},
-      {src: REACT, alt: "React"},
-      {src: TYPESCRIPT, alt: "TypeScript"},
-      {src: AMPLIFY, alt: "Amplify"}
-    ],
-    liveLink: "https://main.d235kuju5iotcj.amplifyapp.com/",
-    sourceCodeLink: "https://github.com/vickneee/tasks-typescript-app"
-  },
+  // {
+  //   src: TasksApp,
+  //   alt: "Tasks App",
+  //   date: "Apr 2024",
+  //   text: "Tasks App",
+  //   description: "A simple task management app that allows users to add, delete, and mark tasks as completed with local storage. The app is built using CSS, React, TypeScript, and it's hosted on AWS Amplify.",
+  //   techUsed: [
+  //     {src: CSS3 , alt: "CSS 3"},
+  //     {src: REACT, alt: "React"},
+  //     {src: TYPESCRIPT, alt: "TypeScript"},
+  //     {src: AMPLIFY, alt: "Amplify"}
+  //   ],
+  //   liveLink: "https://main.d235kuju5iotcj.amplifyapp.com/",
+  //   sourceCodeLink: "https://github.com/vickneee/tasks-typescript-app"
+  // },
   {
     src: Helppomatka,
     alt: "Helppomatka",
