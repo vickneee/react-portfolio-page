@@ -11,7 +11,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="skills pt-5 pb-5" id="skills">
-      <h1 className="text-center font-details-b pb-3">Tools and Tech Skills</h1>
+      <h1 className="text-center font-details-b pb-3">Tools & Tech Skills</h1>
       <Jumbotron className="contact-jumbotron shadow-md db mr-3">
         <Marquee
           gradient={false}

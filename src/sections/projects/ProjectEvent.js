@@ -17,7 +17,7 @@ const ProjectEvent = ({date, text, src, alt, description, techUsed, liveLink, so
                 <Accordion.Collapse eventKey="0" className="text-left">
                   <Card.Body>
                     <strong>Description:</strong>
-                    <br/>{description} <br/><br/> <strong>Tech used:</strong> <br/>
+                    <br/>{description} <br/><br/> <strong>Tools & Tech used:</strong> <br/>
                     <ul className="d-flex content-center">
                       {techUsed.map((tech, index) => (
                         <li key={index}>
