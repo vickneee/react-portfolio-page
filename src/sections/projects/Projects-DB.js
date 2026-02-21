@@ -25,6 +25,7 @@ import SASS from "../../assets/img/skills/sass.png";
 import PYTHON from "../../assets/img/skills/python.svg";
 import JAVA from "../../assets/img/skills/java.png";
 import JAVAFX from "../../assets/img/skills/javafx.jpg";
+import MAVEN from "../../assets/img/skills/maven.png";
 import JAVASCRIPT from "../../assets/img/skills/js.svg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import REACT from "../../assets/img/skills/react-circle.png"
@@ -68,7 +69,7 @@ export const projects = [
     techUsed: [
       {src: FIGMA, alt: "Figma"},
     ],
-    liveLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1",
+    liveLink: "https://www.youtube.com/watch?v=1XfwvQKrGsQ",
     sourceCodeLink: "https://www.figma.com/proto/JdY9yCgnOG6PXx6puV8iEZ/Group-Figma-Prototype?node-id=0-1&t=ABVW3cG8wg6OaULk-1"
   },
   {
@@ -80,6 +81,7 @@ export const projects = [
     techUsed: [
       {src: JAVA, alt: "Java"},
       {src: JAVAFX, alt: "JavaFX"},
+      {src: MAVEN, alt: "Maven"},
       {src: MONGODB, alt: "MongoDB"},
       {src: INTELLIJ, alt: "IntellIJ"},
       {src: JIRA, alt: "Jira"}
