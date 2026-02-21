@@ -23,7 +23,7 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software engineering student with a strong interest in building user-friendly websites and applications. I enjoy creating digital experiences that are both practical and easy to use.
+                                <br/> Greetings from my website! I am an enthusiastic software engineering student focused on mobile development, with a strong interest in creating user-friendly websites and applications. I enjoy building digital experiences that are both practical and easy to use.
                                 <br/><br/>
                                 I am especially interested in full-stack development and enjoy working with JavaScript/TypeScript, Java and Kotlin to build dynamic and interactive applications. I like using code to turn ideas into working solutions.
                                 <br/><br/>
