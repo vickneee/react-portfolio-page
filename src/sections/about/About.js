@@ -23,23 +23,14 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className="my-details p3 br4 ma2">
-                                <br/> Greetings from my website! I am an enthusiastic software engineering student
-                                who
-                                places
-                                a lot of emphasis on developing websites and applications that are user-friendly.
-                                I'm
-                                excited to start this path of creating digital experiences.
+                                <br/> Greetings from my website! I am an enthusiastic software engineering student with a strong interest in building user-friendly websites and applications. I enjoy creating digital experiences that are both practical and easy to use.
                                 <br/><br/>
-                                React and other frameworks are of particular interest to me, and I
-                                appreciate using these potent tools to create dynamic and interactive web solutions.
-                                I enjoy using code to make ideas come to life.
+                                I am especially interested in full-stack development and enjoy working with JavaScript/TypeScript, Java and Kotlin to build dynamic and interactive applications. I like using code to turn ideas into working solutions.
                                 <br/><br/>
-                                In addition to having experience with front-end development, I've also experimented
-                                in back-end development using Node.js and studied databases.
+                                In addition to front-end development, I have experience with back-end development using Node.js and Express.js, as well as working with databases.
                                 {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience.)*/}
                                 <br/><br/>
-                                UI/UX design is something I'm quite interested in, although I haven't had the chance
-                                to learn much about it yet. Also, code testing programs are of interest to me.
+                                I also value UI/UX design for creating user-friendly software and understand the importance of testing and automation in ensuring high-quality code.
                                 <br/>
                                 Thank you for visiting my web page!
                                 <br/><br/>
