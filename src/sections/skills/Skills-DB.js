@@ -6,17 +6,17 @@ import WEBSTORM from '../../assets/img/skills/webstorm.png';
 // import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
 // import DATAGRIP from "../../assets/img/skills/datagrip.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
-import TRELLO from '../../assets/img/skills/trello.png';
-import JIRA from '../../assets/img/skills/jira.png';
+// import TRELLO from '../../assets/img/skills/trello.png';
+// import JIRA from '../../assets/img/skills/jira.png';
 import FIGMA from '../../assets/img/skills/figma.png';
 import GIT from '../../assets/img/skills/git-icon.svg';
 import GITHUB from '../../assets/img/skills/github.svg';
-import MARKDOWN from '../../assets/img/skills/markdown.svg';
+// import MARKDOWN from '../../assets/img/skills/markdown.svg';
 import HTML5 from '../../assets/img/skills/html5.png';
 import CSS3 from '../../assets/img/skills/css3.png';
 import PYTHON from '../../assets/img/skills/python.svg';
 import JAVA from '../../assets/img/skills/java.png';
-import JAVASCRIPT from '../../assets/img/skills/js.svg';
+// import JAVASCRIPT from '../../assets/img/skills/js.svg';
 import TYPESCRIPT from '../../assets/img/skills/typescript.svg';
 import KOTLIN from '../../assets/img/skills/kotlin.svg';
 // import SWIFT from "../../assets/img/skills/swift.png";
@@ -36,11 +36,11 @@ import POSTMAN from '../../assets/img/skills/postman-logo.png';
 import MONGODB from '../../assets/img/skills/mongo-db.png';
 import MYSQL from '../../assets/img/skills/mysql.png';
 // import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import SUPABASE from '../../assets/img/skills/supabase.svg';
+// import SUPABASE from '../../assets/img/skills/supabase.svg';
 // import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
-import NETLIFY from '../../assets/img/skills/netlify.png';
+// import NETLIFY from '../../assets/img/skills/netlify.png';
 // import FIREBASE from "../../assets/img/skills/firebase-logo.png";
-import RENDER from '../../assets/img/skills/render.png';
+// import RENDER from '../../assets/img/skills/render.png';
 // import VERCEL from "../../assets/img/skills/vercel.png";
 
 export const skills = {
@@ -94,18 +94,18 @@ export const skills = {
     //     imgSrc: XCODE,
     //     skillName: "Xcode",
     // },
-    {
-      link: 'https://trello.com/',
-      imgAltText: 'Trello',
-      imgSrc: TRELLO,
-      skillName: 'Trello',
-    },
-    {
-      link: 'https://www.atlassian.com/software/jira',
-      imgAltText: 'Jira',
-      imgSrc: JIRA,
-      skillName: 'Jira',
-    },
+    // {
+    //   link: 'https://trello.com/',
+    //   imgAltText: 'Trello',
+    //   imgSrc: TRELLO,
+    //   skillName: 'Trello',
+    // },
+    // {
+    //   link: 'https://www.atlassian.com/software/jira',
+    //   imgAltText: 'Jira',
+    //   imgSrc: JIRA,
+    //   skillName: 'Jira',
+    // },
     {
       link: 'https://www.figma.com/',
       imgAltText: 'Figma',
@@ -124,12 +124,12 @@ export const skills = {
       imgSrc: GITHUB,
       skillName: 'GitHub',
     },
-    {
-      link: 'https://www.markdownguide.org/',
-      imgAltText: 'Markdown',
-      imgSrc: MARKDOWN,
-      skillName: 'Markdown',
-    },
+    // {
+    //   link: 'https://www.markdownguide.org/',
+    //   imgAltText: 'Markdown',
+    //   imgSrc: MARKDOWN,
+    //   skillName: 'Markdown',
+    // },
     {
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics',
       imgAltText: 'HTML',
@@ -149,29 +149,17 @@ export const skills = {
       skillName: 'TailwindCSS',
     },
     {
-      link: 'https://www.java.com/',
-      imgAltText: 'Java',
-      imgSrc: JAVA,
-      skillName: 'Java',
-    },
-    {
-      link: 'https://www.kotlinlang.org/',
-      imgAltText: 'Kotlin',
-      imgSrc: KOTLIN,
-      skillName: 'Kotlin',
+      link: 'https://reactjs.org/',
+      imgAltText: 'React',
+      imgSrc: REACT,
+      skillName: 'React',
     },
     // {
-    //     link: "https://developer.apple.com/swift/",
-    //     imgAltText: "Swift",
-    //     imgSrc: SWIFT,
-    //     skillName: "Swift",
+    //   link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics',
+    //   imgAltText: 'JavaScript',
+    //   imgSrc: JAVASCRIPT,
+    //   skillName: 'JavaScript',
     // },
-    {
-      link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics',
-      imgAltText: 'JavaScript',
-      imgSrc: JAVASCRIPT,
-      skillName: 'JavaScript',
-    },
     {
       link: 'https://www.typescriptlang.org/',
       imgAltText: 'TypeScript',
@@ -179,23 +167,35 @@ export const skills = {
       skillName: 'TypeScript',
     },
     {
-      link: 'https://reactjs.org/',
-      imgAltText: 'React',
-      imgSrc: REACT,
-      skillName: 'React',
+      link: 'https://www.kotlinlang.org/',
+      imgAltText: 'Kotlin',
+      imgSrc: KOTLIN,
+      skillName: 'Kotlin',
     },
-    // {
-    //   link: "https://nextjs.org/",
-    //   imgAltText: "Next.js",
-    //   imgSrc: NEXT_JS,
-    //   skillName: "Next.js",
-    // },
+    {
+      link: 'https://www.java.com/',
+      imgAltText: 'Java',
+      imgSrc: JAVA,
+      skillName: 'Java',
+    },
     {
       link: 'https://www.python.org/',
       imgAltText: 'Python',
       imgSrc: PYTHON,
       skillName: 'Python',
     },
+    // {
+    //     link: "https://developer.apple.com/swift/",
+    //     imgAltText: "Swift",
+    //     imgSrc: SWIFT,
+    //     skillName: "Swift",
+    // },
+    // {
+    //   link: "https://nextjs.org/",
+    //   imgAltText: "Next.js",
+    //   imgSrc: NEXT_JS,
+    //   skillName: "Next.js",
+    // },
     // {
     //     link: "https://reactnative.dev/",
     //     imgAltText: "React Native",
@@ -262,36 +262,36 @@ export const skills = {
     //     imgSrc: POSTGRESQL,
     //     skillName: "PostgreSQL",
     // },
-    {
-      link: 'https://supabase.com/',
-      imgAltText: 'Supabase',
-      imgSrc: SUPABASE,
-      skillName: 'Supabase',
-    },
+    // {
+    //   link: 'https://supabase.com/',
+    //   imgAltText: 'Supabase',
+    //   imgSrc: SUPABASE,
+    //   skillName: 'Supabase',
+    // },
     // {
     //     link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
     //     imgAltText: "Amplify",
     //     imgSrc: AMPLIFY,
     //     skillName: "Amplify",
     // },
-    {
-      link: 'https://www.netlify.com/',
-      imgAltText: 'Netlify',
-      imgSrc: NETLIFY,
-      skillName: 'Netlify',
-    },
+    // {
+    //   link: 'https://www.netlify.com/',
+    //   imgAltText: 'Netlify',
+    //   imgSrc: NETLIFY,
+    //   skillName: 'Netlify',
+    // },
     // {
     //   link: "https://firebase.google.com/",
     //   imgAltText: "Firebase Database",
     //   imgSrc: FIREBASE,
     //   skillName: "Firebase Database",
     // },
-    {
-      link: 'https://www.render.com/',
-      imgAltText: 'Render',
-      imgSrc: RENDER,
-      skillName: 'Render',
-    },
+    // {
+    //   link: 'https://www.render.com/',
+    //   imgAltText: 'Render',
+    //   imgSrc: RENDER,
+    //   skillName: 'Render',
+    // },
     // {
     //   link: "https://vercel.com/",
     //   imgAltText: "Vercel",

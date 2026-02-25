@@ -25,10 +25,9 @@ const About = () => {
                             <Row className="my-details p3 br4 ma2">
                                 <br/> Greetings from my website! I am an enthusiastic software engineering student focused on mobile development, with a strong interest in creating user-friendly websites and applications. I enjoy building digital experiences that are both practical and easy to use.
                                 <br/><br/>
-                                I am especially interested in full-stack development and enjoy working with JavaScript/TypeScript, Java and Kotlin to build dynamic and interactive applications. I like using code to turn ideas into working solutions.
+                                I am especially interested in full-stack development and enjoy working with TypeScript, Kotlin and Java to build dynamic and interactive applications. I like using code to turn ideas into working solutions.
                                 <br/><br/>
                                 In addition to front-end development, I have experience with back-end development using Node.js and Express.js, as well as working with databases.
-                                {/*(This enables me to create reliable and flexible online applications, continuously providing a seamless user experience.)*/}
                                 <br/><br/>
                                 I also value UI/UX design for creating user-friendly software and understand the importance of testing and automation in ensuring high-quality code.
                                 <br/>
