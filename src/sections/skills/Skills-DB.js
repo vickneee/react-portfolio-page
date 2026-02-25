@@ -16,7 +16,7 @@ import HTML5 from '../../assets/img/skills/html5.png';
 import CSS3 from '../../assets/img/skills/css3.png';
 import PYTHON from '../../assets/img/skills/python.svg';
 import JAVA from '../../assets/img/skills/java.png';
-// import JAVASCRIPT from '../../assets/img/skills/js.svg';
+import JAVASCRIPT from '../../assets/img/skills/js.svg';
 import TYPESCRIPT from '../../assets/img/skills/typescript.svg';
 import KOTLIN from '../../assets/img/skills/kotlin.svg';
 // import SWIFT from "../../assets/img/skills/swift.png";
@@ -154,17 +154,17 @@ export const skills = {
       imgSrc: REACT,
       skillName: 'React',
     },
-    // {
-    //   link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics',
-    //   imgAltText: 'JavaScript',
-    //   imgSrc: JAVASCRIPT,
-    //   skillName: 'JavaScript',
-    // },
     {
       link: 'https://www.typescriptlang.org/',
       imgAltText: 'TypeScript',
       imgSrc: TYPESCRIPT,
       skillName: 'TypeScript',
+    },
+    {
+      link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics',
+      imgAltText: 'JavaScript',
+      imgSrc: JAVASCRIPT,
+      skillName: 'JavaScript',
     },
     {
       link: 'https://www.kotlinlang.org/',
