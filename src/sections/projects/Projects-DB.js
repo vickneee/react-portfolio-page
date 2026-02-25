@@ -37,6 +37,7 @@ import EXPRESS from "../../assets/img/skills/express.svg";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 import SQL from "../../assets/img/skills/mysql.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";
+import DOCKER from "../../assets/img/skills/docker-logo.png";
 import SUPABASE from "../../assets/img/skills/supabase.svg";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
@@ -54,6 +55,7 @@ export const projects = [
       {src: NEXT, alt: "Next.js"},
       {src: TYPESCRIPT, alt: "TypeScript"},
       {src: SUPABASE, alt: "Supabase"},
+      {src: DOCKER, alt: "Docker"},
       {src: WEBSTORM, alt: "WebStorm"},
       {src: JIRA, alt: "Jira"},
     ],
