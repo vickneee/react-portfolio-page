@@ -46,7 +46,7 @@ export const skills = {
       link: 'https://code.visualstudio.com/',
       imgAltText: 'Visual Studio Code',
       imgSrc: VISUAL_STUDIO_CODE,
-      skillName: 'VSCode',
+      skillName: 'VS_Code',
     },
     {
       link: 'https://www.jetbrains.com/pycharm/',
@@ -62,15 +62,15 @@ export const skills = {
     },
     {
       link: 'https://www.jetbrains.com/idea/',
-      imgAltText: 'IntelliJ',
+      imgAltText: 'IntelliJ IDEA',
       imgSrc: INTELLIJ,
-      skillName: 'IntelliJ',
+      skillName: 'IntelliJ_IDEA',
     },
     {
         link: "https://developer.android.com/",
-        imgAltText: "AndroidStudio",
+        imgAltText: "Android Studio",
         imgSrc: ANDROIDSTUDIO,
-        skillName: "AndroidStudio",
+        skillName: "Android_Studio",
     },
     // {
     //     link: "https://developer.apple.com/xcode/",
@@ -100,7 +100,7 @@ export const skills = {
       link: 'https://git-scm.com/',
       imgAltText: 'GIT',
       imgSrc: GIT,
-      skillName: 'GIT',
+      skillName: 'Git',
     },
     {
       link: 'https://github.com/',
@@ -110,21 +110,21 @@ export const skills = {
     },
     {
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics',
-      imgAltText: 'HTML',
+      imgAltText: 'HTML 5',
       imgSrc: HTML5,
-      skillName: 'HTML',
+      skillName: 'HTML_5',
     },
     {
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics',
-      imgAltText: 'CSS',
+      imgAltText: 'CSS 3',
       imgSrc: CSS3,
-      skillName: 'CSS',
+      skillName: 'CSS_3',
     },
     {
       link: 'https://tailwindcss.com/',
       imgAltText: 'Tailwind CSS',
       imgSrc: TAILWINDCSS,
-      skillName: 'TailwindCSS',
+      skillName: 'Tailwind_CSS',
     },
     {
       link: 'https://reactjs.org/',
@@ -206,9 +206,9 @@ export const skills = {
     },
     {
       link: 'https://docs.restapi.com/',
-      imgAltText: 'Rest API',
+      imgAltText: 'REST API',
       imgSrc: RESTAPI,
-      skillName: 'RESTAPI',
+      skillName: 'REST_API',
     },
     {
       link: 'https://www.postman.com/',
