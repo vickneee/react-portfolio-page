@@ -51,6 +51,7 @@ export const projects = [
     text: "LibraryHub",
     description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. Built with Next.js, TypeScript, TailwindCSS, Supabase, and Docker, tested with JUnit and Jest, CI/CD via GitHub Actions, managed using Git, GitHub, and Jira. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books.",
     techUsed: [
+      {src: FIGMA, alt: "Figma"},
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
       {src: NEXT, alt: "Next.js"},
       {src: TYPESCRIPT, alt: "TypeScript"},
