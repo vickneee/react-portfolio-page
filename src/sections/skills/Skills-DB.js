@@ -31,6 +31,7 @@ import TAILWINDCSS from '../../assets/img/skills/tailwindcss.svg';
 // import NEXT_JS from "../../assets/img/skills/next.png";
 import NODEJS from '../../assets/img/skills/node-js.png';
 import EXPRESSJS from '../../assets/img/skills/express.svg';
+import RESTAPI from '../../assets/img/skills/RESTAPI.png';
 import POSTMAN from '../../assets/img/skills/postman-logo.png';
 // import PRISMA from "../../assets/img/skills/prisma.svg";
 import MONGODB from '../../assets/img/skills/mongo-db.png';
@@ -231,6 +232,12 @@ export const skills = {
       imgAltText: 'Express.js',
       imgSrc: EXPRESSJS,
       skillName: 'Express.js',
+    },
+    {
+      link: 'https://docs.restapi.com/',
+      imgAltText: 'Rest API',
+      imgSrc: RESTAPI,
+      skillName: 'REST API',
     },
     {
       link: 'https://www.postman.com/',

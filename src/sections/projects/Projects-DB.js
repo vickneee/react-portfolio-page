@@ -34,6 +34,7 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESS from "../../assets/img/skills/express.svg";
+import RESTAPI from "../../assets/img/skills/RESTAPI.png";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 import SQL from "../../assets/img/skills/mysql.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";
@@ -51,10 +52,10 @@ export const projects = [
     text: "LibraryHub",
     description: "LibraryHub is a Next.js-based application developed as a group project during the Software Engineering Project 1 and 2 courses at Metropolia University of Applied Sciences. Built with Next.js, TypeScript, TailwindCSS, Supabase, and Docker, tested with JUnit and Jest, CI/CD via GitHub Actions, managed using Git, GitHub, and Jira. LibraryHub is an accessible, user-friendly, and efficient digital library catalogue system that simplifies the process of searching, borrowing, and returning books.",
     techUsed: [
-      {src: FIGMA, alt: "Figma"},
       {src: TAILWINDCSS, alt: "Tailwind CSS"},
       {src: NEXT, alt: "Next.js"},
       {src: TYPESCRIPT, alt: "TypeScript"},
+      {src: RESTAPI, alt: "REST API"},
       {src: SUPABASE, alt: "Supabase"},
       {src: DOCKER, alt: "Docker"},
       {src: WEBSTORM, alt: "WebStorm"},
