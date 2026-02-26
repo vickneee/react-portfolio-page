@@ -34,7 +34,7 @@ import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from "../../assets/img/skills/tailwindcss.svg";
 import NODEJS from "../../assets/img/skills/node-js.png";
 import EXPRESS from "../../assets/img/skills/express.svg";
-import RESTAPI from "../../assets/img/skills/RESTAPI.png";
+import RESTAPI from "../../assets/img/skills/rest-api.png";
 import POSTMAN from "../../assets/img/skills/postman-logo.png";
 import SQL from "../../assets/img/skills/mysql.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";

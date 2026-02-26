@@ -1,10 +1,8 @@
-// import SUBLIMETEXT from "../../assets/img/skills/sublime-text.png";
 import VISUAL_STUDIO_CODE from '../../assets/img/skills/vscode.png';
 import INTELLIJ from '../../assets/img/skills/intellij-idea.png';
 import PYCHARM from '../../assets/img/skills/pycharm.png';
 import WEBSTORM from '../../assets/img/skills/webstorm.png';
-// import DBVISUALIZER from "../../assets/img/skills/dbvisualizer.png";
-// import DATAGRIP from "../../assets/img/skills/datagrip.png";
+import ANDROIDSTUDIO from "../../assets/img/skills/android-studio.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
 // import TRELLO from '../../assets/img/skills/trello.png';
 // import JIRA from '../../assets/img/skills/jira.png';
@@ -24,14 +22,11 @@ import REACT from '../../assets/img/skills/react-circle.png';
 // import REACTNATIVE from "../../assets/img/skills/react-square.svg";
 // import EXPO from "../../assets/img/skills/expo-white.png";
 // import REDUX from "../../assets/img/skills/redux.svg";
-// import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import TAILWINDCSS from '../../assets/img/skills/tailwindcss.svg';
-// import DAISYUI from "../../assets/img/skills/daisyui.svg";
-// import MATERIAL_UI from "../../assets/img/skills/material-ui.svg";
 // import NEXT_JS from "../../assets/img/skills/next.png";
 import NODEJS from '../../assets/img/skills/node-js.png';
 import EXPRESSJS from '../../assets/img/skills/express.svg';
-import RESTAPI from '../../assets/img/skills/RESTAPI.png';
+import RESTAPI from '../../assets/img/skills/rest-api.png';
 import POSTMAN from '../../assets/img/skills/postman-logo.png';
 // import PRISMA from "../../assets/img/skills/prisma.svg";
 import MONGODB from '../../assets/img/skills/mongo-db.png';
@@ -47,12 +42,6 @@ import MYSQL from '../../assets/img/skills/mysql.png';
 export const skills = {
   
   skillList: [
-    // {
-    //     link: "https://www.sublimetext.com/",
-    //     imgAltText: "Sublime Text",
-    //     imgSrc: SUBLIMETEXT,
-    //     skillName: "Sublime Text",
-    // },
     {
       link: 'https://code.visualstudio.com/',
       imgAltText: 'Visual Studio Code',
@@ -77,18 +66,12 @@ export const skills = {
       imgSrc: INTELLIJ,
       skillName: 'IntelliJ',
     },
-    // {
-    //     link: "https://www.dbvis.com/",
-    //     imgAltText: "DbVisualizer",
-    //     imgSrc: DBVISUALIZER,
-    //     skillName: "DbVisualizer",
-    // },
-    // {
-    //     link: "https://www.jetbrains.com/datagrip/",
-    //     imgAltText: "DataGrip",
-    //     imgSrc: DATAGRIP,
-    //     skillName: "DataGrip",
-    // },
+    {
+        link: "https://developer.android.com/",
+        imgAltText: "AndroidStudio",
+        imgSrc: ANDROIDSTUDIO,
+        skillName: "AndroidStudio",
+    },
     // {
     //     link: "https://developer.apple.com/xcode/",
     //     imgAltText: "Xcode",
@@ -125,12 +108,6 @@ export const skills = {
       imgSrc: GITHUB,
       skillName: 'GitHub',
     },
-    // {
-    //   link: 'https://www.markdownguide.org/',
-    //   imgAltText: 'Markdown',
-    //   imgSrc: MARKDOWN,
-    //   skillName: 'Markdown',
-    // },
     {
       link: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics',
       imgAltText: 'HTML',
@@ -215,12 +192,6 @@ export const skills = {
     //   imgSrc: REDUX,
     //   skillName: "Redux",
     // },
-    // {
-    //     link: "https://material-ui.com/",
-    //     imgAltText: "Material UI",
-    //     imgSrc: MATERIAL_UI,
-    //     skillName: "MaterialUI",
-    // },
     {
       link: 'https://nodejs.org/',
       imgAltText: 'Node.js',
@@ -237,7 +208,7 @@ export const skills = {
       link: 'https://docs.restapi.com/',
       imgAltText: 'Rest API',
       imgSrc: RESTAPI,
-      skillName: 'REST API',
+      skillName: 'RESTAPI',
     },
     {
       link: 'https://www.postman.com/',
@@ -245,12 +216,6 @@ export const skills = {
       imgSrc: POSTMAN,
       skillName: 'Postman',
     },
-    // {
-    //     link: "https://www.prisma.io/",
-    //     imgAltText: "Prisma",
-    //     imgSrc: PRISMA,
-    //     skillName: "Prisma",
-    // },
     {
       link: 'https://mysql.com/',
       imgAltText: 'MySQL',
@@ -274,12 +239,6 @@ export const skills = {
     //   imgAltText: 'Supabase',
     //   imgSrc: SUPABASE,
     //   skillName: 'Supabase',
-    // },
-    // {
-    //     link: "https://aws.amazon.com/amplify/?nc=sn&loc=0",
-    //     imgAltText: "Amplify",
-    //     imgSrc: AMPLIFY,
-    //     skillName: "Amplify",
     // },
     // {
     //   link: 'https://www.netlify.com/',
