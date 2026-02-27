@@ -2,7 +2,7 @@ import VISUAL_STUDIO_CODE from '../../assets/img/skills/vscode.png';
 import INTELLIJ from '../../assets/img/skills/intellij-idea.png';
 import PYCHARM from '../../assets/img/skills/pycharm.png';
 import WEBSTORM from '../../assets/img/skills/webstorm.png';
-import ANDROIDSTUDIO from "../../assets/img/skills/android-studio.png";
+// import ANDROIDSTUDIO from "../../assets/img/skills/android-studio.png";
 // import XCODE from "../../assets/img/skills/xcode.png";
 // import TRELLO from '../../assets/img/skills/trello.png';
 // import JIRA from '../../assets/img/skills/jira.png';
@@ -16,7 +16,7 @@ import PYTHON from '../../assets/img/skills/python.svg';
 import JAVA from '../../assets/img/skills/java.png';
 import JAVASCRIPT from '../../assets/img/skills/js.svg';
 import TYPESCRIPT from '../../assets/img/skills/typescript.svg';
-import KOTLIN from '../../assets/img/skills/kotlin.svg';
+// import KOTLIN from '../../assets/img/skills/kotlin.svg';
 // import SWIFT from "../../assets/img/skills/swift.png";
 import REACT from '../../assets/img/skills/react-circle.png';
 // import REACTNATIVE from "../../assets/img/skills/react-square.svg";
@@ -66,12 +66,12 @@ export const skills = {
       imgSrc: INTELLIJ,
       skillName: 'IntelliJ_IDEA',
     },
-    {
-        link: "https://developer.android.com/",
-        imgAltText: "Android Studio",
-        imgSrc: ANDROIDSTUDIO,
-        skillName: "Android_Studio",
-    },
+    // {
+    //     link: "https://developer.android.com/",
+    //     imgAltText: "Android Studio",
+    //     imgSrc: ANDROIDSTUDIO,
+    //     skillName: "Android_Studio",
+    // },
     // {
     //     link: "https://developer.apple.com/xcode/",
     //     imgAltText: "Xcode",
@@ -144,12 +144,12 @@ export const skills = {
       imgSrc: JAVASCRIPT,
       skillName: 'JavaScript',
     },
-    {
-      link: 'https://www.kotlinlang.org/',
-      imgAltText: 'Kotlin',
-      imgSrc: KOTLIN,
-      skillName: 'Kotlin',
-    },
+    // {
+    //   link: 'https://www.kotlinlang.org/',
+    //   imgAltText: 'Kotlin',
+    //   imgSrc: KOTLIN,
+    //   skillName: 'Kotlin',
+    // },
     {
       link: 'https://www.java.com/',
       imgAltText: 'Java',
