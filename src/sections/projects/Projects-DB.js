@@ -177,7 +177,7 @@ export const projects = [
       {src: RENDER, alt: "Render"},
       {src: TRELLO, alt: "Trello"}
     ],
-    liveLink: "https://vickneee-helppomatka.onrender.com/",
+    liveLink: "https://www.youtube.com/watch?v=H4a8uTaXKi4",
     sourceCodeLink: "https://github.com/vickneee/Helppomatka."
   },
   {
