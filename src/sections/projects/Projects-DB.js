@@ -1,5 +1,6 @@
 // Projects
 import Figma from "../../assets/img/projects/Figma.png";
+import MeetingApp from "../../assets/img/projects/MeetingApp.png";
 import LibraryHub from "../../assets/img/projects/LibraryHub.png";
 import AirportSimulator from "../../assets/img/projects/AirportSimulator.png";
 import MusaBarberShop from "../../assets/img/projects/MusaBarberShop.png";
@@ -17,12 +18,14 @@ import JIRA from "../../assets/img/skills/jira.png";
 import VSCODE from "../../assets/img/skills/vscode.png";
 import WEBSTORM from "../../assets/img/skills/webstorm.png";
 import INTELLIJ from "../../assets/img/skills/intellij.png";
+import ANDROID_STUDIO from "../../assets/img/skills/android-studio.png";
 import PYCHARM from "../../assets/img/skills/pycharm.png";
 import HTML5 from "../../assets/img/skills/html5.png";
 import CSS3 from "../../assets/img/skills/css3.png";
 import FIGMA from "../../assets/img/skills/figma.png";
 import SASS from "../../assets/img/skills/sass.png";
 import PYTHON from "../../assets/img/skills/python.svg";
+import KOTLIN from "../../assets/img/skills/kotlin.svg";
 import JAVA from "../../assets/img/skills/java.png";
 import JAVAFX from "../../assets/img/skills/javafx.jpg";
 import MAVEN from "../../assets/img/skills/maven.png";
@@ -40,11 +43,28 @@ import SQL from "../../assets/img/skills/mysql.png";
 import MONGODB from "../../assets/img/skills/mongo-db.png";
 import DOCKER from "../../assets/img/skills/docker-logo.png";
 import SUPABASE from "../../assets/img/skills/supabase.svg";
+import FIREBASE from "../../assets/img/skills/firebase-logo.png";
 import AMPLIFY from "../../assets/img/skills/amplify.jpeg";
 import NETLIFY from "../../assets/img/skills/netlify.png";
 import RENDER from "../../assets/img/skills/render.png";
 
 export const projects = [
+  {
+    src: MeetingApp,
+    alt: "Meeting App - MeetUp",
+    date: "May 2026",
+    text: "Meeting App",
+    description: "Meeting App - MeetUp: Android Mobile Application. " +
+      "Meeting App is a collaborative tool designed to simplify group decision-making. Whether you're planning a casual hangout or a formal gathering, our app helps groups agree on the best time and place with ease.",
+    techUsed: [
+      {src: KOTLIN, alt: "Kotlin"},
+      {src: FIREBASE, alt: "Firebase"},
+      {src: ANDROID_STUDIO, alt: "Android Studio"},
+      {src: JIRA, alt: "Jira"},
+    ],
+    liveLink: "https://github.com/vickneee/MeetingApp",
+    sourceCodeLink: "https://github.com/vickneee/MeetingApp",
+  },
   {
     src: LibraryHub,
     alt: "LibraryHub",
