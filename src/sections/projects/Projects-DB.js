@@ -1,5 +1,6 @@
 // Projects
 import Figma from '../../assets/img/projects/Figma.png';
+import Puuskulptuur from '../../assets/img/projects/Puuskulptuur.png';
 import FlowZone from '../../assets/img/projects/FlowZone.png';
 import MeetingApp from '../../assets/img/projects/MeetingApp.png';
 import LibraryHub from '../../assets/img/projects/LibraryHub.png';
@@ -45,11 +46,29 @@ import MONGODB from '../../assets/img/skills/mongo-db.png';
 import DOCKER from '../../assets/img/skills/docker-logo.png';
 import SUPABASE from '../../assets/img/skills/supabase.svg';
 import FIREBASE from '../../assets/img/skills/firebase-logo.png';
+import CLOUDFLARE from '../../assets/img/skills/cloudflare-color.png';
 import AMPLIFY from '../../assets/img/skills/amplify.jpeg';
 import NETLIFY from '../../assets/img/skills/netlify.png';
 import RENDER from '../../assets/img/skills/render.png';
 
 export const projects = [
+  {
+    src: Puuskulptuur,
+    alt: 'Puuskulptuur',
+    date: 'May 2026',
+    text: 'Puuskulptuur',
+    description: "A responsive portfolio website for wood sculptor Juri Vavulin, featuring handcrafted sculptures, multilingual support, SEO optimization, and a modern user experience. Built with React, TypeScript, Tailwind CSS, and Vibe Coding techniques.",
+    techUsed: [
+      {src: TAILWINDCSS, alt: 'Tailwind CSS'},
+      {src: REACT, alt: 'React'},
+      {src: FIREBASE, alt: 'Firebase'},
+      {src: WEBSTORM, alt: 'WebStorm'},
+      {src: CLOUDFLARE, alt: 'Cloudflare'},
+      
+    ],
+    liveLink: 'https://puuskulptuur.com/',
+    sourceCodeLink: 'https://github.com/vickneee/puuskulptuur',
+  },
   {
     src: FlowZone,
     alt: 'Flow Zone',
@@ -59,6 +78,7 @@ export const projects = [
     
     "The user interface was originally created as part of an Introduction to Vibe Coding course project and later extended with MongoDB integration and JWT-based authentication.",
     techUsed: [
+      {src: TAILWINDCSS, alt: 'Tailwind CSS'},
       {src: REACT, alt: 'React'},
       {src: NODEJS, alt: 'Node.js'},
       {src: EXPRESS, alt: 'Express.js'},
